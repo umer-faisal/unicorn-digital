@@ -2,6 +2,7 @@
 'use client';
 
 import Link from 'next/link';
+import Image from 'next/image';
 
 export default function Footer() {
   return (
@@ -136,7 +137,7 @@ export default function Footer() {
             <div className="footer-section">
               <Link href="/" className="logo-section">
                 <div className="logo-icon">
-                  <img src="/Images/Logo.png" alt="Unicorn Digital Logo" style={{ maxHeight: '40px', maxWidth: '150px', objectFit: 'contain', display: 'block' }} />
+                  <Image src="/Images/Logo.png" alt="Unicorn Digital Logo" width={75} height={75} />
                 </div>
                 {/* <h3 className="logo-text">Unicorn Digital</h3> */}
               </Link>

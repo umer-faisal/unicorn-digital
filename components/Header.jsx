@@ -3,6 +3,7 @@
 
 import { useState } from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -110,7 +111,7 @@ export default function Header() {
           <div className="header-content">
             <Link href="/" className="logo-link">
               <div className="logo-icon">
-                <img src="/Images/Logo.png" alt="Unicorn Digital Logo" style={{ maxHeight: '40px', maxWidth: '150px', objectFit: 'contain', display: 'block' }} />
+                <Image src="/Images/Logo.png" alt="Unicorn Digital Logo" width={100} height={100} />
               </div>
               {/* <h1 className="logo-text">Unicorn Digital</h1> */}
             </Link>
