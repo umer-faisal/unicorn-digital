@@ -11,9 +11,9 @@ export default function About() {
       
       <main>
         {/* Hero Section */}
-        <section className="py-20 bg-gradient-to-br from-gray-900 via-blue-900 to-gray-900">
+        <section className="py-20 bg-gray-900">
           <div className="container mx-auto px-4 text-center">
-            <h1 className="text-5xl font-bold text-white mb-6">About ServiceHub</h1>
+            <h1 className="text-5xl font-bold text-white mb-6">About Unicorn Digital</h1>
             <p className="text-xl text-gray-300 max-w-3xl mx-auto">
               We are passionate about connecting businesses with exceptional digital talent and innovative solutions that drive real results.
             </p>
@@ -162,7 +162,7 @@ export default function About() {
         </section>
 
         {/* CTA Section */}
-        <section className="py-20 bg-gradient-to-r from-blue-600 to-blue-800">
+        <section className="py-20 bg-gray-800">
           <div className="container mx-auto px-4 text-center">
             <h2 className="text-4xl font-bold text-white mb-6">Ready to Work Together?</h2>
             <p className="text-xl text-blue-100 mb-8 max-w-2xl mx-auto">
@@ -170,7 +170,7 @@ export default function About() {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link href="/services">
-                <button className="bg-white text-blue-600 hover:bg-gray-100 px-8 py-4 rounded-lg font-semibold text-lg transition-colors whitespace-nowrap cursor-pointer">
+                <button className="border-white text-white hover:bg-gray-100 hover:text-blue-600 px-8 py-4 rounded-lg font-semibold text-lg transition-colors whitespace-nowrap cursor-pointer">
                   View Services
                 </button>
               </Link>

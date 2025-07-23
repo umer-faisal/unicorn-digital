@@ -31,7 +31,8 @@ export default function Footer() {
           color: #ffffff;
           margin-bottom: 1rem;
         }
-        
+
+       
         .footer-section ul {
           list-style: none;
           padding: 0;
@@ -58,19 +59,16 @@ export default function Footer() {
         
         .logo-section {
           display: flex;
-          align-items: center;
+          flex-direction: column;
+          align-items: flex-start;
           gap: 0.5rem;
           margin-bottom: 1rem;
         }
         
         .logo-icon {
-          width: 2rem;
-          height: 2rem;
-          background-color: #2563eb;
-          border-radius: 0.5rem;
           display: flex;
-          align-items: center;
-          justify-content: center;
+          align-items: flex-start;
+          justify-content: flex-start;
         }
         
         .logo-text {
@@ -131,16 +129,16 @@ export default function Footer() {
           }
         }
       `}</style>
-      
+
       <footer className="footer">
         <div className="footer-container">
           <div className="footer-grid">
             <div className="footer-section">
               <Link href="/" className="logo-section">
                 <div className="logo-icon">
-                  <i className="ri-service-line text-white text-lg"></i>
+                  <img src="/Images/Logo.png" alt="Unicorn Digital Logo" style={{ maxHeight: '40px', maxWidth: '150px', objectFit: 'contain', display: 'block' }} />
                 </div>
-                <h3 className="logo-text">ServiceHub</h3>
+                {/* <h3 className="logo-text">Unicorn Digital</h3> */}
               </Link>
               <p>Your trusted partner for comprehensive digital services and solutions.</p>
             </div>
@@ -158,11 +156,11 @@ export default function Footer() {
             <div className="footer-section">
               <h4>Services</h4>
               <ul>
-                <li><span>Web Development</span></li>
-                <li><span>Mobile Apps</span></li>
-                <li><span>UI/UX Design</span></li>
-                <li><span>Digital Marketing</span></li>
-                <li><span>Cloud Solutions</span></li>
+                <li><span><a href="/service/1">Web Development</a></span></li>
+                <li><span><a href="/service/2">Mobile App</a></span></li>
+                <li><span><a href="/service/3">UI/UX Design</a></span></li>
+                <li><span><a href="/service/4">Digital Marketing</a></span></li>
+                <li><span><a href="/service/5">SEO Optimization</a></span></li>
               </ul>
             </div>
 
@@ -170,11 +168,11 @@ export default function Footer() {
               <h4>Connect</h4>
               <div className="contact-info">
                 <i className="ri-mail-line"></i>
-                <span>contact@servicehub.com</span>
+                <span><a href="mailto:info@unicorndigital.pk">info@unicorndigital.pk</a></span>
               </div>
-              <div className="contact-info">
+              <div className="contact-info">  
                 <i className="ri-phone-line"></i>
-                <span>+1 (555) 123-4567</span>
+                <span><a href="tel:+92 3008268275">+92 300 8268275</a></span>
               </div>
               <div className="social-links">
                 <i className="ri-facebook-fill"></i>
@@ -186,7 +184,7 @@ export default function Footer() {
           </div>
 
           <div className="footer-bottom">
-            <p>© 2024 ServiceHub. All rights reserved.</p>
+            <p>© 2025 Unicorn Digital. All rights reserved.</p>
           </div>
         </div>
       </footer>

@@ -7,9 +7,9 @@ export default function CategoryFilter({ selectedCategory, setSelectedCategory }
     { id: 'development', name: 'Development', icon: 'ri-code-line' },
     { id: 'design', name: 'Design', icon: 'ri-palette-line' },
     { id: 'marketing', name: 'Marketing', icon: 'ri-megaphone-line' },
-    { id: 'analytics', name: 'Analytics', icon: 'ri-bar-chart-line' },
-    { id: 'cloud', name: 'Cloud', icon: 'ri-cloud-line' },
-    { id: 'security', name: 'Security', icon: 'ri-shield-line' }
+    // { id: 'marketing', name: 'Analytics', icon: 'ri-bar-chart-line' },
+    // { id: 'cloud', name: 'Cloud', icon: 'ri-cloud-line' },
+    // { id: 'security', name: 'Security', icon: 'ri-shield-line' }
   ];
 
   return (

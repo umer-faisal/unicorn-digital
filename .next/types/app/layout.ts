@@ -1,4 +1,4 @@
-// File: D:\Unicorn-Css\296d60f5-2822-4c63-a052-35fe74153595_8 (1)\app\layout.jsx
+// File: D:\Unicorn-Css\Unicorn-Digital\app\layout.jsx
 import * as entry from '../../../app/layout.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 

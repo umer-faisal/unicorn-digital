@@ -4,14 +4,54 @@
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 import Link from 'next/link';
+import { useEffect, useState, useRef } from 'react';
 
 export default function Home() {
+  // Animated stats
+  const [projects, setProjects] = useState(0);
+  const [clients, setClients] = useState(0);
+  const [experts, setExperts] = useState(0);
+  const [success, setSuccess] = useState(0);
+  const [hasAnimated, setHasAnimated] = useState(false);
+  const statsRef = useRef(null);
+
+  useEffect(() => {
+    if (!statsRef.current || hasAnimated) return;
+    const observer = new window.IntersectionObserver(
+      ([entry]) => {
+        if (entry.isIntersecting) {
+          setHasAnimated(true);
+          const animate = (setter, end, duration = 1500) => {
+            let start = 0;
+            const increment = end / (duration / 16);
+            function step() {
+              start += increment;
+              if (start < end) {
+                setter(Math.floor(start));
+                requestAnimationFrame(step);
+              } else {
+                setter(end);
+              }
+            }
+            step();
+          };
+          animate(setProjects, 500);
+          animate(setClients, 150);
+          animate(setExperts, 50);
+          animate(setSuccess, 99);
+          observer.disconnect();
+        }
+      },
+      { threshold: 0.3 }
+    );
+    observer.observe(statsRef.current);
+    return () => observer.disconnect();
+  }, [hasAnimated]);
+
   return (
     <>
       <style jsx>{`
         .page-container {
-          min-height: 100vh;
-          background-color: #111827;
         }
         
         .hero-section {
@@ -75,6 +115,7 @@ export default function Home() {
         
         .section-gray {
           background-color: #1f2937;
+          
         }
         
         .section-dark {
@@ -296,8 +337,8 @@ export default function Home() {
         }
         
         .cta-section {
-          background: linear-gradient(to right, #2563eb, #1e40af);
-          padding: 5rem 0;
+ background-color: #1f2937;          
+ padding: 5rem 0;
           text-align: center;
         }
         
@@ -421,16 +462,15 @@ export default function Home() {
           }
         }
       `}</style>
-      
+
       <div className="page-container">
         <Header />
-
         <main>
           <section className="hero-section">
             <div className="hero-content">
               <h1 className="hero-title">
-                Digital Services
-                <span className="highlight"> Hub</span>
+                Unicorn
+                <span className="highlight"> Digital </span>
               </h1>
               <p className="hero-description">
                 Transform your business with cutting-edge digital solutions. We connect you with top-tier professionals for all your digital needs.
@@ -539,21 +579,21 @@ export default function Home() {
 
           <section className="section section-gray">
             <div className="container">
-              <div className="stats-grid">
+              <div className="stats-grid" ref={statsRef}>
                 <div className="stat-item">
-                  <div className="stat-number">500+</div>
+                  <div className="stat-number">{projects}+</div>
                   <div className="stat-label">Projects Completed</div>
                 </div>
                 <div className="stat-item">
-                  <div className="stat-number">150+</div>
+                  <div className="stat-number">{clients}+</div>
                   <div className="stat-label">Happy Clients</div>
                 </div>
                 <div className="stat-item">
-                  <div className="stat-number">50+</div>
+                  <div className="stat-number">{experts}+</div>
                   <div className="stat-label">Expert Professionals</div>
                 </div>
                 <div className="stat-item">
-                  <div className="stat-number">99%</div>
+                  <div className="stat-number">{success}%</div>
                   <div className="stat-label">Success Rate</div>
                 </div>
               </div>

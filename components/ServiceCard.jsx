@@ -161,7 +161,7 @@ export default function ServiceCard({ service }) {
         <p className="service-description">{service.description}</p>
         
         <div className="service-footer">
-          <span className="service-price">{service.price}</span>
+          {/* <span className="service-price">{service.price}</span> */}
           <div className="service-rating">
             <i className="ri-star-fill rating-star"></i>
             <span className="rating-text">{service.rating}</span>

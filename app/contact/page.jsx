@@ -81,7 +81,7 @@ export default function Contact() {
       
       <main>
         {/* Hero Section */}
-        <section className="py-20 bg-gradient-to-br from-gray-900 via-blue-900 to-gray-900">
+        <section className="py-20 bg-gray-900">
           <div className="container mx-auto px-4 text-center">
             <h1 className="text-5xl font-bold text-white mb-6">Get In Touch</h1>
             <p className="text-xl text-gray-300 max-w-2xl mx-auto">
@@ -267,8 +267,8 @@ export default function Contact() {
                       </div>
                       <div>
                         <h4 className="text-lg font-semibold text-white mb-1">Email</h4>
-                        <p className="text-gray-400">contact@servicehub.com</p>
-                        <p className="text-gray-400">support@servicehub.com</p>
+                          <p className="text-gray-400 "> <a href="mailto:info@unicorndigital.pk">info@unicorndigital.pk</a></p>
+                        {/* <p className="text-gray-400">support@servicehub.com</p> */}
                       </div>
                     </div>
                     
@@ -278,8 +278,8 @@ export default function Contact() {
                       </div>
                       <div>
                         <h4 className="text-lg font-semibold text-white mb-1">Phone</h4>
-                        <p className="text-gray-400">+1 (555) 123-4567</p>
-                        <p className="text-gray-400">+1 (555) 987-6543</p>
+                        <p className="text-gray-400"> <a href="tel:+92 300 8268275">+92 300 8268275</a></p>
+                        {/* <p className="text-gray-400">+1 (555) 987-6543</p> */}
                       </div>
                     </div>
                     
@@ -289,8 +289,8 @@ export default function Contact() {
                       </div>
                       <div>
                         <h4 className="text-lg font-semibold text-white mb-1">Address</h4>
-                        <p className="text-gray-400">123 Digital Street</p>
-                        <p className="text-gray-400">Tech City, TC 12345</p>
+                        <p className="text-gray-400">520, St 3, Sector 1, </p>
+                        <p className="text-gray-400">AECHS, Rawalpindi</p>
                       </div>
                     </div>
                   </div>

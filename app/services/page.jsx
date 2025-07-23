@@ -15,8 +15,8 @@ export default function Services() {
     <div className="min-h-screen bg-gray-900">
       <Header />
       
-      <main className="container mx-auto px-4 py-8">
-        <div className="text-center mb-12">
+      <main className="container mx-auto px-4 py-8 ">
+        <div className="text-center mb-12 mt-10">
           <h1 className="text-4xl font-bold text-white mb-4">Our Services</h1>
           <p className="text-gray-400 text-lg max-w-3xl mx-auto">
             Discover our comprehensive collection of digital services designed to enhance your business and drive growth. From web development to digital marketing, we have the expertise to help you succeed.

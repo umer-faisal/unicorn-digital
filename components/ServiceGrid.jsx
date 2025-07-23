@@ -57,74 +57,74 @@ export default function ServiceGrid({ searchTerm, selectedCategory }) {
     },
     {
       id: 6,
-      name: 'Cloud Solutions',
+      name: 'Web Application Development',
       description: 'Deploy and manage applications on cloud platforms',
       icon: 'ri-cloud-line',
-      category: 'cloud',
+      category: 'development',
       price: '$2,000',
       rating: 4.8,
       reviews: 92
     },
-    {
-      id: 7,
-      name: 'Data Analytics',
-      description: 'Turn your data into actionable insights and reports',
-      icon: 'ri-bar-chart-line',
-      category: 'analytics',
-      price: '$2,200',
-      rating: 4.7,
-      reviews: 114
-    },
-    {
-      id: 8,
-      name: 'Cybersecurity',
-      description: 'Protect your digital assets with advanced security measures',
-      icon: 'ri-shield-check-line',
-      category: 'security',
-      price: '$2,800',
-      rating: 4.9,
-      reviews: 73
-    },
-    {
-      id: 9,
-      name: 'Brand Identity',
-      description: 'Create memorable logos and brand guidelines',
-      icon: 'ri-brush-line',
-      category: 'design',
-      price: '$1,200',
-      rating: 4.8,
-      reviews: 145
-    },
-    {
-      id: 10,
-      name: 'E-commerce Solutions',
-      description: 'Build powerful online stores and payment systems',
-      icon: 'ri-shopping-cart-line',
-      category: 'development',
-      price: '$3,500',
-      rating: 4.9,
-      reviews: 98
-    },
-    {
-      id: 11,
-      name: 'Social Media Management',
-      description: 'Manage and grow your social media presence',
-      icon: 'ri-share-line',
-      category: 'marketing',
-      price: '$900',
-      rating: 4.5,
-      reviews: 167
-    },
-    {
-      id: 12,
-      name: 'DevOps Services',
-      description: 'Streamline development and deployment processes',
-      icon: 'ri-git-merge-line',
-      category: 'cloud',
-      price: '$2,600',
-      rating: 4.8,
-      reviews: 85
-    }
+    // {
+    //   id: 7,
+    //   name: 'Data Analytics',
+    //   description: 'Turn your data into actionable insights and reports',
+    //   icon: 'ri-bar-chart-line',
+    //   category: 'analytics',
+    //   price: '$2,200',
+    //   rating: 4.7,
+    //   reviews: 114
+    // },
+    // {
+    //   id: 8,
+    //   name: 'Cybersecurity',
+    //   description: 'Protect your digital assets with advanced security measures',
+    //   icon: 'ri-shield-check-line',
+    //   category: 'security',
+    //   price: '$2,800',
+    //   rating: 4.9,
+    //   reviews: 73
+    // },
+    // {
+    //   id: 9,
+    //   name: 'Brand Identity',
+    //   description: 'Create memorable logos and brand guidelines',
+    //   icon: 'ri-brush-line',
+    //   category: 'design',
+    //   price: '$1,200',
+    //   rating: 4.8,
+    //   reviews: 145
+    // },
+    // {
+    //   id: 10,
+    //   name: 'E-commerce Solutions',
+    //   description: 'Build powerful online stores and payment systems',
+    //   icon: 'ri-shopping-cart-line',
+    //   category: 'development',
+    //   price: '$3,500',
+    //   rating: 4.9,
+    //   reviews: 98
+    // },
+    // {
+    //   id: 11,
+    //   name: 'Social Media Management',
+    //   description: 'Manage and grow your social media presence',
+    //   icon: 'ri-share-line',
+    //   category: 'marketing',
+    //   price: '$900',
+    //   rating: 4.5,
+    //   reviews: 167
+    // },
+    // {
+    //   id: 12,
+    //   name: 'DevOps Services',
+    //   description: 'Streamline development and deployment processes',
+    //   icon: 'ri-git-merge-line',
+    //   category: 'cloud',
+    //   price: '$2,600',
+    //   rating: 4.8,
+    //   reviews: 85
+    // }
   ]);
 
   const filteredServices = services.filter(service => {
@@ -155,11 +155,13 @@ export default function ServiceGrid({ searchTerm, selectedCategory }) {
           }
         }
         
+        /*
         @media (min-width: 1280px) {
           .service-grid {
             grid-template-columns: repeat(4, 1fr);
           }
         }
+        */
       `}</style>
       
       <div className="service-grid">

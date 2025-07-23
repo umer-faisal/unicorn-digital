@@ -12,7 +12,6 @@ export default function Header() {
       <style jsx>{`
         .header {
           background-color: #1f2937;
-          border-bottom: 1px solid #374151;
         }
         
         .header-container {
@@ -30,14 +29,10 @@ export default function Header() {
         .logo-link {
           display: flex;
           align-items: center;
-          gap: 0.5rem;
+          gap: 1rem;
         }
         
         .logo-icon {
-          width: 2rem;
-          height: 2rem;
-          background-color: #2563eb;
-          border-radius: 0.5rem;
           display: flex;
           align-items: center;
           justify-content: center;
@@ -115,9 +110,9 @@ export default function Header() {
           <div className="header-content">
             <Link href="/" className="logo-link">
               <div className="logo-icon">
-                <i className="ri-service-line text-white text-lg"></i>
+                <img src="/Images/Logo.png" alt="Unicorn Digital Logo" style={{ maxHeight: '40px', maxWidth: '150px', objectFit: 'contain', display: 'block' }} />
               </div>
-              <h1 className="logo-text">ServiceHub</h1>
+              {/* <h1 className="logo-text">Unicorn Digital</h1> */}
             </Link>
             
             <nav className="nav-desktop">
