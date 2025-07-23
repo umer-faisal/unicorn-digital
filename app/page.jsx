@@ -489,7 +489,7 @@ export default function Home() {
           <section className="section section-gray">
             <div className="container">
               <div className="section-header">
-                <h2 className="section-title">Why Choose ServiceHub?</h2>
+                <h2 className="section-title">Why Choose Unicorn Digital?</h2>
                 <p className="section-description">
                   We provide comprehensive digital solutions that help your business grow and thrive in the digital age.
                 </p>
