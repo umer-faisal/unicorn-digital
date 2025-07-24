@@ -110,7 +110,7 @@ export default function Header() {
         <div className="header-container">
           <div className="header-content">
             <Link href="/" className="logo-link">
-              <div className="logo-icon">
+              <div>
                 <Image src="/Images/logo.png" alt="Unicorn Digital Logo" width={100} height={100} />
               </div>
               {/* <h1 className="logo-text">Unicorn Digital</h1> */}
