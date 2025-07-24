@@ -476,12 +476,16 @@ export default function Home() {
                 Transform your business with cutting-edge digital solutions. We connect you with top-tier professionals for all your digital needs.
               </p>
               <div className="hero-buttons">
+              <button className="border-white text-white hover:bg-gray-100 hover:text-blue-600 px-8 py-4 rounded-lg font-semibold text-lg transition-colors whitespace-nowrap cursor-pointer">
                 <Link href="/services" className="btn btn-primary">
                   Explore Services
                 </Link>
+                </button>
+                <button className="border-white text-white hover:bg-gray-100 hover:text-blue-600 px-8 py-4 rounded-lg font-semibold text-lg transition-colors whitespace-nowrap cursor-pointer">
                 <Link href="/contact" className="btn btn-secondary">
                   Get Started
                 </Link>
+                </button>
               </div>
             </div>
           </section>
@@ -570,9 +574,11 @@ export default function Home() {
               </div>
 
               <div style={{ textAlign: 'center' }}>
+                <button className="border-white text-white hover:bg-gray-100 hover:text-blue-600 px-8 py-4 rounded-lg font-semibold text-lg transition-colors whitespace-nowrap cursor-pointer">
                 <Link href="/services" className="btn btn-primary">
                   View All Services
                 </Link>
+                </button>
               </div>
             </div>
           </section>
@@ -689,10 +695,12 @@ export default function Home() {
                 </div>
               </div>
 
-              <div style={{ textAlign: 'center', marginTop: '3rem' }}>
+              <div style={{ textAlign: 'center', marginTop: '1rem' }}>
+              <button className="border-white text-white hover:bg-gray-100 hover:text-blue-600 px-8 py-4 rounded-lg font-semibold text-lg transition-colors whitespace-nowrap cursor-pointer">
                 <Link href="/contact" className="btn btn-primary">
                   Share Your Experience
                 </Link>
+                </button>
               </div>
             </div>
           </section>
@@ -704,12 +712,16 @@ export default function Home() {
                 Join thousands of satisfied customers who have transformed their businesses with our services.
               </p>
               <div className="cta-buttons">
+              <button className="border-white text-gray-500 hover:bg-gray-100 hover:text-blue-600 px-8 py-4 rounded-lg font-semibold text-lg transition-colors whitespace-nowrap cursor-pointer">
                 <Link href="/services" className="btn btn-white">
                   Browse Services
                 </Link>
+                </button>
+                <button className="border-white text-gray-500 hover:bg-gray-100 hover:text-blue-600 px-8 py-4 rounded-lg font-semibold text-lg transition-colors whitespace-nowrap cursor-pointer">
                 <Link href="/contact" className="btn btn-outline-white">
                   Contact Us
                 </Link>
+                </button>
               </div>
             </div>
           </section>
