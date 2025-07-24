@@ -149,12 +149,12 @@ export default function ServiceCard({ service }) {
           <div className="service-icon">
             <i className={service.icon}></i>
           </div>
-          <button
+          {/* <button
             onClick={handleLike}
             className={`like-btn ${isLiked ? 'liked' : ''}`}
           >
             <i className={`${isLiked ? 'ri-heart-fill' : 'ri-heart-line'}`}></i>
-          </button>
+          </button> */}
         </div>
         
         <h3 className="service-title">{service.name}</h3>

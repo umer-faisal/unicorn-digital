@@ -391,9 +391,9 @@ export default function ServiceDetail({ serviceId }) {
                 <div
                   key={planKey}
                   className={`flex-1 rounded-lg border-2 p-5 flex flex-col items-start transition-all duration-200 min-w-0
-                    ${planKey === 'basic' ? 'border-sky-400' : 'border-gray-700'}
-                    ${planKey === 'professional' ? 'border-emerald-400' : ''}
-                    ${planKey === 'enterprise' ? 'border-yellow-400' : ''}
+                    ${planKey === 'basic' ? 'border-gray-700' : ''}
+                    ${planKey === 'professional' ? 'border-gray-700' : ''}
+                    ${planKey === 'enterprise' ? 'border-gray-700' : ''}
                     ${planKey === selectedPlan ? 'bg-gray-900 border-4 border-sky-400' : 'bg-gray-800 hover:bg-gray-700'}`}
                   style={{ minHeight: 260 }}
                 >
