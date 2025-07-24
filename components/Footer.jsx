@@ -137,7 +137,7 @@ export default function Footer() {
             <div className="footer-section">
               <Link href="/" className="logo-section">
                 <div className="logo-icon">
-                  <Image src="/Images/Logo.png" alt="Unicorn Digital Logo" width={75} height={75} />
+                  <Image src="/Images/logo.png" alt="Unicorn Digital Logo" width={75} height={75} />
                 </div>
                 {/* <h3 className="logo-text">Unicorn Digital</h3> */}
               </Link>
