@@ -19,6 +19,7 @@
   "/resources/guides/page": "app/resources/guides/page.js",
   "/resources/page": "app/resources/page.js",
   "/service/[id]/page": "app/service/[id]/page.js",
+  "/services/[slug]/page": "app/services/[slug]/page.js",
   "/services/page": "app/services/page.js",
   "/terms-of-service/page": "app/terms-of-service/page.js"
 }

@@ -1,5 +1,8 @@
 {
+  "/case-studies/page": "app/case-studies/page.js",
+  "/contact/page": "app/contact/page.js",
   "/industries/page": "app/industries/page.js",
   "/page": "app/page.js",
+  "/resources/page": "app/resources/page.js",
   "/services/page": "app/services/page.js"
 }
