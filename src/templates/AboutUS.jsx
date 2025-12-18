@@ -13,7 +13,7 @@ export default function About() {
         {/* Hero Section */}
         <section className="py-20 bg-brand-dark text-white">
           <div className="container mx-auto px-4 text-center">
-            <h1 className="text-5xl font-bold text-white mb-6">About Unicorn Digital</h1>
+            <h1 className="text-5xl font-bold text-white mb-6">About Tayr Digital</h1>
             <p className="text-xl text-[#f6f6f6] max-w-3xl mx-auto">
               We are passionate about connecting businesses with exceptional digital talent and innovative solutions that drive real results.
             </p>
@@ -27,7 +27,7 @@ export default function About() {
               <div>
                 <h2 className="text-4xl font-bold text-brand-dark mb-6">Our Mission</h2>
                 <p className="text-text-muted text-lg leading-relaxed mb-6">
-                  At ServiceHub, we believe that every business deserves access to world-class digital services. Our mission is to bridge the gap between ambitious companies and talented professionals who can bring their visions to life.
+                  At Tayr Digital, we believe that every business deserves access to world-class digital services. Our mission is to bridge the gap between ambitious companies and talented professionals who can bring their visions to life.
                 </p>
                 <p className="text-text-muted text-lg leading-relaxed">
                   We carefully curate our network of experts to ensure that every project is handled by professionals who not only have the technical skills but also understand the business impact of their work.

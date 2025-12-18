@@ -52,18 +52,18 @@ export default function Home() {
     <>
       <div>
         {/* Shared background wrapper for Header + Hero */}
-        <div className="relative bg-gradient-to-br from-brand-dark via-brand-primary to-brand-dark">
+        <div className="relative bg-gradient-to-br from-brand-dark via-brand-primary to-blue-900">
           <div className="absolute inset-0 bg-black/25"></div>
           <div className="relative z-10">
             <Header />
             <section className="relative min-h-screen flex items-center justify-center">
               <div className="relative z-10 text-center max-w-3xl mx-auto px-4">
                 <h1 className="text-5xl md:text-7xl font-bold text-white mb-6">
-                  Unicorn
-                  <span className="text-brand-soft"> Digital </span>
+                  Tayr
+                  <span className="text-orange-primary"> Digital </span>
                 </h1>
-                <p className="text-lg md:text-xl text-neutral-muted mb-8 max-w-2xl mx-auto">
-                  Transform your business with cutting-edge digital solutions. We connect you with top-tier professionals for all your digital needs.
+                <p className="text-lg md:text-xl text-white/90 mb-8 max-w-2xl mx-auto">
+                  Transform your business with cutting-edge digital solutions. From AI-powered automation to comprehensive digital marketing, we help businesses thrive in the digital age.
                 </p>
                 <div className="flex flex-col gap-4 justify-center sm:flex-row">
                   <button className="border border-white/50 text-white hover:bg-white/10 hover:text-white px-8 py-4 rounded-lg font-semibold text-lg transition-colors whitespace-nowrap cursor-pointer">
@@ -86,16 +86,16 @@ export default function Home() {
           <section className="py-20 bg-neutral-muted">
             <div className="max-w-[1200px] mx-auto px-4">
               <div className="text-center mb-16">
-                <h2 className="text-3xl font-bold text-brand-dark mb-6">Why Choose Unicorn Digital?</h2>
+                <h2 className="text-3xl font-bold text-brand-dark mb-6">Why Choose Tayr Digital?</h2>
                 <p className="text-xl text-text-muted max-w-3xl mx-auto">
-                  We provide comprehensive digital solutions that help your business grow and thrive in the digital age.
+                  We provide comprehensive digital solutions that help your business grow and thrive in the digital age. From AI automation to digital marketing, we deliver results.
                 </p>
               </div>
 
               <div className="grid grid-cols-1 gap-8 md:grid-cols-3">
-                <div className="text-center bg-neutral-muted border border-brand-soft rounded-2xl p-8 hover:border-brand-light hover:shadow-[0_15px_30px_-10px_rgba(77,143,61,0.25)] transition">
-                  <div className="w-20 h-20 rounded-full flex items-center justify-center mx-auto mb-6 border-2 border-brand-soft bg-white group-hover:bg-brand-soft transition">
-                    <i className="ri-award-line text-brand-primary text-3xl"></i>
+                <div className="text-center bg-white border-2 border-brand-primary/20 rounded-2xl p-8 hover:border-brand-primary hover:shadow-[0_15px_30px_-10px_rgba(37,99,235,0.25)] transition">
+                  <div className="w-20 h-20 rounded-full flex items-center justify-center mx-auto mb-6 border-2 border-brand-primary bg-brand-primary/10 group-hover:bg-brand-primary transition">
+                    <i className="ri-award-line text-brand-primary text-3xl group-hover:text-white transition-colors"></i>
                   </div>
                   <h3 className="text-2xl font-bold text-brand-dark mb-4">Premium Quality</h3>
                   <p className="text-text-muted leading-relaxed m-0">
@@ -103,9 +103,9 @@ export default function Home() {
                   </p>
                 </div>
 
-                <div className="text-center bg-neutral-muted border border-brand-soft rounded-2xl p-8 hover:border-brand-light hover:shadow-[0_15px_30px_-10px_rgba(77,143,61,0.25)] transition">
-                  <div className="w-20 h-20 rounded-full flex items-center justify-center mx-auto mb-6 border-2 border-brand-soft bg-white">
-                    <i className="ri-rocket-line text-brand-primary text-3xl"></i>
+                <div className="text-center bg-white border-2 border-green-primary/20 rounded-2xl p-8 hover:border-green-primary hover:shadow-[0_15px_30px_-10px_rgba(16,185,129,0.25)] transition">
+                  <div className="w-20 h-20 rounded-full flex items-center justify-center mx-auto mb-6 border-2 border-green-primary bg-green-primary/10 group-hover:bg-green-primary transition">
+                    <i className="ri-rocket-line text-green-primary text-3xl group-hover:text-white transition-colors"></i>
                   </div>
                   <h3 className="text-2xl font-bold text-brand-dark mb-4">Fast Delivery</h3>
                   <p className="text-text-muted leading-relaxed m-0">
@@ -113,9 +113,9 @@ export default function Home() {
                   </p>
                 </div>
 
-                <div className="text-center bg-neutral-muted border border-brand-soft rounded-2xl p-8 hover:border-brand-light hover:shadow-[0_15px_30px_-10px_rgba(77,143,61,0.25)] transition">
-                  <div className="w-20 h-20 rounded-full flex items-center justify-center mx-auto mb-6 border-2 border-brand-soft bg-white">
-                    <i className="ri-customer-service-line text-brand-primary text-3xl"></i>
+                <div className="text-center bg-white border-2 border-orange-primary/20 rounded-2xl p-8 hover:border-orange-primary hover:shadow-[0_15px_30px_-10px_rgba(249,115,22,0.25)] transition">
+                  <div className="w-20 h-20 rounded-full flex items-center justify-center mx-auto mb-6 border-2 border-orange-primary bg-orange-primary/10 group-hover:bg-orange-primary transition">
+                    <i className="ri-customer-service-line text-orange-primary text-3xl group-hover:text-white transition-colors"></i>
                   </div>
                   <h3 className="text-2xl font-bold text-brand-dark mb-4">24/7 Support</h3>
                   <p className="text-text-muted leading-relaxed m-0">
@@ -129,40 +129,65 @@ export default function Home() {
           <section className="py-20 bg-white">
             <div className="max-w-[1200px] mx-auto px-4">
               <div className="text-center mb-16">
-                <h2 className="text-3xl font-bold text-brand-dark mb-6">Popular Services</h2>
+                <h2 className="text-3xl font-bold text-brand-dark mb-6">Our Services</h2>
                 <p className="text-xl text-text-muted max-w-3xl mx-auto">
-                  Discover our most requested digital services that help businesses succeed online.
+                  Discover our comprehensive digital services designed to help your business succeed online.
                 </p>
               </div>
 
-              <div className="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-4 mb-12">
-                <div className="bg-neutral-muted border border-brand-soft rounded-xl p-6 hover:border-brand-light hover:shadow-[0_12px_24px_-10px_rgba(77,143,61,0.25)] transition">
-                  <div className="w-12 h-12 bg-brand-soft rounded-lg flex items-center justify-center mb-4">
-                    <i className="ri-code-s-slash-line text-brand-primary text-xl"></i>
+              <div className="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3 mb-12">
+                {/* Blue - Web Development */}
+                <div className="bg-neutral-muted border-2 border-brand-primary/20 rounded-xl p-6 hover:border-brand-primary hover:shadow-[0_12px_24px_-10px_rgba(37,99,235,0.3)] transition cursor-pointer group">
+                  <div className="w-12 h-12 bg-brand-primary rounded-lg flex items-center justify-center mb-4 group-hover:bg-brand-dark transition-colors">
+                    <i className="ri-code-s-slash-line text-white text-xl"></i>
                   </div>
                   <h3 className="text-lg font-bold text-brand-dark mb-2">Web Development</h3>
-                  <p className="text-text-muted text-sm m-0">Modern responsive websites</p>
+                  <p className="text-text-muted text-sm m-0">Custom websites, WordPress, E-commerce & AI-powered solutions</p>
                 </div>
-                <div className="bg-neutral-muted border border-brand-soft rounded-xl p-6 hover:border-brand-light hover:shadow-[0_12px_24px_-10px_rgba(77,143,61,0.25)] transition">
-                  <div className="w-12 h-12 bg-brand-soft rounded-lg flex items-center justify-center mb-4">
-                    <i className="ri-smartphone-line text-brand-primary text-xl"></i>
+                
+                {/* Green - SEO Services */}
+                <div className="bg-neutral-muted border-2 border-green-primary/20 rounded-xl p-6 hover:border-green-primary hover:shadow-[0_12px_24px_-10px_rgba(16,185,129,0.3)] transition cursor-pointer group">
+                  <div className="w-12 h-12 bg-green-primary rounded-lg flex items-center justify-center mb-4 group-hover:bg-green-dark transition-colors">
+                    <i className="ri-search-line text-white text-xl"></i>
                   </div>
-                  <h3 className="text-lg font-bold text-brand-dark mb-2">Mobile Apps</h3>
-                  <p className="text-text-muted text-sm m-0">Native & cross-platform apps</p>
+                  <h3 className="text-lg font-bold text-brand-dark mb-2">SEO Services</h3>
+                  <p className="text-text-muted text-sm m-0">Local SEO, Technical SEO & AI SEO Optimization</p>
                 </div>
-                <div className="bg-neutral-muted border border-brand-soft rounded-xl p-6 hover:border-brand-light hover:shadow-[0_12px_24px_-10px_rgba(77,143,61,0.25)] transition">
-                  <div className="w-12 h-12 bg-brand-soft rounded-lg flex items-center justify-center mb-4">
-                    <i className="ri-palette-line text-brand-primary text-xl"></i>
-                  </div>
-                  <h3 className="text-lg font-bold text-brand-dark mb-2">UI/UX Design</h3>
-                  <p className="text-text-muted text-sm m-0">Beautiful user experiences</p>
-                </div>
-                <div className="bg-neutral-muted border border-brand-soft rounded-xl p-6 hover:border-brand-light hover:shadow-[0_12px_24px_-10px_rgba(77,143,61,0.25)] transition">
-                  <div className="w-12 h-12 bg-brand-soft rounded-lg flex items-center justify-center mb-4">
-                    <i className="ri-megaphone-line text-brand-primary text-xl"></i>
+                
+                {/* Green - Digital Marketing */}
+                <div className="bg-neutral-muted border-2 border-green-primary/20 rounded-xl p-6 hover:border-green-primary hover:shadow-[0_12px_24px_-10px_rgba(16,185,129,0.3)] transition cursor-pointer group">
+                  <div className="w-12 h-12 bg-green-primary rounded-lg flex items-center justify-center mb-4 group-hover:bg-green-dark transition-colors">
+                    <i className="ri-megaphone-line text-white text-xl"></i>
                   </div>
                   <h3 className="text-lg font-bold text-brand-dark mb-2">Digital Marketing</h3>
-                  <p className="text-text-muted text-sm m-0">Grow your online presence</p>
+                  <p className="text-text-muted text-sm m-0">PPC, Social Ads, CRO & AI Marketing Automation</p>
+                </div>
+                
+                {/* Green - Social Media Marketing */}
+                <div className="bg-neutral-muted border-2 border-green-primary/20 rounded-xl p-6 hover:border-green-primary hover:shadow-[0_12px_24px_-10px_rgba(16,185,129,0.3)] transition cursor-pointer group">
+                  <div className="w-12 h-12 bg-green-primary rounded-lg flex items-center justify-center mb-4 group-hover:bg-green-dark transition-colors">
+                    <i className="ri-facebook-circle-line text-white text-xl"></i>
+                  </div>
+                  <h3 className="text-lg font-bold text-brand-dark mb-2">Social Media Marketing</h3>
+                  <p className="text-text-muted text-sm m-0">Management, Content Creation & Brand Growth Strategy</p>
+                </div>
+                
+                {/* Orange - AI Services */}
+                <div className="bg-neutral-muted border-2 border-orange-primary/20 rounded-xl p-6 hover:border-orange-primary hover:shadow-[0_12px_24px_-10px_rgba(249,115,22,0.3)] transition cursor-pointer group">
+                  <div className="w-12 h-12 bg-orange-primary rounded-lg flex items-center justify-center mb-4 group-hover:bg-orange-dark transition-colors">
+                    <i className="ri-robot-line text-white text-xl"></i>
+                  </div>
+                  <h3 className="text-lg font-bold text-brand-dark mb-2">AI Services</h3>
+                  <p className="text-text-muted text-sm m-0">AI Automation, Chatbots & Custom AI Solutions</p>
+                </div>
+                
+                {/* Purple - Resources */}
+                <div className="bg-neutral-muted border-2 border-purple-primary/20 rounded-xl p-6 hover:border-purple-primary hover:shadow-[0_12px_24px_-10px_rgba(168,85,247,0.3)] transition cursor-pointer group">
+                  <div className="w-12 h-12 bg-purple-primary rounded-lg flex items-center justify-center mb-4 group-hover:bg-purple-dark transition-colors">
+                    <i className="ri-book-open-line text-white text-xl"></i>
+                  </div>
+                  <h3 className="text-lg font-bold text-brand-dark mb-2">Resources</h3>
+                  <p className="text-text-muted text-sm m-0">Blog, Guides & FAQs to help your business grow</p>
                 </div>
               </div>
 
@@ -179,21 +204,21 @@ export default function Home() {
           <section className="py-20 bg-neutral-muted">
             <div className="max-w-[1200px] mx-auto px-4">
               <div className="grid grid-cols-1 gap-8 md:grid-cols-4" ref={statsRef}>
-                <div className="text-center">
-                  <div className="text-3xl font-bold text-brand-primary mb-2">{projects}+</div>
-                  <div className="text-text-muted">Projects Completed</div>
+                <div className="text-center bg-white rounded-xl p-6 border-2 border-brand-primary/20">
+                  <div className="text-4xl font-bold text-brand-primary mb-2">{projects}+</div>
+                  <div className="text-text-muted font-medium">Projects Completed</div>
                 </div>
-                <div className="text-center">
-                  <div className="text-3xl font-bold text-brand-primary mb-2">{clients}+</div>
-                  <div className="text-text-muted">Happy Clients</div>
+                <div className="text-center bg-white rounded-xl p-6 border-2 border-green-primary/20">
+                  <div className="text-4xl font-bold text-green-primary mb-2">{clients}+</div>
+                  <div className="text-text-muted font-medium">Happy Clients</div>
                 </div>
-                <div className="text-center">
-                  <div className="text-3xl font-bold text-brand-primary mb-2">{experts}+</div>
-                  <div className="text-text-muted">Expert Professionals</div>
+                <div className="text-center bg-white rounded-xl p-6 border-2 border-orange-primary/20">
+                  <div className="text-4xl font-bold text-orange-primary mb-2">{experts}+</div>
+                  <div className="text-text-muted font-medium">Expert Professionals</div>
                 </div>
-                <div className="text-center">
-                  <div className="text-3xl font-bold text-brand-primary mb-2">{success}%</div>
-                  <div className="text-text-muted">Success Rate</div>
+                <div className="text-center bg-white rounded-xl p-6 border-2 border-purple-primary/20">
+                  <div className="text-4xl font-bold text-purple-primary mb-2">{success}%</div>
+                  <div className="text-text-muted font-medium">Success Rate</div>
                 </div>
               </div>
             </div>

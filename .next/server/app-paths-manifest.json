@@ -1,9 +1,24 @@
 {
   "/_global-error/page": "app/_global-error/page.js",
   "/_not-found/page": "app/_not-found/page.js",
+  "/about/careers/page": "app/about/careers/page.js",
+  "/about/our-process/page": "app/about/our-process/page.js",
+  "/about/our-story/page": "app/about/our-story/page.js",
   "/about/page": "app/about/page.js",
+  "/about/why-tayr-digital/page": "app/about/why-tayr-digital/page.js",
+  "/case-studies/lead-generation/page": "app/case-studies/lead-generation/page.js",
+  "/case-studies/page": "app/case-studies/page.js",
+  "/case-studies/seo/page": "app/case-studies/seo/page.js",
+  "/case-studies/web-design/page": "app/case-studies/web-design/page.js",
   "/contact/page": "app/contact/page.js",
+  "/industries/page": "app/industries/page.js",
   "/page": "app/page.js",
+  "/privacy-policy/page": "app/privacy-policy/page.js",
+  "/resources/blog/page": "app/resources/blog/page.js",
+  "/resources/faqs/page": "app/resources/faqs/page.js",
+  "/resources/guides/page": "app/resources/guides/page.js",
+  "/resources/page": "app/resources/page.js",
   "/service/[id]/page": "app/service/[id]/page.js",
-  "/services/page": "app/services/page.js"
+  "/services/page": "app/services/page.js",
+  "/terms-of-service/page": "app/terms-of-service/page.js"
 }

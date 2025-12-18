@@ -55,16 +55,106 @@
       "namedRegex": "^/about(?:/)?$"
     },
     {
+      "page": "/about/careers",
+      "regex": "^/about/careers(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/about/careers(?:/)?$"
+    },
+    {
+      "page": "/about/our-process",
+      "regex": "^/about/our\\-process(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/about/our\\-process(?:/)?$"
+    },
+    {
+      "page": "/about/our-story",
+      "regex": "^/about/our\\-story(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/about/our\\-story(?:/)?$"
+    },
+    {
+      "page": "/about/why-tayr-digital",
+      "regex": "^/about/why\\-tayr\\-digital(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/about/why\\-tayr\\-digital(?:/)?$"
+    },
+    {
+      "page": "/case-studies",
+      "regex": "^/case\\-studies(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/case\\-studies(?:/)?$"
+    },
+    {
+      "page": "/case-studies/lead-generation",
+      "regex": "^/case\\-studies/lead\\-generation(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/case\\-studies/lead\\-generation(?:/)?$"
+    },
+    {
+      "page": "/case-studies/seo",
+      "regex": "^/case\\-studies/seo(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/case\\-studies/seo(?:/)?$"
+    },
+    {
+      "page": "/case-studies/web-design",
+      "regex": "^/case\\-studies/web\\-design(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/case\\-studies/web\\-design(?:/)?$"
+    },
+    {
       "page": "/contact",
       "regex": "^/contact(?:/)?$",
       "routeKeys": {},
       "namedRegex": "^/contact(?:/)?$"
     },
     {
+      "page": "/industries",
+      "regex": "^/industries(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/industries(?:/)?$"
+    },
+    {
+      "page": "/privacy-policy",
+      "regex": "^/privacy\\-policy(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/privacy\\-policy(?:/)?$"
+    },
+    {
+      "page": "/resources",
+      "regex": "^/resources(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/resources(?:/)?$"
+    },
+    {
+      "page": "/resources/blog",
+      "regex": "^/resources/blog(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/resources/blog(?:/)?$"
+    },
+    {
+      "page": "/resources/faqs",
+      "regex": "^/resources/faqs(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/resources/faqs(?:/)?$"
+    },
+    {
+      "page": "/resources/guides",
+      "regex": "^/resources/guides(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/resources/guides(?:/)?$"
+    },
+    {
       "page": "/services",
       "regex": "^/services(?:/)?$",
       "routeKeys": {},
       "namedRegex": "^/services(?:/)?$"
+    },
+    {
+      "page": "/terms-of-service",
+      "regex": "^/terms\\-of\\-service(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/terms\\-of\\-service(?:/)?$"
     }
   ],
   "dataRoutes": [],

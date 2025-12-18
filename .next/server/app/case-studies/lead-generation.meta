@@ -1,0 +1,16 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/case-studies/layout,_N_T_/case-studies/lead-generation/layout,_N_T_/case-studies/lead-generation/page,_N_T_/case-studies/lead-generation"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/case-studies/lead-generation/__PAGE__",
+    "/case-studies/lead-generation",
+    "/case-studies",
+    "/_index",
+    "/_head"
+  ]
+}

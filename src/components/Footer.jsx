@@ -13,11 +13,11 @@ export default function Footer() {
             <div>
               <Link href="/" className="flex flex-col items-start gap-2 mb-4">
                 <div className="flex items-start justify-start">
-                  <Image src="/Images/logo.png" alt="Unicorn Digital Logo" width={75} height={75} className="h-auto w-auto" />
+                  <Image src="/Images/logo.png" alt="Tayr Digital Logo" width={75} height={75} className="h-auto w-auto" />
                 </div>
                 {/* <h3 className="text-white font-bold text-xl">Unicorn Digital</h3> */}
               </Link>
-              <p className="text-neutral-muted text-sm m-0">Your trusted partner for comprehensive digital services and solutions.</p>
+              <p className="text-neutral-muted text-sm m-0">Tayr Digital - Your trusted partner for comprehensive digital services, AI solutions, and marketing automation.</p>
             </div>
 
             <div>
@@ -25,19 +25,22 @@ export default function Footer() {
               <ul className="list-none p-0">
                 <li className="mb-2"><Link href="/" className="text-neutral-muted hover:text-brand-soft transition-colors">Home</Link></li>
                 <li className="mb-2"><Link href="/services" className="text-neutral-muted hover:text-brand-soft transition-colors">Services</Link></li>
-                <li className="mb-2"><Link href="/about" className="text-neutral-muted hover:text-brand-soft transition-colors">About</Link></li>
-                <li className="mb-2"><Link href="/contact" className="text-neutral-muted hover:text-brand-soft transition-colors">Contact</Link></li>
+                <li className="mb-2"><Link href="/industries" className="text-neutral-muted hover:text-brand-soft transition-colors">Industries</Link></li>
+                <li className="mb-2"><Link href="/case-studies" className="text-neutral-muted hover:text-brand-soft transition-colors">Case Studies</Link></li>
+                <li className="mb-2"><Link href="/resources" className="text-neutral-muted hover:text-brand-soft transition-colors">Resources</Link></li>
+                <li className="mb-2"><Link href="/about" className="text-neutral-muted hover:text-brand-soft transition-colors">About Us</Link></li>
+                <li className="mb-2"><Link href="/contact" className="text-neutral-muted hover:text-brand-soft transition-colors">Contact Us</Link></li>
               </ul>
             </div>
 
             <div>
               <h4 className="text-white text-lg font-bold mb-4">Services</h4>
               <ul className="list-none p-0">
-                <li className="mb-2"><a className="text-neutral-muted hover:text-brand-soft transition-colors" href="/service/1">Web Development</a></li>
-                <li className="mb-2"><a className="text-neutral-muted hover:text-brand-soft transition-colors" href="/service/2">Mobile App</a></li>
-                <li className="mb-2"><a className="text-neutral-muted hover:text-brand-soft transition-colors" href="/service/3">UI/UX Design</a></li>
-                <li className="mb-2"><a className="text-neutral-muted hover:text-brand-soft transition-colors" href="/service/4">Digital Marketing</a></li>
-                <li className="mb-2"><a className="text-neutral-muted hover:text-brand-soft transition-colors" href="/service/5">SEO Optimization</a></li>
+                <li className="mb-2"><Link href="/services" className="text-neutral-muted hover:text-brand-soft transition-colors">Web Development</Link></li>
+                <li className="mb-2"><Link href="/services" className="text-neutral-muted hover:text-green-light transition-colors">SEO Services</Link></li>
+                <li className="mb-2"><Link href="/services" className="text-neutral-muted hover:text-green-light transition-colors">Digital Marketing</Link></li>
+                <li className="mb-2"><Link href="/services" className="text-neutral-muted hover:text-green-light transition-colors">Social Media Marketing</Link></li>
+                <li className="mb-2"><Link href="/services" className="text-neutral-muted hover:text-orange-light transition-colors">AI Services</Link></li>
               </ul>
             </div>
 
@@ -61,7 +64,11 @@ export default function Footer() {
           </div>
 
           <div className="border-t border-brand-primary mt-8 pt-8 text-center">
-            <p className="text-neutral-muted text-sm m-0">© 2025 Unicorn Digital. All rights reserved.</p>
+            <p className="text-neutral-muted text-sm m-0">© 2025 Tayr Digital. All rights reserved.</p>
+            <div className="flex justify-center gap-6 mt-4">
+              <Link href="/privacy-policy" className="text-neutral-muted hover:text-brand-soft transition-colors text-sm">Privacy Policy</Link>
+              <Link href="/terms-of-service" className="text-neutral-muted hover:text-brand-soft transition-colors text-sm">Terms of Service</Link>
+            </div>
           </div>
         </div>
       </footer>

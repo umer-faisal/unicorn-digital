@@ -1,9 +1,24 @@
 {
   "/_global-error/page": "/_global-error",
   "/_not-found/page": "/_not-found",
+  "/about/careers/page": "/about/careers",
+  "/about/our-process/page": "/about/our-process",
+  "/about/our-story/page": "/about/our-story",
   "/about/page": "/about",
+  "/about/why-tayr-digital/page": "/about/why-tayr-digital",
+  "/case-studies/lead-generation/page": "/case-studies/lead-generation",
+  "/case-studies/page": "/case-studies",
+  "/case-studies/seo/page": "/case-studies/seo",
+  "/case-studies/web-design/page": "/case-studies/web-design",
   "/contact/page": "/contact",
+  "/industries/page": "/industries",
   "/page": "/",
+  "/privacy-policy/page": "/privacy-policy",
+  "/resources/blog/page": "/resources/blog",
+  "/resources/faqs/page": "/resources/faqs",
+  "/resources/guides/page": "/resources/guides",
+  "/resources/page": "/resources",
   "/service/[id]/page": "/service/[id]",
-  "/services/page": "/services"
+  "/services/page": "/services",
+  "/terms-of-service/page": "/terms-of-service"
 }
