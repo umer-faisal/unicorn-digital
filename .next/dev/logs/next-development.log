@@ -1,0 +1,1415 @@
+[00:00:24.616] Server  LOG      ✓ Ready in 17.3s
+[00:00:27.711] Server  LOG      ○ Compiling / ...
+[00:00:50.795] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.jsx">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <RootLayout>
+                        <html lang="en" suppressHydrationWarning={true}>
+                          <head>
+                          <body
+                            className="inter_ab3b8213-module__Yo9Eva__variable poppins_b4a151d4-module__3g_tmG__variable"
+-                           data-new-gr-c-s-check-loaded="14.1266.0"
+-                           data-gr-ext-installed=""
+-                           cz-shortcut-listen="true"
+                          >
+                  ...
+
+[00:11:34.689] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.jsx">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <RootLayout>
+                        <html lang="en" suppressHydrationWarning={true}>
+                          <head>
+                          <body
+                            className="inter_ab3b8213-module__Yo9Eva__variable poppins_b4a151d4-module__3g_tmG__variable"
+-                           cz-shortcut-listen="true"
+-                           data-new-gr-c-s-check-loaded="14.1266.0"
+-                           data-gr-ext-installed=""
+                          >
+                  ...
+
+[00:11:37.265] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.jsx">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <RootLayout>
+                        <html lang="en" suppressHydrationWarning={true}>
+                          <head>
+                          <body
+                            className="inter_ab3b8213-module__Yo9Eva__variable poppins_b4a151d4-module__3g_tmG__variable"
+-                           data-new-gr-c-s-check-loaded="14.1266.0"
+-                           data-gr-ext-installed=""
+                          >
+                  ...
+
+[00:14:03.925] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.jsx">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <RootLayout>
+                        <html lang="en" suppressHydrationWarning={true}>
+                          <head>
+                          <body
+                            className="inter_ab3b8213-module__Yo9Eva__variable poppins_b4a151d4-module__3g_tmG__variable"
+-                           cz-shortcut-listen="true"
+-                           data-new-gr-c-s-check-loaded="14.1266.0"
+-                           data-gr-ext-installed=""
+                          >
+                  ...
+
+[00:15:30.430] Server  LOG      ✓ Compiled in 566ms
+[00:15:30.797] Browser ERROR   ./src/app/globals.css
+Error evaluating Node.js code
+Error: Cannot find module '@tailwindcss/postcss'
+Require stack:
+- D:\Unicorn-Css\Unicorn-Digital\.next\dev\build\chunks\[root-of-the-server]__51225daf._.js
+- D:\Unicorn-Css\Unicorn-Digital\.next\dev\build\chunks\[turbopack]_runtime.js
+- D:\Unicorn-Css\Unicorn-Digital\.next\dev\build\postcss.js
+    [at Module._resolveFilename (node:internal/modules/cjs/loader:1207:15)]
+    [at Module._load (node:internal/modules/cjs/loader:1038:27)]
+    [at Module.require (node:internal/modules/cjs/loader:1289:19)]
+    [at require (node:internal/modules/helpers:182:18)]
+    [at <anonymous> (turbopack:///[turbopack-node]/transforms/postcss.ts:49:25)]
+    [at <anonymous>]
+    [at Module.init (turbopack:///[turbopack-node]/transforms/postcss.ts:43:33)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:77:20)]
+    [at process.processTicksAndRejections (node:internal/process/task_queues:95:5)]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.jsx [Server Component]
+[00:15:30.797] Browser ERROR   ./src/app/globals.css
+Error evaluating Node.js code
+Error: Cannot find module '@tailwindcss/postcss'
+Require stack:
+- D:\Unicorn-Css\Unicorn-Digital\.next\dev\build\chunks\[root-of-the-server]__51225daf._.js
+- D:\Unicorn-Css\Unicorn-Digital\.next\dev\build\chunks\[turbopack]_runtime.js
+- D:\Unicorn-Css\Unicorn-Digital\.next\dev\build\postcss.js
+    [at Module._resolveFilename (node:internal/modules/cjs/loader:1207:15)]
+    [at Module._load (node:internal/modules/cjs/loader:1038:27)]
+    [at Module.require (node:internal/modules/cjs/loader:1289:19)]
+    [at require (node:internal/modules/helpers:182:18)]
+    [at <anonymous> (turbopack:///[turbopack-node]/transforms/postcss.ts:49:25)]
+    [at <anonymous>]
+    [at Module.init (turbopack:///[turbopack-node]/transforms/postcss.ts:43:33)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:77:20)]
+    [at process.processTicksAndRejections (node:internal/process/task_queues:95:5)]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.jsx [Server Component]
+[00:15:38.791] Browser ERROR   ./src/app/globals.css
+Error evaluating Node.js code
+Error: Cannot find module '@tailwindcss/postcss'
+Require stack:
+- D:\Unicorn-Css\Unicorn-Digital\.next\dev\build\chunks\[root-of-the-server]__51225daf._.js
+- D:\Unicorn-Css\Unicorn-Digital\.next\dev\build\chunks\[turbopack]_runtime.js
+- D:\Unicorn-Css\Unicorn-Digital\.next\dev\build\postcss.js
+    [at Module._resolveFilename (node:internal/modules/cjs/loader:1207:15)]
+    [at Module._load (node:internal/modules/cjs/loader:1038:27)]
+    [at Module.require (node:internal/modules/cjs/loader:1289:19)]
+    [at require (node:internal/modules/helpers:182:18)]
+    [at <anonymous> (turbopack:///[turbopack-node]/transforms/postcss.ts:49:25)]
+    [at <anonymous>]
+    [at Module.init (turbopack:///[turbopack-node]/transforms/postcss.ts:43:33)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:77:20)]
+    [at process.processTicksAndRejections (node:internal/process/task_queues:95:5)]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.jsx [Server Component]
+[00:15:39.792] Browser ERROR   ./src/app/globals.css
+Error evaluating Node.js code
+Error: Cannot find module '@tailwindcss/postcss'
+Require stack:
+- D:\Unicorn-Css\Unicorn-Digital\.next\dev\build\chunks\[root-of-the-server]__51225daf._.js
+- D:\Unicorn-Css\Unicorn-Digital\.next\dev\build\chunks\[turbopack]_runtime.js
+- D:\Unicorn-Css\Unicorn-Digital\.next\dev\build\postcss.js
+    [at Module._resolveFilename (node:internal/modules/cjs/loader:1207:15)]
+    [at Module._load (node:internal/modules/cjs/loader:1038:27)]
+    [at Module.require (node:internal/modules/cjs/loader:1289:19)]
+    [at require (node:internal/modules/helpers:182:18)]
+    [at <anonymous> (turbopack:///[turbopack-node]/transforms/postcss.ts:49:25)]
+    [at <anonymous>]
+    [at Module.init (turbopack:///[turbopack-node]/transforms/postcss.ts:43:33)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:77:20)]
+    [at process.processTicksAndRejections (node:internal/process/task_queues:95:5)]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.jsx [Server Component]
+[00:15:40.798] Browser ERROR   ./src/app/globals.css
+Error evaluating Node.js code
+Error: Cannot find module '@tailwindcss/postcss'
+Require stack:
+- D:\Unicorn-Css\Unicorn-Digital\.next\dev\build\chunks\[root-of-the-server]__51225daf._.js
+- D:\Unicorn-Css\Unicorn-Digital\.next\dev\build\chunks\[turbopack]_runtime.js
+- D:\Unicorn-Css\Unicorn-Digital\.next\dev\build\postcss.js
+    [at Module._resolveFilename (node:internal/modules/cjs/loader:1207:15)]
+    [at Module._load (node:internal/modules/cjs/loader:1038:27)]
+    [at Module.require (node:internal/modules/cjs/loader:1289:19)]
+    [at require (node:internal/modules/helpers:182:18)]
+    [at <anonymous> (turbopack:///[turbopack-node]/transforms/postcss.ts:49:25)]
+    [at <anonymous>]
+    [at Module.init (turbopack:///[turbopack-node]/transforms/postcss.ts:43:33)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:77:20)]
+    [at process.processTicksAndRejections (node:internal/process/task_queues:95:5)]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.jsx [Server Component]
+[00:15:40.798] Browser ERROR   ./src/app/globals.css
+Error evaluating Node.js code
+Error: Cannot find module '@tailwindcss/postcss'
+Require stack:
+- D:\Unicorn-Css\Unicorn-Digital\.next\dev\build\chunks\[root-of-the-server]__51225daf._.js
+- D:\Unicorn-Css\Unicorn-Digital\.next\dev\build\chunks\[turbopack]_runtime.js
+- D:\Unicorn-Css\Unicorn-Digital\.next\dev\build\postcss.js
+    [at Module._resolveFilename (node:internal/modules/cjs/loader:1207:15)]
+    [at Module._load (node:internal/modules/cjs/loader:1038:27)]
+    [at Module.require (node:internal/modules/cjs/loader:1289:19)]
+    [at require (node:internal/modules/helpers:182:18)]
+    [at <anonymous> (turbopack:///[turbopack-node]/transforms/postcss.ts:49:25)]
+    [at <anonymous>]
+    [at Module.init (turbopack:///[turbopack-node]/transforms/postcss.ts:43:33)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:77:20)]
+    [at process.processTicksAndRejections (node:internal/process/task_queues:95:5)]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.jsx [Server Component]
+[00:15:40.798] Browser ERROR   ./src/app/globals.css
+Error evaluating Node.js code
+Error: Cannot find module '@tailwindcss/postcss'
+Require stack:
+- D:\Unicorn-Css\Unicorn-Digital\.next\dev\build\chunks\[root-of-the-server]__51225daf._.js
+- D:\Unicorn-Css\Unicorn-Digital\.next\dev\build\chunks\[turbopack]_runtime.js
+- D:\Unicorn-Css\Unicorn-Digital\.next\dev\build\postcss.js
+    [at Module._resolveFilename (node:internal/modules/cjs/loader:1207:15)]
+    [at Module._load (node:internal/modules/cjs/loader:1038:27)]
+    [at Module.require (node:internal/modules/cjs/loader:1289:19)]
+    [at require (node:internal/modules/helpers:182:18)]
+    [at <anonymous> (turbopack:///[turbopack-node]/transforms/postcss.ts:49:25)]
+    [at <anonymous>]
+    [at Module.init (turbopack:///[turbopack-node]/transforms/postcss.ts:43:33)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:77:20)]
+    [at process.processTicksAndRejections (node:internal/process/task_queues:95:5)]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.jsx [Server Component]
+[00:15:40.798] Browser ERROR   ./src/app/globals.css
+Error evaluating Node.js code
+Error: Cannot find module '@tailwindcss/postcss'
+Require stack:
+- D:\Unicorn-Css\Unicorn-Digital\.next\dev\build\chunks\[root-of-the-server]__51225daf._.js
+- D:\Unicorn-Css\Unicorn-Digital\.next\dev\build\chunks\[turbopack]_runtime.js
+- D:\Unicorn-Css\Unicorn-Digital\.next\dev\build\postcss.js
+    [at Module._resolveFilename (node:internal/modules/cjs/loader:1207:15)]
+    [at Module._load (node:internal/modules/cjs/loader:1038:27)]
+    [at Module.require (node:internal/modules/cjs/loader:1289:19)]
+    [at require (node:internal/modules/helpers:182:18)]
+    [at <anonymous> (turbopack:///[turbopack-node]/transforms/postcss.ts:49:25)]
+    [at <anonymous>]
+    [at Module.init (turbopack:///[turbopack-node]/transforms/postcss.ts:43:33)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:77:20)]
+    [at process.processTicksAndRejections (node:internal/process/task_queues:95:5)]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.jsx [Server Component]
+[00:15:40.798] Browser ERROR   ./src/app/globals.css
+Error evaluating Node.js code
+Error: Cannot find module '@tailwindcss/postcss'
+Require stack:
+- D:\Unicorn-Css\Unicorn-Digital\.next\dev\build\chunks\[root-of-the-server]__51225daf._.js
+- D:\Unicorn-Css\Unicorn-Digital\.next\dev\build\chunks\[turbopack]_runtime.js
+- D:\Unicorn-Css\Unicorn-Digital\.next\dev\build\postcss.js
+    [at Module._resolveFilename (node:internal/modules/cjs/loader:1207:15)]
+    [at Module._load (node:internal/modules/cjs/loader:1038:27)]
+    [at Module.require (node:internal/modules/cjs/loader:1289:19)]
+    [at require (node:internal/modules/helpers:182:18)]
+    [at <anonymous> (turbopack:///[turbopack-node]/transforms/postcss.ts:49:25)]
+    [at <anonymous>]
+    [at Module.init (turbopack:///[turbopack-node]/transforms/postcss.ts:43:33)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:77:20)]
+    [at process.processTicksAndRejections (node:internal/process/task_queues:95:5)]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.jsx [Server Component]
+[00:15:40.798] Browser ERROR   ./src/app/globals.css
+Error evaluating Node.js code
+Error: Cannot find module '@tailwindcss/postcss'
+Require stack:
+- D:\Unicorn-Css\Unicorn-Digital\.next\dev\build\chunks\[root-of-the-server]__51225daf._.js
+- D:\Unicorn-Css\Unicorn-Digital\.next\dev\build\chunks\[turbopack]_runtime.js
+- D:\Unicorn-Css\Unicorn-Digital\.next\dev\build\postcss.js
+    [at Module._resolveFilename (node:internal/modules/cjs/loader:1207:15)]
+    [at Module._load (node:internal/modules/cjs/loader:1038:27)]
+    [at Module.require (node:internal/modules/cjs/loader:1289:19)]
+    [at require (node:internal/modules/helpers:182:18)]
+    [at <anonymous> (turbopack:///[turbopack-node]/transforms/postcss.ts:49:25)]
+    [at <anonymous>]
+    [at Module.init (turbopack:///[turbopack-node]/transforms/postcss.ts:43:33)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:77:20)]
+    [at process.processTicksAndRejections (node:internal/process/task_queues:95:5)]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.jsx [Server Component]
+[00:15:42.797] Browser ERROR   ./src/app/globals.css
+Error evaluating Node.js code
+Error: Cannot find module '@tailwindcss/postcss'
+Require stack:
+- D:\Unicorn-Css\Unicorn-Digital\.next\dev\build\chunks\[root-of-the-server]__51225daf._.js
+- D:\Unicorn-Css\Unicorn-Digital\.next\dev\build\chunks\[turbopack]_runtime.js
+- D:\Unicorn-Css\Unicorn-Digital\.next\dev\build\postcss.js
+    [at Module._resolveFilename (node:internal/modules/cjs/loader:1207:15)]
+    [at Module._load (node:internal/modules/cjs/loader:1038:27)]
+    [at Module.require (node:internal/modules/cjs/loader:1289:19)]
+    [at require (node:internal/modules/helpers:182:18)]
+    [at <anonymous> (turbopack:///[turbopack-node]/transforms/postcss.ts:49:25)]
+    [at <anonymous>]
+    [at Module.init (turbopack:///[turbopack-node]/transforms/postcss.ts:43:33)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:77:20)]
+    [at process.processTicksAndRejections (node:internal/process/task_queues:95:5)]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.jsx [Server Component]
+[00:15:42.797] Browser ERROR   ./src/app/globals.css
+Error evaluating Node.js code
+Error: Cannot find module '@tailwindcss/postcss'
+Require stack:
+- D:\Unicorn-Css\Unicorn-Digital\.next\dev\build\chunks\[root-of-the-server]__51225daf._.js
+- D:\Unicorn-Css\Unicorn-Digital\.next\dev\build\chunks\[turbopack]_runtime.js
+- D:\Unicorn-Css\Unicorn-Digital\.next\dev\build\postcss.js
+    [at Module._resolveFilename (node:internal/modules/cjs/loader:1207:15)]
+    [at Module._load (node:internal/modules/cjs/loader:1038:27)]
+    [at Module.require (node:internal/modules/cjs/loader:1289:19)]
+    [at require (node:internal/modules/helpers:182:18)]
+    [at <anonymous> (turbopack:///[turbopack-node]/transforms/postcss.ts:49:25)]
+    [at <anonymous>]
+    [at Module.init (turbopack:///[turbopack-node]/transforms/postcss.ts:43:33)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:77:20)]
+    [at process.processTicksAndRejections (node:internal/process/task_queues:95:5)]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.jsx [Server Component]
+[00:15:57.796] Browser ERROR   ./src/app/globals.css
+Error evaluating Node.js code
+Error: It looks like you're trying to use `tailwindcss` directly as a PostCSS plugin. The PostCSS plugin has moved to a separate package, so to continue using Tailwind CSS with PostCSS you'll need to install `@tailwindcss/postcss` and update your PostCSS configuration.
+    [at lt (D:\Unicorn-Css\Unicorn-Digital\node_modules\tailwindcss\dist\lib.js:38:1643)]
+    [at <anonymous> (turbopack:///[turbopack-node]/transforms/postcss.ts:56:14)]
+    [at <anonymous>]
+    [at Module.init (turbopack:///[turbopack-node]/transforms/postcss.ts:43:33)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:77:20)]
+    [at process.processTicksAndRejections (node:internal/process/task_queues:95:5)]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.jsx [Server Component]
+[00:19:12.796] Browser ERROR   ./src/app/globals.css
+Error evaluating Node.js code
+Error: It looks like you're trying to use `tailwindcss` directly as a PostCSS plugin. The PostCSS plugin has moved to a separate package, so to continue using Tailwind CSS with PostCSS you'll need to install `@tailwindcss/postcss` and update your PostCSS configuration.
+    [at lt (D:\Unicorn-Css\Unicorn-Digital\node_modules\tailwindcss\dist\lib.js:38:1643)]
+    [at <anonymous> (turbopack:///[turbopack-node]/transforms/postcss.ts:56:14)]
+    [at <anonymous>]
+    [at Module.init (turbopack:///[turbopack-node]/transforms/postcss.ts:43:33)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:77:20)]
+    [at process.processTicksAndRejections (node:internal/process/task_queues:95:5)]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.jsx [Server Component]
+[00:19:13.802] Browser ERROR   ./src/app/globals.css
+Error evaluating Node.js code
+Error: It looks like you're trying to use `tailwindcss` directly as a PostCSS plugin. The PostCSS plugin has moved to a separate package, so to continue using Tailwind CSS with PostCSS you'll need to install `@tailwindcss/postcss` and update your PostCSS configuration.
+    [at lt (D:\Unicorn-Css\Unicorn-Digital\node_modules\tailwindcss\dist\lib.js:38:1643)]
+    [at <anonymous> (turbopack:///[turbopack-node]/transforms/postcss.ts:56:14)]
+    [at <anonymous>]
+    [at Module.init (turbopack:///[turbopack-node]/transforms/postcss.ts:43:33)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:77:20)]
+    [at process.processTicksAndRejections (node:internal/process/task_queues:95:5)]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.jsx [Server Component]
+[00:21:17.802] Browser ERROR   ./src/app/globals.css
+Error evaluating Node.js code
+Error: It looks like you're trying to use `tailwindcss` directly as a PostCSS plugin. The PostCSS plugin has moved to a separate package, so to continue using Tailwind CSS with PostCSS you'll need to install `@tailwindcss/postcss` and update your PostCSS configuration.
+    [at lt (D:\Unicorn-Css\Unicorn-Digital\node_modules\tailwindcss\dist\lib.js:38:1643)]
+    [at <anonymous> (turbopack:///[turbopack-node]/transforms/postcss.ts:56:14)]
+    [at <anonymous>]
+    [at Module.init (turbopack:///[turbopack-node]/transforms/postcss.ts:43:33)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:77:20)]
+    [at process.processTicksAndRejections (node:internal/process/task_queues:95:5)]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.jsx [Server Component]
+[00:21:17.802] Browser ERROR   ./src/app/globals.css
+Error evaluating Node.js code
+Error: It looks like you're trying to use `tailwindcss` directly as a PostCSS plugin. The PostCSS plugin has moved to a separate package, so to continue using Tailwind CSS with PostCSS you'll need to install `@tailwindcss/postcss` and update your PostCSS configuration.
+    [at lt (D:\Unicorn-Css\Unicorn-Digital\node_modules\tailwindcss\dist\lib.js:38:1643)]
+    [at <anonymous> (turbopack:///[turbopack-node]/transforms/postcss.ts:56:14)]
+    [at <anonymous>]
+    [at Module.init (turbopack:///[turbopack-node]/transforms/postcss.ts:43:33)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:77:20)]
+    [at process.processTicksAndRejections (node:internal/process/task_queues:95:5)]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.jsx [Server Component]
+[00:21:17.802] Browser ERROR   ./src/app/globals.css
+Error evaluating Node.js code
+Error: It looks like you're trying to use `tailwindcss` directly as a PostCSS plugin. The PostCSS plugin has moved to a separate package, so to continue using Tailwind CSS with PostCSS you'll need to install `@tailwindcss/postcss` and update your PostCSS configuration.
+    [at lt (D:\Unicorn-Css\Unicorn-Digital\node_modules\tailwindcss\dist\lib.js:38:1643)]
+    [at <anonymous> (turbopack:///[turbopack-node]/transforms/postcss.ts:56:14)]
+    [at <anonymous>]
+    [at Module.init (turbopack:///[turbopack-node]/transforms/postcss.ts:43:33)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:77:20)]
+    [at process.processTicksAndRejections (node:internal/process/task_queues:95:5)]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.jsx [Server Component]
+[00:21:18.807] Browser ERROR   ./src/app/globals.css
+Error evaluating Node.js code
+Error: Cannot find module 'tailwindcss'
+Require stack:
+- D:\Unicorn-Css\Unicorn-Digital\.next\dev\build\chunks\[root-of-the-server]__51225daf._.js
+- D:\Unicorn-Css\Unicorn-Digital\.next\dev\build\chunks\[turbopack]_runtime.js
+- D:\Unicorn-Css\Unicorn-Digital\.next\dev\build\postcss.js
+    [at Module._resolveFilename (node:internal/modules/cjs/loader:1207:15)]
+    [at Module._load (node:internal/modules/cjs/loader:1038:27)]
+    [at Module.require (node:internal/modules/cjs/loader:1289:19)]
+    [at require (node:internal/modules/helpers:182:18)]
+    [at <anonymous> (turbopack:///[turbopack-node]/transforms/postcss.ts:49:25)]
+    [at <anonymous>]
+    [at Module.init (turbopack:///[turbopack-node]/transforms/postcss.ts:43:33)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:77:20)]
+    [at process.processTicksAndRejections (node:internal/process/task_queues:95:5)]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.jsx [Server Component]
+[00:21:18.807] Browser ERROR   ./src/app/globals.css
+Error evaluating Node.js code
+Error: Cannot find module 'tailwindcss'
+Require stack:
+- D:\Unicorn-Css\Unicorn-Digital\.next\dev\build\chunks\[root-of-the-server]__51225daf._.js
+- D:\Unicorn-Css\Unicorn-Digital\.next\dev\build\chunks\[turbopack]_runtime.js
+- D:\Unicorn-Css\Unicorn-Digital\.next\dev\build\postcss.js
+    [at Module._resolveFilename (node:internal/modules/cjs/loader:1207:15)]
+    [at Module._load (node:internal/modules/cjs/loader:1038:27)]
+    [at Module.require (node:internal/modules/cjs/loader:1289:19)]
+    [at require (node:internal/modules/helpers:182:18)]
+    [at <anonymous> (turbopack:///[turbopack-node]/transforms/postcss.ts:49:25)]
+    [at <anonymous>]
+    [at Module.init (turbopack:///[turbopack-node]/transforms/postcss.ts:43:33)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:77:20)]
+    [at process.processTicksAndRejections (node:internal/process/task_queues:95:5)]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.jsx [Server Component]
+[00:21:26.805] Browser ERROR   ./src/app/globals.css
+Error evaluating Node.js code
+Error: Cannot find module 'tailwindcss'
+Require stack:
+- D:\Unicorn-Css\Unicorn-Digital\.next\dev\build\chunks\[root-of-the-server]__51225daf._.js
+- D:\Unicorn-Css\Unicorn-Digital\.next\dev\build\chunks\[turbopack]_runtime.js
+- D:\Unicorn-Css\Unicorn-Digital\.next\dev\build\postcss.js
+    [at Module._resolveFilename (node:internal/modules/cjs/loader:1207:15)]
+    [at Module._load (node:internal/modules/cjs/loader:1038:27)]
+    [at Module.require (node:internal/modules/cjs/loader:1289:19)]
+    [at require (node:internal/modules/helpers:182:18)]
+    [at <anonymous> (turbopack:///[turbopack-node]/transforms/postcss.ts:49:25)]
+    [at <anonymous>]
+    [at Module.init (turbopack:///[turbopack-node]/transforms/postcss.ts:43:33)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:77:20)]
+    [at process.processTicksAndRejections (node:internal/process/task_queues:95:5)]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.jsx [Server Component]
+[00:21:28.801] Browser ERROR   ./src/app/globals.css
+Error evaluating Node.js code
+Error: Cannot find module 'tailwindcss'
+Require stack:
+- D:\Unicorn-Css\Unicorn-Digital\.next\dev\build\chunks\[root-of-the-server]__51225daf._.js
+- D:\Unicorn-Css\Unicorn-Digital\.next\dev\build\chunks\[turbopack]_runtime.js
+- D:\Unicorn-Css\Unicorn-Digital\.next\dev\build\postcss.js
+    [at Module._resolveFilename (node:internal/modules/cjs/loader:1207:15)]
+    [at Module._load (node:internal/modules/cjs/loader:1038:27)]
+    [at Module.require (node:internal/modules/cjs/loader:1289:19)]
+    [at require (node:internal/modules/helpers:182:18)]
+    [at <anonymous> (turbopack:///[turbopack-node]/transforms/postcss.ts:49:25)]
+    [at <anonymous>]
+    [at Module.init (turbopack:///[turbopack-node]/transforms/postcss.ts:43:33)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:77:20)]
+    [at process.processTicksAndRejections (node:internal/process/task_queues:95:5)]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.jsx [Server Component]
+[00:21:28.801] Browser ERROR   ./src/app/globals.css
+Error evaluating Node.js code
+Error: Cannot find module 'tailwindcss'
+Require stack:
+- D:\Unicorn-Css\Unicorn-Digital\.next\dev\build\chunks\[root-of-the-server]__51225daf._.js
+- D:\Unicorn-Css\Unicorn-Digital\.next\dev\build\chunks\[turbopack]_runtime.js
+- D:\Unicorn-Css\Unicorn-Digital\.next\dev\build\postcss.js
+    [at Module._resolveFilename (node:internal/modules/cjs/loader:1207:15)]
+    [at Module._load (node:internal/modules/cjs/loader:1038:27)]
+    [at Module.require (node:internal/modules/cjs/loader:1289:19)]
+    [at require (node:internal/modules/helpers:182:18)]
+    [at <anonymous> (turbopack:///[turbopack-node]/transforms/postcss.ts:49:25)]
+    [at <anonymous>]
+    [at Module.init (turbopack:///[turbopack-node]/transforms/postcss.ts:43:33)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:77:20)]
+    [at process.processTicksAndRejections (node:internal/process/task_queues:95:5)]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.jsx [Server Component]
+[00:21:28.801] Browser ERROR   ./src/app/globals.css
+Error evaluating Node.js code
+Error: Cannot find module 'tailwindcss'
+Require stack:
+- D:\Unicorn-Css\Unicorn-Digital\.next\dev\build\chunks\[root-of-the-server]__51225daf._.js
+- D:\Unicorn-Css\Unicorn-Digital\.next\dev\build\chunks\[turbopack]_runtime.js
+- D:\Unicorn-Css\Unicorn-Digital\.next\dev\build\postcss.js
+    [at Module._resolveFilename (node:internal/modules/cjs/loader:1207:15)]
+    [at Module._load (node:internal/modules/cjs/loader:1038:27)]
+    [at Module.require (node:internal/modules/cjs/loader:1289:19)]
+    [at require (node:internal/modules/helpers:182:18)]
+    [at <anonymous> (turbopack:///[turbopack-node]/transforms/postcss.ts:49:25)]
+    [at <anonymous>]
+    [at Module.init (turbopack:///[turbopack-node]/transforms/postcss.ts:43:33)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:77:20)]
+    [at process.processTicksAndRejections (node:internal/process/task_queues:95:5)]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.jsx [Server Component]
+[00:21:29.831] Browser ERROR   ./src/app/globals.css
+Error evaluating Node.js code
+Error: It looks like you're trying to use `tailwindcss` directly as a PostCSS plugin. The PostCSS plugin has moved to a separate package, so to continue using Tailwind CSS with PostCSS you'll need to install `@tailwindcss/postcss` and update your PostCSS configuration.
+    [at lt (D:\Unicorn-Css\Unicorn-Digital\node_modules\tailwindcss\dist\lib.js:38:1643)]
+    [at <anonymous> (turbopack:///[turbopack-node]/transforms/postcss.ts:56:14)]
+    [at <anonymous>]
+    [at Module.init (turbopack:///[turbopack-node]/transforms/postcss.ts:43:33)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:77:20)]
+    [at process.processTicksAndRejections (node:internal/process/task_queues:95:5)]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.jsx [Server Component]
+[00:23:11.799] Browser ERROR   ./src/app/globals.css
+Error evaluating Node.js code
+Error: It looks like you're trying to use `tailwindcss` directly as a PostCSS plugin. The PostCSS plugin has moved to a separate package, so to continue using Tailwind CSS with PostCSS you'll need to install `@tailwindcss/postcss` and update your PostCSS configuration.
+    [at lt (D:\Unicorn-Css\Unicorn-Digital\node_modules\tailwindcss\dist\lib.js:38:1643)]
+    [at <anonymous> (turbopack:///[turbopack-node]/transforms/postcss.ts:56:14)]
+    [at <anonymous>]
+    [at Module.init (turbopack:///[turbopack-node]/transforms/postcss.ts:43:33)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:77:20)]
+    [at process.processTicksAndRejections (node:internal/process/task_queues:95:5)]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.jsx [Server Component]
+[00:23:30.803] Browser ERROR   ./src/app/globals.css
+Error evaluating Node.js code
+Error: It looks like you're trying to use `tailwindcss` directly as a PostCSS plugin. The PostCSS plugin has moved to a separate package, so to continue using Tailwind CSS with PostCSS you'll need to install `@tailwindcss/postcss` and update your PostCSS configuration.
+    [at lt (D:\Unicorn-Css\Unicorn-Digital\node_modules\tailwindcss\dist\lib.js:38:1643)]
+    [at <anonymous> (turbopack:///[turbopack-node]/transforms/postcss.ts:56:14)]
+    [at <anonymous>]
+    [at Module.init (turbopack:///[turbopack-node]/transforms/postcss.ts:43:33)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:77:20)]
+    [at process.processTicksAndRejections (node:internal/process/task_queues:95:5)]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.jsx [Server Component]
+[00:24:25.792] Browser ERROR   ./src/app/globals.css
+Error evaluating Node.js code
+Error: It looks like you're trying to use `tailwindcss` directly as a PostCSS plugin. The PostCSS plugin has moved to a separate package, so to continue using Tailwind CSS with PostCSS you'll need to install `@tailwindcss/postcss` and update your PostCSS configuration.
+    [at lt (D:\Unicorn-Css\Unicorn-Digital\node_modules\tailwindcss\dist\lib.js:38:1643)]
+    [at <anonymous> (turbopack:///[turbopack-node]/transforms/postcss.ts:56:14)]
+    [at <anonymous>]
+    [at Module.init (turbopack:///[turbopack-node]/transforms/postcss.ts:43:33)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:77:20)]
+    [at process.processTicksAndRejections (node:internal/process/task_queues:95:5)]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.jsx [Server Component]
+[00:24:25.793] Browser ERROR   ./src/app/globals.css
+Error evaluating Node.js code
+Error: It looks like you're trying to use `tailwindcss` directly as a PostCSS plugin. The PostCSS plugin has moved to a separate package, so to continue using Tailwind CSS with PostCSS you'll need to install `@tailwindcss/postcss` and update your PostCSS configuration.
+    [at lt (D:\Unicorn-Css\Unicorn-Digital\node_modules\tailwindcss\dist\lib.js:38:1643)]
+    [at <anonymous> (turbopack:///[turbopack-node]/transforms/postcss.ts:56:14)]
+    [at <anonymous>]
+    [at Module.init (turbopack:///[turbopack-node]/transforms/postcss.ts:43:33)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:77:20)]
+    [at process.processTicksAndRejections (node:internal/process/task_queues:95:5)]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.jsx [Server Component]
+[00:24:25.793] Browser ERROR   ./src/app/globals.css
+Error evaluating Node.js code
+Error: It looks like you're trying to use `tailwindcss` directly as a PostCSS plugin. The PostCSS plugin has moved to a separate package, so to continue using Tailwind CSS with PostCSS you'll need to install `@tailwindcss/postcss` and update your PostCSS configuration.
+    [at lt (D:\Unicorn-Css\Unicorn-Digital\node_modules\tailwindcss\dist\lib.js:38:1643)]
+    [at <anonymous> (turbopack:///[turbopack-node]/transforms/postcss.ts:56:14)]
+    [at <anonymous>]
+    [at Module.init (turbopack:///[turbopack-node]/transforms/postcss.ts:43:33)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:77:20)]
+    [at process.processTicksAndRejections (node:internal/process/task_queues:95:5)]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.jsx [Server Component]
+[00:24:26.808] Browser ERROR   ./src/app/globals.css
+Error evaluating Node.js code
+Error: Cannot find module 'tailwindcss'
+Require stack:
+- D:\Unicorn-Css\Unicorn-Digital\.next\dev\build\chunks\[root-of-the-server]__51225daf._.js
+- D:\Unicorn-Css\Unicorn-Digital\.next\dev\build\chunks\[turbopack]_runtime.js
+- D:\Unicorn-Css\Unicorn-Digital\.next\dev\build\postcss.js
+    [at Module._resolveFilename (node:internal/modules/cjs/loader:1207:15)]
+    [at Module._load (node:internal/modules/cjs/loader:1038:27)]
+    [at Module.require (node:internal/modules/cjs/loader:1289:19)]
+    [at require (node:internal/modules/helpers:182:18)]
+    [at <anonymous> (turbopack:///[turbopack-node]/transforms/postcss.ts:49:25)]
+    [at <anonymous>]
+    [at Module.init (turbopack:///[turbopack-node]/transforms/postcss.ts:43:33)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:77:20)]
+    [at process.processTicksAndRejections (node:internal/process/task_queues:95:5)]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.jsx [Server Component]
+[00:24:26.808] Browser ERROR   ./src/app/globals.css
+Error evaluating Node.js code
+Error: Cannot find module 'tailwindcss'
+Require stack:
+- D:\Unicorn-Css\Unicorn-Digital\.next\dev\build\chunks\[root-of-the-server]__51225daf._.js
+- D:\Unicorn-Css\Unicorn-Digital\.next\dev\build\chunks\[turbopack]_runtime.js
+- D:\Unicorn-Css\Unicorn-Digital\.next\dev\build\postcss.js
+    [at Module._resolveFilename (node:internal/modules/cjs/loader:1207:15)]
+    [at Module._load (node:internal/modules/cjs/loader:1038:27)]
+    [at Module.require (node:internal/modules/cjs/loader:1289:19)]
+    [at require (node:internal/modules/helpers:182:18)]
+    [at <anonymous> (turbopack:///[turbopack-node]/transforms/postcss.ts:49:25)]
+    [at <anonymous>]
+    [at Module.init (turbopack:///[turbopack-node]/transforms/postcss.ts:43:33)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:77:20)]
+    [at process.processTicksAndRejections (node:internal/process/task_queues:95:5)]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.jsx [Server Component]
+[00:24:26.808] Browser ERROR   ./src/app/globals.css
+Error evaluating Node.js code
+Error: Cannot find module 'tailwindcss'
+Require stack:
+- D:\Unicorn-Css\Unicorn-Digital\.next\dev\build\chunks\[root-of-the-server]__51225daf._.js
+- D:\Unicorn-Css\Unicorn-Digital\.next\dev\build\chunks\[turbopack]_runtime.js
+- D:\Unicorn-Css\Unicorn-Digital\.next\dev\build\postcss.js
+    [at Module._resolveFilename (node:internal/modules/cjs/loader:1207:15)]
+    [at Module._load (node:internal/modules/cjs/loader:1038:27)]
+    [at Module.require (node:internal/modules/cjs/loader:1289:19)]
+    [at require (node:internal/modules/helpers:182:18)]
+    [at <anonymous> (turbopack:///[turbopack-node]/transforms/postcss.ts:49:25)]
+    [at <anonymous>]
+    [at Module.init (turbopack:///[turbopack-node]/transforms/postcss.ts:43:33)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:77:20)]
+    [at process.processTicksAndRejections (node:internal/process/task_queues:95:5)]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.jsx [Server Component]
+[00:24:33.792] Browser ERROR   ./src/app/globals.css
+Error evaluating Node.js code
+Error: Cannot find module 'tailwindcss'
+Require stack:
+- D:\Unicorn-Css\Unicorn-Digital\.next\dev\build\chunks\[root-of-the-server]__51225daf._.js
+- D:\Unicorn-Css\Unicorn-Digital\.next\dev\build\chunks\[turbopack]_runtime.js
+- D:\Unicorn-Css\Unicorn-Digital\.next\dev\build\postcss.js
+    [at Module._resolveFilename (node:internal/modules/cjs/loader:1207:15)]
+    [at Module._load (node:internal/modules/cjs/loader:1038:27)]
+    [at Module.require (node:internal/modules/cjs/loader:1289:19)]
+    [at require (node:internal/modules/helpers:182:18)]
+    [at <anonymous> (turbopack:///[turbopack-node]/transforms/postcss.ts:49:25)]
+    [at <anonymous>]
+    [at Module.init (turbopack:///[turbopack-node]/transforms/postcss.ts:43:33)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:77:20)]
+    [at process.processTicksAndRejections (node:internal/process/task_queues:95:5)]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.jsx [Server Component]
+[00:24:41.848] Browser ERROR   ./src/app/globals.css
+Error evaluating Node.js code
+Error: Cannot find module 'tailwindcss'
+Require stack:
+- D:\Unicorn-Css\Unicorn-Digital\.next\dev\build\chunks\[root-of-the-server]__51225daf._.js
+- D:\Unicorn-Css\Unicorn-Digital\.next\dev\build\chunks\[turbopack]_runtime.js
+- D:\Unicorn-Css\Unicorn-Digital\.next\dev\build\postcss.js
+    [at Module._resolveFilename (node:internal/modules/cjs/loader:1207:15)]
+    [at Module._load (node:internal/modules/cjs/loader:1038:27)]
+    [at Module.require (node:internal/modules/cjs/loader:1289:19)]
+    [at require (node:internal/modules/helpers:182:18)]
+    [at <anonymous> (turbopack:///[turbopack-node]/transforms/postcss.ts:49:25)]
+    [at <anonymous>]
+    [at Module.init (turbopack:///[turbopack-node]/transforms/postcss.ts:43:33)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:77:20)]
+    [at process.processTicksAndRejections (node:internal/process/task_queues:95:5)]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.jsx [Server Component]
+[00:24:43.181] Browser ERROR   ./src/app/globals.css
+Error evaluating Node.js code
+Error: Cannot find module 'tailwindcss'
+Require stack:
+- D:\Unicorn-Css\Unicorn-Digital\.next\dev\build\chunks\[root-of-the-server]__51225daf._.js
+- D:\Unicorn-Css\Unicorn-Digital\.next\dev\build\chunks\[turbopack]_runtime.js
+- D:\Unicorn-Css\Unicorn-Digital\.next\dev\build\postcss.js
+    [at Module._resolveFilename (node:internal/modules/cjs/loader:1207:15)]
+    [at Module._load (node:internal/modules/cjs/loader:1038:27)]
+    [at Module.require (node:internal/modules/cjs/loader:1289:19)]
+    [at require (node:internal/modules/helpers:182:18)]
+    [at <anonymous> (turbopack:///[turbopack-node]/transforms/postcss.ts:49:25)]
+    [at <anonymous>]
+    [at Module.init (turbopack:///[turbopack-node]/transforms/postcss.ts:43:33)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:77:20)]
+    [at process.processTicksAndRejections (node:internal/process/task_queues:95:5)]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.jsx [Server Component]
+[00:24:43.181] Browser ERROR   ./src/app/globals.css
+Error evaluating Node.js code
+Error: Cannot find module 'tailwindcss'
+Require stack:
+- D:\Unicorn-Css\Unicorn-Digital\.next\dev\build\chunks\[root-of-the-server]__51225daf._.js
+- D:\Unicorn-Css\Unicorn-Digital\.next\dev\build\chunks\[turbopack]_runtime.js
+- D:\Unicorn-Css\Unicorn-Digital\.next\dev\build\postcss.js
+    [at Module._resolveFilename (node:internal/modules/cjs/loader:1207:15)]
+    [at Module._load (node:internal/modules/cjs/loader:1038:27)]
+    [at Module.require (node:internal/modules/cjs/loader:1289:19)]
+    [at require (node:internal/modules/helpers:182:18)]
+    [at <anonymous> (turbopack:///[turbopack-node]/transforms/postcss.ts:49:25)]
+    [at <anonymous>]
+    [at Module.init (turbopack:///[turbopack-node]/transforms/postcss.ts:43:33)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:77:20)]
+    [at process.processTicksAndRejections (node:internal/process/task_queues:95:5)]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.jsx [Server Component]
+[00:24:43.181] Browser ERROR   ./src/app/globals.css
+Error evaluating Node.js code
+Error: Cannot find module 'tailwindcss'
+Require stack:
+- D:\Unicorn-Css\Unicorn-Digital\.next\dev\build\chunks\[root-of-the-server]__51225daf._.js
+- D:\Unicorn-Css\Unicorn-Digital\.next\dev\build\chunks\[turbopack]_runtime.js
+- D:\Unicorn-Css\Unicorn-Digital\.next\dev\build\postcss.js
+    [at Module._resolveFilename (node:internal/modules/cjs/loader:1207:15)]
+    [at Module._load (node:internal/modules/cjs/loader:1038:27)]
+    [at Module.require (node:internal/modules/cjs/loader:1289:19)]
+    [at require (node:internal/modules/helpers:182:18)]
+    [at <anonymous> (turbopack:///[turbopack-node]/transforms/postcss.ts:49:25)]
+    [at <anonymous>]
+    [at Module.init (turbopack:///[turbopack-node]/transforms/postcss.ts:43:33)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:77:20)]
+    [at process.processTicksAndRejections (node:internal/process/task_queues:95:5)]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.jsx [Server Component]
+[00:24:43.181] Browser ERROR   ./src/app/globals.css
+Error evaluating Node.js code
+Error: Cannot find module 'tailwindcss'
+Require stack:
+- D:\Unicorn-Css\Unicorn-Digital\.next\dev\build\chunks\[root-of-the-server]__51225daf._.js
+- D:\Unicorn-Css\Unicorn-Digital\.next\dev\build\chunks\[turbopack]_runtime.js
+- D:\Unicorn-Css\Unicorn-Digital\.next\dev\build\postcss.js
+    [at Module._resolveFilename (node:internal/modules/cjs/loader:1207:15)]
+    [at Module._load (node:internal/modules/cjs/loader:1038:27)]
+    [at Module.require (node:internal/modules/cjs/loader:1289:19)]
+    [at require (node:internal/modules/helpers:182:18)]
+    [at <anonymous> (turbopack:///[turbopack-node]/transforms/postcss.ts:49:25)]
+    [at <anonymous>]
+    [at Module.init (turbopack:///[turbopack-node]/transforms/postcss.ts:43:33)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:77:20)]
+    [at process.processTicksAndRejections (node:internal/process/task_queues:95:5)]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.jsx [Server Component]
+[00:24:46.813] Browser ERROR   ./src/app/globals.css
+Error evaluating Node.js code
+Error: Cannot find module 'tailwindcss'
+Require stack:
+- D:\Unicorn-Css\Unicorn-Digital\.next\dev\build\chunks\[root-of-the-server]__51225daf._.js
+- D:\Unicorn-Css\Unicorn-Digital\.next\dev\build\chunks\[turbopack]_runtime.js
+- D:\Unicorn-Css\Unicorn-Digital\.next\dev\build\postcss.js
+    [at Module._resolveFilename (node:internal/modules/cjs/loader:1207:15)]
+    [at Module._load (node:internal/modules/cjs/loader:1038:27)]
+    [at Module.require (node:internal/modules/cjs/loader:1289:19)]
+    [at require (node:internal/modules/helpers:182:18)]
+    [at <anonymous> (turbopack:///[turbopack-node]/transforms/postcss.ts:49:25)]
+    [at <anonymous>]
+    [at Module.init (turbopack:///[turbopack-node]/transforms/postcss.ts:43:33)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:77:20)]
+    [at process.processTicksAndRejections (node:internal/process/task_queues:95:5)]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.jsx [Server Component]
+[00:24:46.813] Browser ERROR   ./src/app/globals.css
+Error evaluating Node.js code
+Error: Cannot find module 'tailwindcss'
+Require stack:
+- D:\Unicorn-Css\Unicorn-Digital\.next\dev\build\chunks\[root-of-the-server]__51225daf._.js
+- D:\Unicorn-Css\Unicorn-Digital\.next\dev\build\chunks\[turbopack]_runtime.js
+- D:\Unicorn-Css\Unicorn-Digital\.next\dev\build\postcss.js
+    [at Module._resolveFilename (node:internal/modules/cjs/loader:1207:15)]
+    [at Module._load (node:internal/modules/cjs/loader:1038:27)]
+    [at Module.require (node:internal/modules/cjs/loader:1289:19)]
+    [at require (node:internal/modules/helpers:182:18)]
+    [at <anonymous> (turbopack:///[turbopack-node]/transforms/postcss.ts:49:25)]
+    [at <anonymous>]
+    [at Module.init (turbopack:///[turbopack-node]/transforms/postcss.ts:43:33)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:77:20)]
+    [at process.processTicksAndRejections (node:internal/process/task_queues:95:5)]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.jsx [Server Component]
+[00:24:46.813] Browser ERROR   ./src/app/globals.css
+Error evaluating Node.js code
+Error: Cannot find module 'tailwindcss'
+Require stack:
+- D:\Unicorn-Css\Unicorn-Digital\.next\dev\build\chunks\[root-of-the-server]__51225daf._.js
+- D:\Unicorn-Css\Unicorn-Digital\.next\dev\build\chunks\[turbopack]_runtime.js
+- D:\Unicorn-Css\Unicorn-Digital\.next\dev\build\postcss.js
+    [at Module._resolveFilename (node:internal/modules/cjs/loader:1207:15)]
+    [at Module._load (node:internal/modules/cjs/loader:1038:27)]
+    [at Module.require (node:internal/modules/cjs/loader:1289:19)]
+    [at require (node:internal/modules/helpers:182:18)]
+    [at <anonymous> (turbopack:///[turbopack-node]/transforms/postcss.ts:49:25)]
+    [at <anonymous>]
+    [at Module.init (turbopack:///[turbopack-node]/transforms/postcss.ts:43:33)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:77:20)]
+    [at process.processTicksAndRejections (node:internal/process/task_queues:95:5)]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.jsx [Server Component]
+[00:24:46.813] Browser ERROR   ./src/app/globals.css
+Error evaluating Node.js code
+Error: Cannot find module 'tailwindcss'
+Require stack:
+- D:\Unicorn-Css\Unicorn-Digital\.next\dev\build\chunks\[root-of-the-server]__51225daf._.js
+- D:\Unicorn-Css\Unicorn-Digital\.next\dev\build\chunks\[turbopack]_runtime.js
+- D:\Unicorn-Css\Unicorn-Digital\.next\dev\build\postcss.js
+    [at Module._resolveFilename (node:internal/modules/cjs/loader:1207:15)]
+    [at Module._load (node:internal/modules/cjs/loader:1038:27)]
+    [at Module.require (node:internal/modules/cjs/loader:1289:19)]
+    [at require (node:internal/modules/helpers:182:18)]
+    [at <anonymous> (turbopack:///[turbopack-node]/transforms/postcss.ts:49:25)]
+    [at <anonymous>]
+    [at Module.init (turbopack:///[turbopack-node]/transforms/postcss.ts:43:33)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:77:20)]
+    [at process.processTicksAndRejections (node:internal/process/task_queues:95:5)]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.jsx [Server Component]
+[00:24:46.813] Browser ERROR   ./src/app/globals.css
+Error evaluating Node.js code
+Error: Cannot find module 'tailwindcss'
+Require stack:
+- D:\Unicorn-Css\Unicorn-Digital\.next\dev\build\chunks\[root-of-the-server]__51225daf._.js
+- D:\Unicorn-Css\Unicorn-Digital\.next\dev\build\chunks\[turbopack]_runtime.js
+- D:\Unicorn-Css\Unicorn-Digital\.next\dev\build\postcss.js
+    [at Module._resolveFilename (node:internal/modules/cjs/loader:1207:15)]
+    [at Module._load (node:internal/modules/cjs/loader:1038:27)]
+    [at Module.require (node:internal/modules/cjs/loader:1289:19)]
+    [at require (node:internal/modules/helpers:182:18)]
+    [at <anonymous> (turbopack:///[turbopack-node]/transforms/postcss.ts:49:25)]
+    [at <anonymous>]
+    [at Module.init (turbopack:///[turbopack-node]/transforms/postcss.ts:43:33)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:77:20)]
+    [at process.processTicksAndRejections (node:internal/process/task_queues:95:5)]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.jsx [Server Component]
+[00:24:46.813] Browser ERROR   ./src/app/globals.css
+Error evaluating Node.js code
+Error: Cannot find module 'tailwindcss'
+Require stack:
+- D:\Unicorn-Css\Unicorn-Digital\.next\dev\build\chunks\[root-of-the-server]__51225daf._.js
+- D:\Unicorn-Css\Unicorn-Digital\.next\dev\build\chunks\[turbopack]_runtime.js
+- D:\Unicorn-Css\Unicorn-Digital\.next\dev\build\postcss.js
+    [at Module._resolveFilename (node:internal/modules/cjs/loader:1207:15)]
+    [at Module._load (node:internal/modules/cjs/loader:1038:27)]
+    [at Module.require (node:internal/modules/cjs/loader:1289:19)]
+    [at require (node:internal/modules/helpers:182:18)]
+    [at <anonymous> (turbopack:///[turbopack-node]/transforms/postcss.ts:49:25)]
+    [at <anonymous>]
+    [at Module.init (turbopack:///[turbopack-node]/transforms/postcss.ts:43:33)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:77:20)]
+    [at process.processTicksAndRejections (node:internal/process/task_queues:95:5)]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.jsx [Server Component]
+[00:24:46.813] Browser ERROR   ./src/app/globals.css
+Error evaluating Node.js code
+Error: Cannot find module 'tailwindcss'
+Require stack:
+- D:\Unicorn-Css\Unicorn-Digital\.next\dev\build\chunks\[root-of-the-server]__51225daf._.js
+- D:\Unicorn-Css\Unicorn-Digital\.next\dev\build\chunks\[turbopack]_runtime.js
+- D:\Unicorn-Css\Unicorn-Digital\.next\dev\build\postcss.js
+    [at Module._resolveFilename (node:internal/modules/cjs/loader:1207:15)]
+    [at Module._load (node:internal/modules/cjs/loader:1038:27)]
+    [at Module.require (node:internal/modules/cjs/loader:1289:19)]
+    [at require (node:internal/modules/helpers:182:18)]
+    [at <anonymous> (turbopack:///[turbopack-node]/transforms/postcss.ts:49:25)]
+    [at <anonymous>]
+    [at Module.init (turbopack:///[turbopack-node]/transforms/postcss.ts:43:33)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:77:20)]
+    [at process.processTicksAndRejections (node:internal/process/task_queues:95:5)]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.jsx [Server Component]
+[00:24:46.813] Browser ERROR   ./src/app/globals.css
+Error evaluating Node.js code
+Error: Cannot find module 'tailwindcss'
+Require stack:
+- D:\Unicorn-Css\Unicorn-Digital\.next\dev\build\chunks\[root-of-the-server]__51225daf._.js
+- D:\Unicorn-Css\Unicorn-Digital\.next\dev\build\chunks\[turbopack]_runtime.js
+- D:\Unicorn-Css\Unicorn-Digital\.next\dev\build\postcss.js
+    [at Module._resolveFilename (node:internal/modules/cjs/loader:1207:15)]
+    [at Module._load (node:internal/modules/cjs/loader:1038:27)]
+    [at Module.require (node:internal/modules/cjs/loader:1289:19)]
+    [at require (node:internal/modules/helpers:182:18)]
+    [at <anonymous> (turbopack:///[turbopack-node]/transforms/postcss.ts:49:25)]
+    [at <anonymous>]
+    [at Module.init (turbopack:///[turbopack-node]/transforms/postcss.ts:43:33)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:77:20)]
+    [at process.processTicksAndRejections (node:internal/process/task_queues:95:5)]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.jsx [Server Component]
+[00:24:46.813] Browser ERROR   ./src/app/globals.css
+Error evaluating Node.js code
+Error: Cannot find module 'tailwindcss'
+Require stack:
+- D:\Unicorn-Css\Unicorn-Digital\.next\dev\build\chunks\[root-of-the-server]__51225daf._.js
+- D:\Unicorn-Css\Unicorn-Digital\.next\dev\build\chunks\[turbopack]_runtime.js
+- D:\Unicorn-Css\Unicorn-Digital\.next\dev\build\postcss.js
+    [at Module._resolveFilename (node:internal/modules/cjs/loader:1207:15)]
+    [at Module._load (node:internal/modules/cjs/loader:1038:27)]
+    [at Module.require (node:internal/modules/cjs/loader:1289:19)]
+    [at require (node:internal/modules/helpers:182:18)]
+    [at <anonymous> (turbopack:///[turbopack-node]/transforms/postcss.ts:49:25)]
+    [at <anonymous>]
+    [at Module.init (turbopack:///[turbopack-node]/transforms/postcss.ts:43:33)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:77:20)]
+    [at process.processTicksAndRejections (node:internal/process/task_queues:95:5)]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.jsx [Server Component]
+[00:24:46.813] Browser ERROR   ./src/app/globals.css
+Error evaluating Node.js code
+Error: Cannot find module 'tailwindcss'
+Require stack:
+- D:\Unicorn-Css\Unicorn-Digital\.next\dev\build\chunks\[root-of-the-server]__51225daf._.js
+- D:\Unicorn-Css\Unicorn-Digital\.next\dev\build\chunks\[turbopack]_runtime.js
+- D:\Unicorn-Css\Unicorn-Digital\.next\dev\build\postcss.js
+    [at Module._resolveFilename (node:internal/modules/cjs/loader:1207:15)]
+    [at Module._load (node:internal/modules/cjs/loader:1038:27)]
+    [at Module.require (node:internal/modules/cjs/loader:1289:19)]
+    [at require (node:internal/modules/helpers:182:18)]
+    [at <anonymous> (turbopack:///[turbopack-node]/transforms/postcss.ts:49:25)]
+    [at <anonymous>]
+    [at Module.init (turbopack:///[turbopack-node]/transforms/postcss.ts:43:33)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:77:20)]
+    [at process.processTicksAndRejections (node:internal/process/task_queues:95:5)]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.jsx [Server Component]
+[00:24:46.813] Browser ERROR   ./src/app/globals.css
+Error evaluating Node.js code
+Error: Cannot find module 'tailwindcss'
+Require stack:
+- D:\Unicorn-Css\Unicorn-Digital\.next\dev\build\chunks\[root-of-the-server]__51225daf._.js
+- D:\Unicorn-Css\Unicorn-Digital\.next\dev\build\chunks\[turbopack]_runtime.js
+- D:\Unicorn-Css\Unicorn-Digital\.next\dev\build\postcss.js
+    [at Module._resolveFilename (node:internal/modules/cjs/loader:1207:15)]
+    [at Module._load (node:internal/modules/cjs/loader:1038:27)]
+    [at Module.require (node:internal/modules/cjs/loader:1289:19)]
+    [at require (node:internal/modules/helpers:182:18)]
+    [at <anonymous> (turbopack:///[turbopack-node]/transforms/postcss.ts:49:25)]
+    [at <anonymous>]
+    [at Module.init (turbopack:///[turbopack-node]/transforms/postcss.ts:43:33)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:77:20)]
+    [at process.processTicksAndRejections (node:internal/process/task_queues:95:5)]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.jsx [Server Component]
+[00:24:46.813] Browser ERROR   ./src/app/globals.css
+Error evaluating Node.js code
+Error: Cannot find module 'tailwindcss'
+Require stack:
+- D:\Unicorn-Css\Unicorn-Digital\.next\dev\build\chunks\[root-of-the-server]__51225daf._.js
+- D:\Unicorn-Css\Unicorn-Digital\.next\dev\build\chunks\[turbopack]_runtime.js
+- D:\Unicorn-Css\Unicorn-Digital\.next\dev\build\postcss.js
+    [at Module._resolveFilename (node:internal/modules/cjs/loader:1207:15)]
+    [at Module._load (node:internal/modules/cjs/loader:1038:27)]
+    [at Module.require (node:internal/modules/cjs/loader:1289:19)]
+    [at require (node:internal/modules/helpers:182:18)]
+    [at <anonymous> (turbopack:///[turbopack-node]/transforms/postcss.ts:49:25)]
+    [at <anonymous>]
+    [at Module.init (turbopack:///[turbopack-node]/transforms/postcss.ts:43:33)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:77:20)]
+    [at process.processTicksAndRejections (node:internal/process/task_queues:95:5)]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.jsx [Server Component]
+[00:24:46.813] Browser ERROR   ./src/app/globals.css
+Error evaluating Node.js code
+Error: Cannot find module 'tailwindcss'
+Require stack:
+- D:\Unicorn-Css\Unicorn-Digital\.next\dev\build\chunks\[root-of-the-server]__51225daf._.js
+- D:\Unicorn-Css\Unicorn-Digital\.next\dev\build\chunks\[turbopack]_runtime.js
+- D:\Unicorn-Css\Unicorn-Digital\.next\dev\build\postcss.js
+    [at Module._resolveFilename (node:internal/modules/cjs/loader:1207:15)]
+    [at Module._load (node:internal/modules/cjs/loader:1038:27)]
+    [at Module.require (node:internal/modules/cjs/loader:1289:19)]
+    [at require (node:internal/modules/helpers:182:18)]
+    [at <anonymous> (turbopack:///[turbopack-node]/transforms/postcss.ts:49:25)]
+    [at <anonymous>]
+    [at Module.init (turbopack:///[turbopack-node]/transforms/postcss.ts:43:33)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:77:20)]
+    [at process.processTicksAndRejections (node:internal/process/task_queues:95:5)]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.jsx [Server Component]
+[00:24:46.813] Browser ERROR   ./src/app/globals.css
+Error evaluating Node.js code
+Error: Cannot find module 'tailwindcss'
+Require stack:
+- D:\Unicorn-Css\Unicorn-Digital\.next\dev\build\chunks\[root-of-the-server]__51225daf._.js
+- D:\Unicorn-Css\Unicorn-Digital\.next\dev\build\chunks\[turbopack]_runtime.js
+- D:\Unicorn-Css\Unicorn-Digital\.next\dev\build\postcss.js
+    [at Module._resolveFilename (node:internal/modules/cjs/loader:1207:15)]
+    [at Module._load (node:internal/modules/cjs/loader:1038:27)]
+    [at Module.require (node:internal/modules/cjs/loader:1289:19)]
+    [at require (node:internal/modules/helpers:182:18)]
+    [at <anonymous> (turbopack:///[turbopack-node]/transforms/postcss.ts:49:25)]
+    [at <anonymous>]
+    [at Module.init (turbopack:///[turbopack-node]/transforms/postcss.ts:43:33)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:77:20)]
+    [at process.processTicksAndRejections (node:internal/process/task_queues:95:5)]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.jsx [Server Component]
+[00:24:46.813] Browser ERROR   ./src/app/globals.css
+Error evaluating Node.js code
+Error: Cannot find module 'tailwindcss'
+Require stack:
+- D:\Unicorn-Css\Unicorn-Digital\.next\dev\build\chunks\[root-of-the-server]__51225daf._.js
+- D:\Unicorn-Css\Unicorn-Digital\.next\dev\build\chunks\[turbopack]_runtime.js
+- D:\Unicorn-Css\Unicorn-Digital\.next\dev\build\postcss.js
+    [at Module._resolveFilename (node:internal/modules/cjs/loader:1207:15)]
+    [at Module._load (node:internal/modules/cjs/loader:1038:27)]
+    [at Module.require (node:internal/modules/cjs/loader:1289:19)]
+    [at require (node:internal/modules/helpers:182:18)]
+    [at <anonymous> (turbopack:///[turbopack-node]/transforms/postcss.ts:49:25)]
+    [at <anonymous>]
+    [at Module.init (turbopack:///[turbopack-node]/transforms/postcss.ts:43:33)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:77:20)]
+    [at process.processTicksAndRejections (node:internal/process/task_queues:95:5)]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.jsx [Server Component]
+[00:24:46.813] Browser ERROR   ./src/app/globals.css
+Error evaluating Node.js code
+Error: Cannot find module 'tailwindcss'
+Require stack:
+- D:\Unicorn-Css\Unicorn-Digital\.next\dev\build\chunks\[root-of-the-server]__51225daf._.js
+- D:\Unicorn-Css\Unicorn-Digital\.next\dev\build\chunks\[turbopack]_runtime.js
+- D:\Unicorn-Css\Unicorn-Digital\.next\dev\build\postcss.js
+    [at Module._resolveFilename (node:internal/modules/cjs/loader:1207:15)]
+    [at Module._load (node:internal/modules/cjs/loader:1038:27)]
+    [at Module.require (node:internal/modules/cjs/loader:1289:19)]
+    [at require (node:internal/modules/helpers:182:18)]
+    [at <anonymous> (turbopack:///[turbopack-node]/transforms/postcss.ts:49:25)]
+    [at <anonymous>]
+    [at Module.init (turbopack:///[turbopack-node]/transforms/postcss.ts:43:33)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:77:20)]
+    [at process.processTicksAndRejections (node:internal/process/task_queues:95:5)]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.jsx [Server Component]
+[00:24:46.813] Browser ERROR   ./src/app/globals.css
+Error evaluating Node.js code
+Error: Cannot find module 'tailwindcss'
+Require stack:
+- D:\Unicorn-Css\Unicorn-Digital\.next\dev\build\chunks\[root-of-the-server]__51225daf._.js
+- D:\Unicorn-Css\Unicorn-Digital\.next\dev\build\chunks\[turbopack]_runtime.js
+- D:\Unicorn-Css\Unicorn-Digital\.next\dev\build\postcss.js
+    [at Module._resolveFilename (node:internal/modules/cjs/loader:1207:15)]
+    [at Module._load (node:internal/modules/cjs/loader:1038:27)]
+    [at Module.require (node:internal/modules/cjs/loader:1289:19)]
+    [at require (node:internal/modules/helpers:182:18)]
+    [at <anonymous> (turbopack:///[turbopack-node]/transforms/postcss.ts:49:25)]
+    [at <anonymous>]
+    [at Module.init (turbopack:///[turbopack-node]/transforms/postcss.ts:43:33)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:77:20)]
+    [at process.processTicksAndRejections (node:internal/process/task_queues:95:5)]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.jsx [Server Component]
+[00:24:46.813] Browser ERROR   ./src/app/globals.css
+Error evaluating Node.js code
+Error: Cannot find module 'tailwindcss'
+Require stack:
+- D:\Unicorn-Css\Unicorn-Digital\.next\dev\build\chunks\[root-of-the-server]__51225daf._.js
+- D:\Unicorn-Css\Unicorn-Digital\.next\dev\build\chunks\[turbopack]_runtime.js
+- D:\Unicorn-Css\Unicorn-Digital\.next\dev\build\postcss.js
+    [at Module._resolveFilename (node:internal/modules/cjs/loader:1207:15)]
+    [at Module._load (node:internal/modules/cjs/loader:1038:27)]
+    [at Module.require (node:internal/modules/cjs/loader:1289:19)]
+    [at require (node:internal/modules/helpers:182:18)]
+    [at <anonymous> (turbopack:///[turbopack-node]/transforms/postcss.ts:49:25)]
+    [at <anonymous>]
+    [at Module.init (turbopack:///[turbopack-node]/transforms/postcss.ts:43:33)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:77:20)]
+    [at process.processTicksAndRejections (node:internal/process/task_queues:95:5)]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.jsx [Server Component]
+[00:24:46.813] Browser ERROR   ./src/app/globals.css
+Error evaluating Node.js code
+Error: Cannot find module 'tailwindcss'
+Require stack:
+- D:\Unicorn-Css\Unicorn-Digital\.next\dev\build\chunks\[root-of-the-server]__51225daf._.js
+- D:\Unicorn-Css\Unicorn-Digital\.next\dev\build\chunks\[turbopack]_runtime.js
+- D:\Unicorn-Css\Unicorn-Digital\.next\dev\build\postcss.js
+    [at Module._resolveFilename (node:internal/modules/cjs/loader:1207:15)]
+    [at Module._load (node:internal/modules/cjs/loader:1038:27)]
+    [at Module.require (node:internal/modules/cjs/loader:1289:19)]
+    [at require (node:internal/modules/helpers:182:18)]
+    [at <anonymous> (turbopack:///[turbopack-node]/transforms/postcss.ts:49:25)]
+    [at <anonymous>]
+    [at Module.init (turbopack:///[turbopack-node]/transforms/postcss.ts:43:33)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:77:20)]
+    [at process.processTicksAndRejections (node:internal/process/task_queues:95:5)]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.jsx [Server Component]
+[00:24:46.813] Browser ERROR   ./src/app/globals.css
+Error evaluating Node.js code
+Error: Cannot find module 'tailwindcss'
+Require stack:
+- D:\Unicorn-Css\Unicorn-Digital\.next\dev\build\chunks\[root-of-the-server]__51225daf._.js
+- D:\Unicorn-Css\Unicorn-Digital\.next\dev\build\chunks\[turbopack]_runtime.js
+- D:\Unicorn-Css\Unicorn-Digital\.next\dev\build\postcss.js
+    [at Module._resolveFilename (node:internal/modules/cjs/loader:1207:15)]
+    [at Module._load (node:internal/modules/cjs/loader:1038:27)]
+    [at Module.require (node:internal/modules/cjs/loader:1289:19)]
+    [at require (node:internal/modules/helpers:182:18)]
+    [at <anonymous> (turbopack:///[turbopack-node]/transforms/postcss.ts:49:25)]
+    [at <anonymous>]
+    [at Module.init (turbopack:///[turbopack-node]/transforms/postcss.ts:43:33)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:77:20)]
+    [at process.processTicksAndRejections (node:internal/process/task_queues:95:5)]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.jsx [Server Component]
+[00:24:46.813] Browser ERROR   ./src/app/globals.css
+Error evaluating Node.js code
+Error: Cannot find module 'tailwindcss'
+Require stack:
+- D:\Unicorn-Css\Unicorn-Digital\.next\dev\build\chunks\[root-of-the-server]__51225daf._.js
+- D:\Unicorn-Css\Unicorn-Digital\.next\dev\build\chunks\[turbopack]_runtime.js
+- D:\Unicorn-Css\Unicorn-Digital\.next\dev\build\postcss.js
+    [at Module._resolveFilename (node:internal/modules/cjs/loader:1207:15)]
+    [at Module._load (node:internal/modules/cjs/loader:1038:27)]
+    [at Module.require (node:internal/modules/cjs/loader:1289:19)]
+    [at require (node:internal/modules/helpers:182:18)]
+    [at <anonymous> (turbopack:///[turbopack-node]/transforms/postcss.ts:49:25)]
+    [at <anonymous>]
+    [at Module.init (turbopack:///[turbopack-node]/transforms/postcss.ts:43:33)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:77:20)]
+    [at process.processTicksAndRejections (node:internal/process/task_queues:95:5)]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.jsx [Server Component]
+[00:24:46.813] Browser ERROR   ./src/app/globals.css
+Error evaluating Node.js code
+Error: Cannot find module 'tailwindcss'
+Require stack:
+- D:\Unicorn-Css\Unicorn-Digital\.next\dev\build\chunks\[root-of-the-server]__51225daf._.js
+- D:\Unicorn-Css\Unicorn-Digital\.next\dev\build\chunks\[turbopack]_runtime.js
+- D:\Unicorn-Css\Unicorn-Digital\.next\dev\build\postcss.js
+    [at Module._resolveFilename (node:internal/modules/cjs/loader:1207:15)]
+    [at Module._load (node:internal/modules/cjs/loader:1038:27)]
+    [at Module.require (node:internal/modules/cjs/loader:1289:19)]
+    [at require (node:internal/modules/helpers:182:18)]
+    [at <anonymous> (turbopack:///[turbopack-node]/transforms/postcss.ts:49:25)]
+    [at <anonymous>]
+    [at Module.init (turbopack:///[turbopack-node]/transforms/postcss.ts:43:33)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:77:20)]
+    [at process.processTicksAndRejections (node:internal/process/task_queues:95:5)]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.jsx [Server Component]
+[00:24:46.813] Browser ERROR   ./src/app/globals.css
+Error evaluating Node.js code
+Error: Cannot find module 'tailwindcss'
+Require stack:
+- D:\Unicorn-Css\Unicorn-Digital\.next\dev\build\chunks\[root-of-the-server]__51225daf._.js
+- D:\Unicorn-Css\Unicorn-Digital\.next\dev\build\chunks\[turbopack]_runtime.js
+- D:\Unicorn-Css\Unicorn-Digital\.next\dev\build\postcss.js
+    [at Module._resolveFilename (node:internal/modules/cjs/loader:1207:15)]
+    [at Module._load (node:internal/modules/cjs/loader:1038:27)]
+    [at Module.require (node:internal/modules/cjs/loader:1289:19)]
+    [at require (node:internal/modules/helpers:182:18)]
+    [at <anonymous> (turbopack:///[turbopack-node]/transforms/postcss.ts:49:25)]
+    [at <anonymous>]
+    [at Module.init (turbopack:///[turbopack-node]/transforms/postcss.ts:43:33)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:77:20)]
+    [at process.processTicksAndRejections (node:internal/process/task_queues:95:5)]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.jsx [Server Component]
+[00:24:46.813] Browser ERROR   ./src/app/globals.css
+Error evaluating Node.js code
+Error: Cannot find module 'tailwindcss'
+Require stack:
+- D:\Unicorn-Css\Unicorn-Digital\.next\dev\build\chunks\[root-of-the-server]__51225daf._.js
+- D:\Unicorn-Css\Unicorn-Digital\.next\dev\build\chunks\[turbopack]_runtime.js
+- D:\Unicorn-Css\Unicorn-Digital\.next\dev\build\postcss.js
+    [at Module._resolveFilename (node:internal/modules/cjs/loader:1207:15)]
+    [at Module._load (node:internal/modules/cjs/loader:1038:27)]
+    [at Module.require (node:internal/modules/cjs/loader:1289:19)]
+    [at require (node:internal/modules/helpers:182:18)]
+    [at <anonymous> (turbopack:///[turbopack-node]/transforms/postcss.ts:49:25)]
+    [at <anonymous>]
+    [at Module.init (turbopack:///[turbopack-node]/transforms/postcss.ts:43:33)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:77:20)]
+    [at process.processTicksAndRejections (node:internal/process/task_queues:95:5)]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.jsx [Server Component]
+[00:24:46.813] Browser ERROR   ./src/app/globals.css
+Error evaluating Node.js code
+Error: Cannot find module 'tailwindcss'
+Require stack:
+- D:\Unicorn-Css\Unicorn-Digital\.next\dev\build\chunks\[root-of-the-server]__51225daf._.js
+- D:\Unicorn-Css\Unicorn-Digital\.next\dev\build\chunks\[turbopack]_runtime.js
+- D:\Unicorn-Css\Unicorn-Digital\.next\dev\build\postcss.js
+    [at Module._resolveFilename (node:internal/modules/cjs/loader:1207:15)]
+    [at Module._load (node:internal/modules/cjs/loader:1038:27)]
+    [at Module.require (node:internal/modules/cjs/loader:1289:19)]
+    [at require (node:internal/modules/helpers:182:18)]
+    [at <anonymous> (turbopack:///[turbopack-node]/transforms/postcss.ts:49:25)]
+    [at <anonymous>]
+    [at Module.init (turbopack:///[turbopack-node]/transforms/postcss.ts:43:33)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:77:20)]
+    [at process.processTicksAndRejections (node:internal/process/task_queues:95:5)]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.jsx [Server Component]
+[00:25:00.476] Server  LOG      ✓ Compiled in 14.3s

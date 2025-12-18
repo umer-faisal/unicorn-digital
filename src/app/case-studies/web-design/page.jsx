@@ -45,75 +45,85 @@ export default function WebDesignCaseStudies() {
   ];
 
   return (
-    <div className="min-h-screen bg-neutral-muted">
+    <div className="min-h-screen bg-neutral-muted text-text-base">
       <Header />
       
-      <main className="max-w-[1200px] mx-auto px-4 py-12">
-        <div className="mb-8">
-          <Link href="/case-studies" className="text-brand-primary hover:text-brand-dark transition-colors inline-flex items-center gap-2 mb-4">
-            ← Back to Case Studies
-          </Link>
-          <h1 className="text-4xl md:text-5xl font-bold text-brand-dark mb-4">Web Design Case Studies</h1>
-          <p className="text-xl text-text-muted max-w-3xl">
-            Discover how our website redesigns have transformed businesses and improved user experiences.
-          </p>
-        </div>
+      <main>
+        {/* Hero Section */}
+        <section className="py-20 bg-brand-dark text-white">
+          <div className="container mx-auto px-4 text-center">
+            <Link href="/case-studies" className="text-brand-soft hover:text-white transition-colors inline-flex items-center gap-2 mb-4">
+              ← Back to Case Studies
+            </Link>
+            <h1 className="text-5xl font-bold text-white mb-6">Web Design Case Studies</h1>
+            <p className="text-xl text-brand-soft max-w-3xl mx-auto">
+              Discover how our website redesigns have transformed businesses and improved user experiences.
+            </p>
+          </div>
+        </section>
 
-        <div className="space-y-8">
-          {caseStudies.map((study, index) => (
-            <div key={index} className="bg-white rounded-xl p-8 shadow-lg">
-              <div className="flex items-start justify-between mb-6">
-                <div>
-                  <span className="bg-brand-primary/10 text-brand-primary px-3 py-1 rounded-full text-sm font-semibold mb-3 inline-block">
-                    {study.industry}
-                  </span>
-                  <h2 className="text-2xl font-bold text-brand-dark">{study.client}</h2>
-                </div>
-              </div>
-              
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-6">
-                <div>
-                  <h3 className="text-lg font-semibold text-brand-dark mb-2">Challenge</h3>
-                  <p className="text-text-muted">{study.challenge}</p>
-                </div>
-                <div>
-                  <h3 className="text-lg font-semibold text-brand-dark mb-2">Solution</h3>
-                  <p className="text-text-muted">{study.solution}</p>
-                </div>
-              </div>
-
-              <div>
-                <h3 className="text-lg font-semibold text-brand-dark mb-4">Results</h3>
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                  {study.results.map((result, idx) => (
-                    <div key={idx} className="flex items-start gap-3 bg-brand-primary/5 rounded-lg p-4">
-                      <i className="ri-checkbox-circle-line text-brand-primary text-xl mt-1"></i>
-                      <span className="text-text-base">{result}</span>
+        {/* Case Studies */}
+        <section className="py-20 bg-neutral-base">
+          <div className="container mx-auto px-4">
+            <div className="space-y-8">
+              {caseStudies.map((study, index) => (
+                <div key={index} className="bg-neutral-muted rounded-lg p-8 border border-brand-soft">
+                  <div className="flex items-start justify-between mb-6">
+                    <div>
+                      <span className="bg-brand-soft text-brand-primary px-3 py-1 rounded-full text-sm font-semibold mb-3 inline-block">
+                        {study.industry}
+                      </span>
+                      <h2 className="text-2xl font-bold text-brand-dark">{study.client}</h2>
                     </div>
-                  ))}
-                </div>
-              </div>
-            </div>
-          ))}
-        </div>
+                  </div>
+                  
+                  <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-6">
+                    <div>
+                      <h3 className="text-lg font-semibold text-brand-dark mb-2">Challenge</h3>
+                      <p className="text-text-muted">{study.challenge}</p>
+                    </div>
+                    <div>
+                      <h3 className="text-lg font-semibold text-brand-dark mb-2">Solution</h3>
+                      <p className="text-text-muted">{study.solution}</p>
+                    </div>
+                  </div>
 
-        <div className="mt-12 bg-gradient-to-br from-brand-primary to-brand-dark rounded-2xl p-12 text-center text-white">
-          <h2 className="text-3xl font-bold mb-4">Ready for a Website Redesign?</h2>
-          <p className="text-xl text-white/90 mb-8 max-w-2xl mx-auto">
-            Let's create a website that drives results for your business.
-          </p>
-          <Link 
-            href="/contact" 
-            className="inline-flex items-center justify-center bg-white text-brand-primary px-8 py-4 rounded-lg font-semibold text-lg hover:bg-neutral-muted transition-colors no-underline"
-          >
-            Get Started
-          </Link>
-        </div>
+                  <div>
+                    <h3 className="text-lg font-semibold text-brand-dark mb-4">Results</h3>
+                    <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                      {study.results.map((result, idx) => (
+                        <div key={idx} className="flex items-start gap-3 bg-brand-soft rounded-lg p-4">
+                          <i className="ri-checkbox-circle-line text-brand-primary text-xl mt-1"></i>
+                          <span className="text-text-base">{result}</span>
+                        </div>
+                      ))}
+                    </div>
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
+        </section>
+
+        {/* CTA Section */}
+        <section className="py-20 bg-brand-dark">
+          <div className="container mx-auto px-4 text-center">
+            <h2 className="text-4xl font-bold text-white mb-6">Ready for a Website Redesign?</h2>
+            <p className="text-xl text-brand-soft mb-8 max-w-2xl mx-auto">
+              Let's create a website that drives results for your business.
+            </p>
+            <div className="flex flex-col sm:flex-row gap-4 justify-center">
+              <Link href="/contact">
+                <button className="border-2 border-white text-white hover:bg-white hover:text-brand-primary px-8 py-4 rounded-lg font-semibold text-lg transition-colors whitespace-nowrap cursor-pointer">
+                  Get Started
+                </button>
+              </Link>
+            </div>
+          </div>
+        </section>
       </main>
 
       <Footer />
     </div>
   );
 }
-
-

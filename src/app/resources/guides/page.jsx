@@ -51,48 +51,54 @@ export default function Guides() {
   ];
 
   return (
-    <div className="min-h-screen bg-neutral-muted">
+    <div className="min-h-screen bg-neutral-muted text-text-base">
       <Header />
       
-      <main className="max-w-[1200px] mx-auto px-4 py-12">
-        <div className="mb-8">
-          <Link href="/resources" className="text-purple-primary hover:text-purple-dark transition-colors inline-flex items-center gap-2 mb-4">
-            ← Back to Resources
-          </Link>
-          <h1 className="text-4xl md:text-5xl font-bold text-brand-dark mb-4">Guides</h1>
-          <p className="text-xl text-text-muted max-w-3xl">
-            Comprehensive guides to help you navigate the digital landscape and grow your business.
-          </p>
-        </div>
+      <main>
+        {/* Hero Section */}
+        <section className="py-20 bg-brand-dark text-white">
+          <div className="container mx-auto px-4 text-center">
+            <Link href="/resources" className="text-brand-soft hover:text-white transition-colors inline-flex items-center gap-2 mb-4">
+              ← Back to Resources
+            </Link>
+            <h1 className="text-5xl font-bold text-white mb-6">Guides</h1>
+            <p className="text-xl text-brand-soft max-w-3xl mx-auto">
+              Comprehensive guides to help you navigate the digital landscape and grow your business.
+            </p>
+          </div>
+        </section>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-          {guides.map((guide, index) => (
-            <div key={index} className="bg-white border-2 border-purple-primary/20 rounded-xl p-8 hover:border-purple-primary hover:shadow-[0_12px_24px_-10px_rgba(168,85,247,0.3)] transition">
-              <div className="flex items-start justify-between mb-4">
-                <span className="bg-purple-primary/10 text-purple-primary px-3 py-1 rounded-full text-sm font-semibold">
-                  {guide.category}
-                </span>
-                <span className="text-text-muted text-sm">{guide.level}</span>
-              </div>
-              <h2 className="text-2xl font-bold text-brand-dark mb-3">{guide.title}</h2>
-              <p className="text-text-muted mb-4">{guide.description}</p>
-              <div className="flex items-center justify-between">
-                <span className="text-text-muted text-sm">{guide.length}</span>
-                <Link 
-                  href="/resources/guides"
-                  className="text-purple-primary font-semibold hover:text-purple-dark transition-colors inline-flex items-center gap-2"
-                >
-                  Read Guide →
-                </Link>
-              </div>
+        {/* Guides Grid */}
+        <section className="py-20 bg-neutral-base">
+          <div className="container mx-auto px-4">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+              {guides.map((guide, index) => (
+                <div key={index} className="bg-neutral-muted rounded-lg p-8 border border-brand-soft hover:border-brand-light hover:shadow-lg transition">
+                  <div className="flex items-start justify-between mb-4">
+                    <span className="bg-brand-soft text-brand-primary px-3 py-1 rounded-full text-sm font-semibold">
+                      {guide.category}
+                    </span>
+                    <span className="text-text-muted text-sm">{guide.level}</span>
+                  </div>
+                  <h2 className="text-2xl font-bold text-brand-dark mb-3">{guide.title}</h2>
+                  <p className="text-text-muted mb-4">{guide.description}</p>
+                  <div className="flex items-center justify-between">
+                    <span className="text-text-muted text-sm">{guide.length}</span>
+                    <Link 
+                      href="/resources/guides"
+                      className="text-brand-primary font-semibold hover:text-brand-dark transition-colors inline-flex items-center gap-2"
+                    >
+                      Read Guide →
+                    </Link>
+                  </div>
+                </div>
+              ))}
             </div>
-          ))}
-        </div>
+          </div>
+        </section>
       </main>
 
       <Footer />
     </div>
   );
 }
-
-

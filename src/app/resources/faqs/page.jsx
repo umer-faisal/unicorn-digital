@@ -6,7 +6,7 @@ import Link from 'next/link';
 import { useState } from 'react';
 
 export default function FAQs() {
-  const [openIndex, setOpenIndex] = useState(0);
+  const [openIndex, setOpenIndex] = useState(null);
 
   const faqs = [
     {
@@ -73,69 +73,79 @@ export default function FAQs() {
   };
 
   return (
-    <div className="min-h-screen bg-neutral-muted">
+    <div className="min-h-screen bg-neutral-muted text-text-base">
       <Header />
       
-      <main className="max-w-[1200px] mx-auto px-4 py-12">
-        <div className="mb-8">
-          <Link href="/resources" className="text-purple-primary hover:text-purple-dark transition-colors inline-flex items-center gap-2 mb-4">
-            ← Back to Resources
-          </Link>
-          <h1 className="text-4xl md:text-5xl font-bold text-brand-dark mb-4">Frequently Asked Questions</h1>
-          <p className="text-xl text-text-muted max-w-3xl">
-            Find answers to commonly asked questions about our services, processes, and how we can help your business.
-          </p>
-        </div>
+      <main>
+        {/* Hero Section */}
+        <section className="py-20 bg-brand-dark text-white">
+          <div className="container mx-auto px-4 text-center">
+            <Link href="/resources" className="text-brand-soft hover:text-white transition-colors inline-flex items-center gap-2 mb-4">
+              ← Back to Resources
+            </Link>
+            <h1 className="text-5xl font-bold text-white mb-6">Frequently Asked Questions</h1>
+            <p className="text-xl text-brand-soft max-w-3xl mx-auto">
+              Find answers to commonly asked questions about our services, processes, and how we can help your business.
+            </p>
+          </div>
+        </section>
 
-        <div className="space-y-8">
-          {faqs.map((category, categoryIndex) => (
-            <div key={categoryIndex} className="bg-white rounded-xl p-8 shadow-lg">
-              <h2 className="text-2xl font-bold text-brand-dark mb-6 flex items-center gap-3">
-                <span className="w-1 h-8 bg-purple-primary rounded"></span>
-                {category.category}
-              </h2>
-              <div className="space-y-4">
-                {category.questions.map((item, questionIndex) => {
-                  const isOpen = openIndex === `${categoryIndex}-${questionIndex}`;
-                  return (
-                    <div key={questionIndex} className="border-b border-neutral-muted pb-4 last:border-0">
-                      <button
-                        onClick={() => toggleQuestion(categoryIndex, questionIndex)}
-                        className="w-full text-left flex items-center justify-between py-3 hover:text-purple-primary transition-colors"
-                      >
-                        <span className="text-lg font-semibold text-brand-dark">{item.question}</span>
-                        <i className={`ri-${isOpen ? 'subtract' : 'add'}-line text-purple-primary text-xl`}></i>
-                      </button>
-                      {isOpen && (
-                        <div className="mt-2 text-text-muted leading-relaxed pl-4 border-l-2 border-purple-primary/30">
-                          {item.answer}
+        {/* FAQs */}
+        <section className="py-20 bg-neutral-base">
+          <div className="container mx-auto px-4">
+            <div className="space-y-8">
+              {faqs.map((category, categoryIndex) => (
+                <div key={categoryIndex} className="bg-neutral-muted rounded-lg p-8 border border-brand-soft">
+                  <h2 className="text-2xl font-bold text-brand-dark mb-6 flex items-center gap-3">
+                    <span className="w-1 h-8 bg-brand-primary rounded"></span>
+                    {category.category}
+                  </h2>
+                  <div className="space-y-4">
+                    {category.questions.map((item, questionIndex) => {
+                      const isOpen = openIndex === `${categoryIndex}-${questionIndex}`;
+                      return (
+                        <div key={questionIndex} className="border-b border-brand-soft pb-4 last:border-0">
+                          <button
+                            onClick={() => toggleQuestion(categoryIndex, questionIndex)}
+                            className="w-full text-left flex items-center justify-between py-3 hover:text-brand-primary transition-colors"
+                          >
+                            <span className="text-lg font-semibold text-brand-dark">{item.question}</span>
+                            <i className={`ri-${isOpen ? 'subtract' : 'add'}-line text-brand-primary text-xl`}></i>
+                          </button>
+                          {isOpen && (
+                            <div className="mt-2 text-text-muted leading-relaxed pl-4 border-l-2 border-brand-primary">
+                              {item.answer}
+                            </div>
+                          )}
                         </div>
-                      )}
-                    </div>
-                  );
-                })}
-              </div>
+                      );
+                    })}
+                  </div>
+                </div>
+              ))}
             </div>
-          ))}
-        </div>
+          </div>
+        </section>
 
-        <div className="mt-12 bg-gradient-to-br from-purple-primary to-purple-dark rounded-2xl p-12 text-center text-white">
-          <h2 className="text-3xl font-bold mb-4">Still Have Questions?</h2>
-          <p className="text-xl text-white/90 mb-8 max-w-2xl mx-auto">
-            Can't find what you're looking for? Get in touch with our team and we'll be happy to help.
-          </p>
-          <Link 
-            href="/contact" 
-            className="inline-flex items-center justify-center bg-white text-purple-primary px-8 py-4 rounded-lg font-semibold text-lg hover:bg-neutral-muted transition-colors no-underline"
-          >
-            Contact Us
-          </Link>
-        </div>
+        {/* CTA Section */}
+        <section className="py-20 bg-brand-dark">
+          <div className="container mx-auto px-4 text-center">
+            <h2 className="text-4xl font-bold text-white mb-6">Still Have Questions?</h2>
+            <p className="text-xl text-brand-soft mb-8 max-w-2xl mx-auto">
+              Can't find what you're looking for? Get in touch with our team and we'll be happy to help.
+            </p>
+            <div className="flex flex-col sm:flex-row gap-4 justify-center">
+              <Link href="/contact">
+                <button className="border-2 border-white text-white hover:bg-white hover:text-brand-primary px-8 py-4 rounded-lg font-semibold text-lg transition-colors whitespace-nowrap cursor-pointer">
+                  Contact Us
+                </button>
+              </Link>
+            </div>
+          </div>
+        </section>
       </main>
 
       <Footer />
     </div>
   );
 }
-
-
