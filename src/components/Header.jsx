@@ -52,9 +52,9 @@ export default function Header() {
       <header
         className={`${
           isHomePage ? 'bg-transparent' : 'bg-brand-dark border-b border-brand-primary'
-        } relative z-50`}
+        } relative z-50 overflow-visible`}
       >
-        <div className="max-w-[1200px] mx-auto p-4">
+        <div className="max-w-[1200px] mx-auto p-4 relative">
           <div className="flex items-center justify-between">
             <Link href="/" className="flex items-center gap-4">
               <div className="flex items-center justify-center">
@@ -82,34 +82,35 @@ export default function Header() {
                 onMouseEnter={() => setIsServicesHover(true)}
                 onMouseLeave={() => setIsServicesHover(false)}
               >
-                <button
-                  type="button"
+                <Link
+                  href="/services"
                   className="text-white whitespace-nowrap font-medium hover:text-brand-soft transition-colors flex items-center gap-1"
                 >
                   Services
                   <i className="ri-arrow-down-s-line text-sm" />
-                </button>
+                </Link>
 
-                {/* Mega Menu Dropdown */}
+                {/* Mega Menu Dropdown - Desktop */}
                 {isServicesHover && (
-                  <div className="absolute top-full left-1/2 -translate-x-1/2 mt-3 w-full max-w-5xl bg-white rounded-lg shadow-2xl border border-neutral-muted overflow-hidden">
-                    <div className="p-6 grid grid-cols-2 md:grid-cols-5 gap-6">
+                  <div className="hidden md:block absolute top-full left-1/2 -translate-x-1/2 mt-2 w-[850px] max-w-[calc(100vw-4rem)] bg-white rounded-lg shadow-2xl border border-neutral-muted z-50">
+                    <div className="p-6 grid grid-cols-5 gap-4">
                       {/* Column 1: Web Development */}
                       <div>
-                        <Link href="/services/web-development" className="group">
+                        <Link href="/services/web-development" className="group" onClick={() => setIsServicesHover(false)}>
                           <div className="flex items-center gap-2 mb-4">
-                            <h3 className="text-lg font-bold text-brand-dark group-hover:text-brand-primary transition-colors">
+                            <h3 className="text-base font-bold text-brand-dark group-hover:text-brand-primary transition-colors">
                               Web Development
                             </h3>
-                            <i className="ri-arrow-right-line text-brand-primary opacity-0 group-hover:opacity-100 transition-opacity" />
+                            <i className="ri-arrow-right-line text-brand-primary opacity-0 group-hover:opacity-100 transition-opacity text-sm" />
                           </div>
                         </Link>
-                        <ul className="space-y-2">
+                        <ul className="space-y-1.5">
                           {servicesMenu['Web Development'].map((item, index) => (
                             <li key={index}>
                               <Link
                                 href="/services/web-development"
-                                className="text-text-muted text-sm hover:text-brand-primary transition-colors block py-1"
+                                className="text-text-muted text-xs hover:text-brand-primary transition-colors block py-0.5"
+                                onClick={() => setIsServicesHover(false)}
                               >
                                 {item}
                               </Link>
@@ -120,20 +121,21 @@ export default function Header() {
 
                       {/* Column 2: SEO Services */}
                       <div>
-                        <Link href="/services/seo-services" className="group">
+                        <Link href="/services/seo-services" className="group" onClick={() => setIsServicesHover(false)}>
                           <div className="flex items-center gap-2 mb-4">
-                            <h3 className="text-lg font-bold text-brand-dark group-hover:text-green-primary transition-colors">
+                            <h3 className="text-base font-bold text-brand-dark group-hover:text-green-primary transition-colors">
                               SEO Services
                             </h3>
-                            <i className="ri-arrow-right-line text-green-primary opacity-0 group-hover:opacity-100 transition-opacity" />
+                            <i className="ri-arrow-right-line text-green-primary opacity-0 group-hover:opacity-100 transition-opacity text-sm" />
                           </div>
                         </Link>
-                        <ul className="space-y-2">
+                        <ul className="space-y-1.5">
                           {servicesMenu['SEO Services'].map((item, index) => (
                             <li key={index}>
                               <Link
                                 href="/services/seo-services"
-                                className="text-text-muted text-sm hover:text-green-primary transition-colors block py-1"
+                                className="text-text-muted text-xs hover:text-green-primary transition-colors block py-0.5"
+                                onClick={() => setIsServicesHover(false)}
                               >
                                 {item}
                               </Link>
@@ -144,20 +146,21 @@ export default function Header() {
 
                       {/* Column 3: Digital Marketing */}
                       <div>
-                        <Link href="/services/digital-marketing" className="group">
+                        <Link href="/services/digital-marketing" className="group" onClick={() => setIsServicesHover(false)}>
                           <div className="flex items-center gap-2 mb-4">
-                            <h3 className="text-lg font-bold text-brand-dark group-hover:text-green-primary transition-colors">
+                            <h3 className="text-base font-bold text-brand-dark group-hover:text-green-primary transition-colors">
                               Digital Marketing
                             </h3>
-                            <i className="ri-arrow-right-line text-green-primary opacity-0 group-hover:opacity-100 transition-opacity" />
+                            <i className="ri-arrow-right-line text-green-primary opacity-0 group-hover:opacity-100 transition-opacity text-sm" />
                           </div>
                         </Link>
-                        <ul className="space-y-2">
+                        <ul className="space-y-1.5">
                           {servicesMenu['Digital Marketing'].map((item, index) => (
                             <li key={index}>
                               <Link
                                 href="/services/digital-marketing"
-                                className="text-text-muted text-sm hover:text-green-primary transition-colors block py-1"
+                                className="text-text-muted text-xs hover:text-green-primary transition-colors block py-0.5"
+                                onClick={() => setIsServicesHover(false)}
                               >
                                 {item}
                               </Link>
@@ -168,20 +171,21 @@ export default function Header() {
 
                       {/* Column 4: Social Media Marketing */}
                       <div>
-                        <Link href="/services/social-media-marketing" className="group">
+                        <Link href="/services/social-media-marketing" className="group" onClick={() => setIsServicesHover(false)}>
                           <div className="flex items-center gap-2 mb-4">
-                            <h3 className="text-lg font-bold text-brand-dark group-hover:text-green-primary transition-colors">
+                            <h3 className="text-base font-bold text-brand-dark group-hover:text-green-primary transition-colors">
                               Social Media
                             </h3>
-                            <i className="ri-arrow-right-line text-green-primary opacity-0 group-hover:opacity-100 transition-opacity" />
+                            <i className="ri-arrow-right-line text-green-primary opacity-0 group-hover:opacity-100 transition-opacity text-sm" />
                           </div>
                         </Link>
-                        <ul className="space-y-2">
+                        <ul className="space-y-1.5">
                           {servicesMenu['Social Media Marketing'].map((item, index) => (
                             <li key={index}>
                               <Link
                                 href="/services/social-media-marketing"
-                                className="text-text-muted text-sm hover:text-green-primary transition-colors block py-1"
+                                className="text-text-muted text-xs hover:text-green-primary transition-colors block py-0.5"
+                                onClick={() => setIsServicesHover(false)}
                               >
                                 {item}
                               </Link>
@@ -192,20 +196,21 @@ export default function Header() {
 
                       {/* Column 5: AI Services */}
                       <div>
-                        <Link href="/services/ai-services" className="group">
+                        <Link href="/services/ai-services" className="group" onClick={() => setIsServicesHover(false)}>
                           <div className="flex items-center gap-2 mb-4">
-                            <h3 className="text-lg font-bold text-brand-dark group-hover:text-orange-primary transition-colors">
+                            <h3 className="text-base font-bold text-brand-dark group-hover:text-orange-primary transition-colors">
                               AI Services
                             </h3>
-                            <i className="ri-arrow-right-line text-orange-primary opacity-0 group-hover:opacity-100 transition-opacity" />
+                            <i className="ri-arrow-right-line text-orange-primary opacity-0 group-hover:opacity-100 transition-opacity text-sm" />
                           </div>
                         </Link>
-                        <ul className="space-y-2">
+                        <ul className="space-y-1.5">
                           {servicesMenu['AI Services'].map((item, index) => (
                             <li key={index}>
                               <Link
                                 href="/services/ai-services"
-                                className="text-text-muted text-sm hover:text-orange-primary transition-colors block py-1"
+                                className="text-text-muted text-xs hover:text-orange-primary transition-colors block py-0.5"
+                                onClick={() => setIsServicesHover(false)}
                               >
                                 {item}
                               </Link>
@@ -216,10 +221,11 @@ export default function Header() {
                     </div>
 
                     {/* Footer with View All */}
-                    <div className="border-t border-neutral-muted bg-neutral-muted px-6 py-4">
+                    <div className="border-t border-neutral-muted bg-neutral-muted px-4 md:px-6 py-3 md:py-4">
                       <Link
                         href="/services"
-                        className="text-brand-primary font-semibold hover:text-brand-dark transition-colors inline-flex items-center gap-2"
+                        className="text-brand-primary font-semibold hover:text-brand-dark transition-colors inline-flex items-center gap-2 text-sm md:text-base"
+                        onClick={() => setIsServicesHover(false)}
                       >
                         View All Services
                         <i className="ri-arrow-right-line" />
@@ -271,7 +277,19 @@ export default function Header() {
 
           <nav className={`${isMenuOpen ? 'flex' : 'hidden'} flex-col gap-3 mt-4 pt-2 md:hidden`}>
             <Link href="/" onClick={() => setIsMenuOpen(false)} className="text-white font-medium hover:text-brand-soft transition-colors">Home</Link>
-            <Link href="/services" onClick={() => setIsMenuOpen(false)} className="text-white font-medium hover:text-brand-soft transition-colors">Services</Link>
+            <div>
+              <Link href="/services" onClick={() => setIsMenuOpen(false)} className="text-white font-medium hover:text-brand-soft transition-colors flex items-center justify-between">
+                Services
+                <i className="ri-arrow-down-s-line" />
+              </Link>
+              <div className="ml-4 mt-2 flex flex-col gap-2">
+                <Link href="/services/web-development" onClick={() => setIsMenuOpen(false)} className="text-white/80 text-sm hover:text-brand-soft transition-colors">Web Development</Link>
+                <Link href="/services/seo-services" onClick={() => setIsMenuOpen(false)} className="text-white/80 text-sm hover:text-brand-soft transition-colors">SEO Services</Link>
+                <Link href="/services/digital-marketing" onClick={() => setIsMenuOpen(false)} className="text-white/80 text-sm hover:text-brand-soft transition-colors">Digital Marketing</Link>
+                <Link href="/services/social-media-marketing" onClick={() => setIsMenuOpen(false)} className="text-white/80 text-sm hover:text-brand-soft transition-colors">Social Media</Link>
+                <Link href="/services/ai-services" onClick={() => setIsMenuOpen(false)} className="text-white/80 text-sm hover:text-brand-soft transition-colors">AI Services</Link>
+              </div>
+            </div>
             <Link href="/industries" onClick={() => setIsMenuOpen(false)} className="text-white font-medium hover:text-brand-soft transition-colors">Industries</Link>
             <Link href="/case-studies" onClick={() => setIsMenuOpen(false)} className="text-white font-medium hover:text-brand-soft transition-colors">Case Studies</Link>
             <Link href="/resources" onClick={() => setIsMenuOpen(false)} className="text-white font-medium hover:text-brand-soft transition-colors">Resources</Link>

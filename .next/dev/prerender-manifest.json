@@ -1,11 +1,1 @@
-{
-  "version": 4,
-  "routes": {},
-  "dynamicRoutes": {},
-  "notFoundRoutes": [],
-  "preview": {
-    "previewModeId": "3fb98f8f0c8f124c80d27217bf6ff260",
-    "previewModeSigningKey": "baae816509cad436f3bf762148ac75af654975a95541bc7583f29f6a936c604d",
-    "previewModeEncryptionKey": "d1849e9d1abee31c16d8156404d48dfcb523062b404cb1b895cdf58cede6741a"
-  }
-}
+{"version":4,"routes":{"/services/web-development":{},"/services/seo-services":{},"/services/digital-marketing":{},"/services/social-media-marketing":{},"/services/ai-services":{}},"dynamicRoutes":{"/services/[slug]":{"dataRoute":null,"dataRouteRegex":null,"fallback":null,"fallbackRevalidate":false,"fallbackSourceRoute":"/services/[slug]","routeRegex":"^\\/services\\/([^/]+?)(?:\\/)?$","allowHeader":[]}},"notFoundRoutes":[],"preview":{"previewModeId":"9fd3abf9dac48b1f60616a1b56be579b","previewModeSigningKey":"da4757eb92339565a9cd17071167d9a8f00021012f10a99ef63a2653f140a56c","previewModeEncryptionKey":"2a05e50fe713177a5ae3390862f990f32ab493255703ba36aaecaa1645577792"}}

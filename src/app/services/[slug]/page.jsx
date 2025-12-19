@@ -61,8 +61,13 @@ const SERVICES_SECTIONS = {
   },
 };
 
-export default function ServiceSlugPage({ params }) {
-  const section = SERVICES_SECTIONS[params.slug];
+export async function generateStaticParams() {
+  return Object.keys(SERVICES_SECTIONS).map((slug) => ({ slug }));
+}
+
+export default async function ServiceSlugPage({ params }) {
+  const resolvedParams = await params;
+  const section = SERVICES_SECTIONS[resolvedParams.slug];
 
   return (
     <div className="min-h-screen bg-neutral-muted text-text-base">
