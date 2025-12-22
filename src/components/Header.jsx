@@ -9,6 +9,7 @@ import Image from 'next/image';
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isServicesHover, setIsServicesHover] = useState(false);
+  const [isServicesMobileOpen, setIsServicesMobileOpen] = useState(false);
   const pathname = usePathname();
   const isHomePage = pathname === '/';
 
@@ -49,6 +50,14 @@ export default function Header() {
 
   return (
     <>
+      {/* Backdrop Overlay - Mobile */}
+      {isMenuOpen && (
+        <div
+          className="fixed inset-0 bg-black/70 backdrop-blur-sm z-40 md:hidden transition-opacity"
+          onClick={() => setIsMenuOpen(false)}
+        />
+      )}
+
       <header
         className={`${
           isHomePage ? 'bg-transparent' : 'bg-brand-dark border-b border-brand-primary'
@@ -93,7 +102,7 @@ export default function Header() {
                 {/* Mega Menu Dropdown - Desktop */}
                 {isServicesHover && (
                   <div className="hidden md:block absolute top-full left-1/2 -translate-x-1/2 mt-2 w-[850px] max-w-[calc(100vw-4rem)] bg-white rounded-lg shadow-2xl border border-neutral-muted z-50">
-                    <div className="p-6 grid grid-cols-5 gap-4">
+                    <div className="p-4 md:p-6 grid grid-cols-3 lg:grid-cols-5 gap-3 md:gap-4">
                       {/* Column 1: Web Development */}
                       <div>
                         <Link href="/services/web-development" className="group" onClick={() => setIsServicesHover(false)}>
@@ -275,26 +284,143 @@ export default function Header() {
             </button>
           </div>
 
-          <nav className={`${isMenuOpen ? 'flex' : 'hidden'} flex-col gap-3 mt-4 pt-2 md:hidden`}>
-            <Link href="/" onClick={() => setIsMenuOpen(false)} className="text-white font-medium hover:text-brand-soft transition-colors">Home</Link>
-            <div>
-              <Link href="/services" onClick={() => setIsMenuOpen(false)} className="text-white font-medium hover:text-brand-soft transition-colors flex items-center justify-between">
-                Services
-                <i className="ri-arrow-down-s-line" />
+          {/* Mobile Menu Sidebar */}
+          <nav
+            className={`fixed top-0 left-0 h-full w-[280px] bg-brand-dark shadow-2xl z-50 md:hidden transform transition-transform duration-300 ease-in-out ${
+              isMenuOpen ? 'translate-x-0' : '-translate-x-full'
+            } flex flex-col`}
+          >
+            {/* Mobile Menu Header */}
+            <div className="flex items-center justify-between p-4 border-b border-brand-primary">
+              <Link href="/" className="flex items-center gap-2" onClick={() => setIsMenuOpen(false)}>
+                <Image
+                  src="/Images/logo.png"
+                  alt="Tayr Digital Logo"
+                  width={40}
+                  height={40}
+                  className="h-auto w-auto"
+                />
+                <span className="text-white font-bold text-lg">Tayr Digital</span>
               </Link>
-              <div className="ml-4 mt-2 flex flex-col gap-2">
-                <Link href="/services/web-development" onClick={() => setIsMenuOpen(false)} className="text-white/80 text-sm hover:text-brand-soft transition-colors">Web Development</Link>
-                <Link href="/services/seo-services" onClick={() => setIsMenuOpen(false)} className="text-white/80 text-sm hover:text-brand-soft transition-colors">SEO Services</Link>
-                <Link href="/services/digital-marketing" onClick={() => setIsMenuOpen(false)} className="text-white/80 text-sm hover:text-brand-soft transition-colors">Digital Marketing</Link>
-                <Link href="/services/social-media-marketing" onClick={() => setIsMenuOpen(false)} className="text-white/80 text-sm hover:text-brand-soft transition-colors">Social Media</Link>
-                <Link href="/services/ai-services" onClick={() => setIsMenuOpen(false)} className="text-white/80 text-sm hover:text-brand-soft transition-colors">AI Services</Link>
-              </div>
+              <button
+                onClick={() => setIsMenuOpen(false)}
+                className="text-white hover:text-brand-soft transition-colors p-2"
+              >
+                <i className="ri-close-line text-xl" />
+              </button>
             </div>
-            <Link href="/industries" onClick={() => setIsMenuOpen(false)} className="text-white font-medium hover:text-brand-soft transition-colors">Industries</Link>
-            <Link href="/case-studies" onClick={() => setIsMenuOpen(false)} className="text-white font-medium hover:text-brand-soft transition-colors">Case Studies</Link>
-            <Link href="/resources" onClick={() => setIsMenuOpen(false)} className="text-white font-medium hover:text-brand-soft transition-colors">Resources</Link>
-            <Link href="/about" onClick={() => setIsMenuOpen(false)} className="text-white font-medium hover:text-brand-soft transition-colors">About Us</Link>
-            <Link href="/contact" onClick={() => setIsMenuOpen(false)} className="text-white font-medium hover:text-brand-soft transition-colors">Contact Us</Link>
+
+            {/* Mobile Menu Links */}
+            <div className="flex-1 overflow-y-auto p-4 flex flex-col gap-4">
+              <Link
+                href="/"
+                onClick={() => setIsMenuOpen(false)}
+                className="text-white font-medium hover:text-brand-soft transition-colors text-base"
+              >
+                Home
+              </Link>
+
+              {/* Services Dropdown - Mobile */}
+              <div>
+                <button
+                  onClick={() => setIsServicesMobileOpen(!isServicesMobileOpen)}
+                  className="text-white font-medium hover:text-brand-soft transition-colors flex items-center justify-between w-full text-base"
+                >
+                  Services
+                  <i className={`ri-arrow-right-s-line transition-transform ${isServicesMobileOpen ? 'rotate-90' : ''}`} />
+                </button>
+                {isServicesMobileOpen && (
+                  <div className="ml-4 mt-2 flex flex-col gap-2 border-l border-brand-primary pl-4">
+                    <Link
+                      href="/services/web-development"
+                      onClick={() => {
+                        setIsMenuOpen(false);
+                        setIsServicesMobileOpen(false);
+                      }}
+                      className="text-white/80 text-sm hover:text-brand-soft transition-colors"
+                    >
+                      Web Development
+                    </Link>
+                    <Link
+                      href="/services/seo-services"
+                      onClick={() => {
+                        setIsMenuOpen(false);
+                        setIsServicesMobileOpen(false);
+                      }}
+                      className="text-white/80 text-sm hover:text-brand-soft transition-colors"
+                    >
+                      SEO Services
+                    </Link>
+                    <Link
+                      href="/services/digital-marketing"
+                      onClick={() => {
+                        setIsMenuOpen(false);
+                        setIsServicesMobileOpen(false);
+                      }}
+                      className="text-white/80 text-sm hover:text-brand-soft transition-colors"
+                    >
+                      Digital Marketing
+                    </Link>
+                    <Link
+                      href="/services/social-media-marketing"
+                      onClick={() => {
+                        setIsMenuOpen(false);
+                        setIsServicesMobileOpen(false);
+                      }}
+                      className="text-white/80 text-sm hover:text-brand-soft transition-colors"
+                    >
+                      Social Media
+                    </Link>
+                    <Link
+                      href="/services/ai-services"
+                      onClick={() => {
+                        setIsMenuOpen(false);
+                        setIsServicesMobileOpen(false);
+                      }}
+                      className="text-white/80 text-sm hover:text-brand-soft transition-colors"
+                    >
+                      AI Services
+                    </Link>
+                  </div>
+                )}
+              </div>
+
+              <Link
+                href="/industries"
+                onClick={() => setIsMenuOpen(false)}
+                className="text-white font-medium hover:text-brand-soft transition-colors text-base"
+              >
+                Industries
+              </Link>
+              <Link
+                href="/case-studies"
+                onClick={() => setIsMenuOpen(false)}
+                className="text-white font-medium hover:text-brand-soft transition-colors text-base"
+              >
+                Case Studies
+              </Link>
+              <Link
+                href="/resources"
+                onClick={() => setIsMenuOpen(false)}
+                className="text-white font-medium hover:text-brand-soft transition-colors text-base"
+              >
+                Resources
+              </Link>
+              <Link
+                href="/about"
+                onClick={() => setIsMenuOpen(false)}
+                className="text-white font-medium hover:text-brand-soft transition-colors text-base"
+              >
+                About Us
+              </Link>
+              <Link
+                href="/contact"
+                onClick={() => setIsMenuOpen(false)}
+                className="text-white font-medium hover:text-brand-soft transition-colors text-base"
+              >
+                Contact Us
+              </Link>
+            </div>
           </nav>
         </div>
       </header>

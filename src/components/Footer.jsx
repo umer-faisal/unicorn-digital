@@ -36,11 +36,11 @@ export default function Footer() {
             <div>
               <h4 className="text-white text-lg font-bold mb-4">Services</h4>
               <ul className="list-none p-0">
-                <li className="mb-2"><Link href="/services" className="text-neutral-muted hover:text-brand-soft transition-colors">Web Development</Link></li>
-                <li className="mb-2"><Link href="/services" className="text-neutral-muted hover:text-green-light transition-colors">SEO Services</Link></li>
-                <li className="mb-2"><Link href="/services" className="text-neutral-muted hover:text-green-light transition-colors">Digital Marketing</Link></li>
-                <li className="mb-2"><Link href="/services" className="text-neutral-muted hover:text-green-light transition-colors">Social Media Marketing</Link></li>
-                <li className="mb-2"><Link href="/services" className="text-neutral-muted hover:text-orange-light transition-colors">AI Services</Link></li>
+                <li className="mb-2"><Link href="/services/web-development" className="text-neutral-muted hover:text-brand-soft transition-colors">Web Development</Link></li>
+                <li className="mb-2"><Link href="/services/seo-services" className="text-neutral-muted hover:text-green-light transition-colors">SEO Services</Link></li>
+                <li className="mb-2"><Link href="/services/digital-marketing" className="text-neutral-muted hover:text-green-light transition-colors">Digital Marketing</Link></li>
+                <li className="mb-2"><Link href="/services/social-media-marketing" className="text-neutral-muted hover:text-green-light transition-colors">Social Media Marketing</Link></li>
+                <li className="mb-2"><Link href="/services/ai-services" className="text-neutral-muted hover:text-orange-light transition-colors">AI Services</Link></li>
               </ul>
             </div>
 
