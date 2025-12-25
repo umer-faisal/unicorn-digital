@@ -52,14 +52,24 @@ export default function Home() {
     <>
       <div>
         {/* Shared background wrapper for Header + Hero */}
-        <div className="relative bg-gradient-to-br from-brand-dark via-brand-primary to-blue-900">
-          <div className="absolute inset-0 bg-black/25"></div>
+        <div className="relative overflow-hidden">
+          {/* Video Background */}
+          <video
+            autoPlay
+            loop
+            muted
+            playsInline
+            className="absolute inset-0 w-full h-full object-cover z-0"
+          >
+            <source src="/Images/unicorn-background.mp4" type="video/mp4" />
+          </video>
+          <div className="absolute inset-0 bg-black/25 z-0"></div>
           <div className="relative z-10">
             <Header />
             <section className="relative min-h-screen flex items-center justify-center">
               <div className="relative z-10 text-center max-w-3xl mx-auto px-4">
                 <h1 className="text-5xl md:text-7xl font-bold text-white mb-6">
-                  Tayr
+                  Unicorn
                   <span className="text-orange-primary"> Digital </span>
                 </h1>
                 <p className="text-lg md:text-xl text-white/90 mb-8 max-w-2xl mx-auto">

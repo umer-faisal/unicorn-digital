@@ -1,138 +1,6 @@
-[00:00:16.951] Server  LOG      ✓ Ready in 10.6s
-[00:00:50.652] Server  LOG      ○ Compiling / ...
-[00:00:58.341] Server  WARN     ⚠ [next]/internal/font/google/inter_ab3b8213.module.css
-Error while requesting resource
-There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap
-
-Import trace:
-  Server Component:
-    [next]/internal/font/google/inter_ab3b8213.module.css
-    [next]/internal/font/google/inter_ab3b8213.js
-    ./src/app/layout.jsx
-
-
-[00:00:58.342] Server  WARN     ⚠ [next]/internal/font/google/poppins_b4a151d4.module.css
-Error while requesting resource
-There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap
-
-Import trace:
-  Server Component:
-    [next]/internal/font/google/poppins_b4a151d4.module.css
-    [next]/internal/font/google/poppins_b4a151d4.js
-    ./src/app/layout.jsx
-
-
-[00:00:58.342] Server  WARN     ⚠ [next]/internal/font/google/inter_ab3b8213.module.css
-next/font: warning:
-Failed to download `Inter` from Google Fonts. Using fallback font instead.
-
-Import trace:
-  Server Component:
-    [next]/internal/font/google/inter_ab3b8213.module.css
-    [next]/internal/font/google/inter_ab3b8213.js
-    ./src/app/layout.jsx
-
-
-[00:00:58.343] Server  WARN     ⚠ [next]/internal/font/google/poppins_b4a151d4.module.css
-next/font: warning:
-Failed to download `Poppins` from Google Fonts. Using fallback font instead.
-
-Import trace:
-  Server Component:
-    [next]/internal/font/google/poppins_b4a151d4.module.css
-    [next]/internal/font/google/poppins_b4a151d4.js
-    ./src/app/layout.jsx
-
-
-[00:00:59.115] Server  WARN     ⚠ [next]/internal/font/google/inter_ab3b8213.module.css
-Error while requesting resource
-There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap
-
-Import trace:
-  Server Component:
-    [next]/internal/font/google/inter_ab3b8213.module.css
-    [next]/internal/font/google/inter_ab3b8213.js
-    ./src/app/layout.jsx
-
-
-[00:00:59.116] Server  WARN     ⚠ [next]/internal/font/google/poppins_b4a151d4.module.css
-Error while requesting resource
-There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap
-
-Import trace:
-  Server Component:
-    [next]/internal/font/google/poppins_b4a151d4.module.css
-    [next]/internal/font/google/poppins_b4a151d4.js
-    ./src/app/layout.jsx
-
-
-[00:00:59.117] Server  WARN     ⚠ [next]/internal/font/google/inter_ab3b8213.module.css
-next/font: warning:
-Failed to download `Inter` from Google Fonts. Using fallback font instead.
-
-Import trace:
-  Server Component:
-    [next]/internal/font/google/inter_ab3b8213.module.css
-    [next]/internal/font/google/inter_ab3b8213.js
-    ./src/app/layout.jsx
-
-
-[00:00:59.118] Server  WARN     ⚠ [next]/internal/font/google/poppins_b4a151d4.module.css
-next/font: warning:
-Failed to download `Poppins` from Google Fonts. Using fallback font instead.
-
-Import trace:
-  Server Component:
-    [next]/internal/font/google/poppins_b4a151d4.module.css
-    [next]/internal/font/google/poppins_b4a151d4.js
-    ./src/app/layout.jsx
-
-
-[00:01:00.152] Server  WARN     ⚠ [next]/internal/font/google/inter_ab3b8213.module.css
-Error while requesting resource
-There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap
-
-Import trace:
-  Server Component:
-    [next]/internal/font/google/inter_ab3b8213.module.css
-    [next]/internal/font/google/inter_ab3b8213.js
-    ./src/app/layout.jsx
-
-
-[00:01:00.153] Server  WARN     ⚠ [next]/internal/font/google/poppins_b4a151d4.module.css
-Error while requesting resource
-There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap
-
-Import trace:
-  Server Component:
-    [next]/internal/font/google/poppins_b4a151d4.module.css
-    [next]/internal/font/google/poppins_b4a151d4.js
-    ./src/app/layout.jsx
-
-
-[00:01:00.153] Server  WARN     ⚠ [next]/internal/font/google/inter_ab3b8213.module.css
-next/font: warning:
-Failed to download `Inter` from Google Fonts. Using fallback font instead.
-
-Import trace:
-  Server Component:
-    [next]/internal/font/google/inter_ab3b8213.module.css
-    [next]/internal/font/google/inter_ab3b8213.js
-    ./src/app/layout.jsx
-
-
-[00:01:00.154] Server  WARN     ⚠ [next]/internal/font/google/poppins_b4a151d4.module.css
-next/font: warning:
-Failed to download `Poppins` from Google Fonts. Using fallback font instead.
-
-Import trace:
-  Server Component:
-    [next]/internal/font/google/poppins_b4a151d4.module.css
-    [next]/internal/font/google/poppins_b4a151d4.js
-    ./src/app/layout.jsx
-
-
-[00:01:00.839] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+[00:00:22.829] Server  LOG      ✓ Ready in 14.6s
+[00:00:32.896] Server  LOG      ○ Compiling / ...
+[00:00:46.136] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
 
 - A server/client branch `if (typeof window !== 'undefined')`.
 - Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
@@ -164,145 +32,63 @@ It can also happen if the client has a browser extension installed which messes 
                           <head>
                           <body
                             className="inter_ab3b8213-module__Yo9Eva__variable poppins_b4a151d4-module__3g_tmG__variable"
+-                           data-new-gr-c-s-check-loaded="14.1267.0"
+-                           data-gr-ext-installed=""
 -                           cz-shortcut-listen="true"
                           >
                   ...
 
-[00:01:47.358] Server  WARN     ⚠ [next]/internal/font/google/inter_ab3b8213.module.css
-Error while requesting resource
-There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap
+[00:07:31.736] Server  LOG      ✓ Compiled in 479ms
+[00:29:20.505] Server  LOG      ✓ Compiled in 1031ms
+[00:47:03.153] Server  LOG      ✓ Compiled in 670ms
+[00:47:10.800] Server  LOG      ✓ Compiled in 663ms
+[00:47:34.753] Server  LOG      ✓ Compiled in 273ms
+[00:48:08.901] Server  LOG      ✓ Compiled in 250ms
+[00:48:21.616] Server  LOG      ✓ Compiled in 514ms
+[00:49:24.675] Server  LOG      ✓ Compiled in 266ms
+[00:49:37.720] Server  LOG      ✓ Compiled in 125ms
+[00:49:54.784] Server  LOG      ✓ Compiled in 560ms
+[00:52:40.964] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
 
-Import trace:
-  Server Component:
-    [next]/internal/font/google/inter_ab3b8213.module.css
-    [next]/internal/font/google/inter_ab3b8213.js
-    ./src/app/layout.jsx
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
 
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
 
-[00:01:47.359] Server  WARN     ⚠ [next]/internal/font/google/poppins_b4a151d4.module.css
-Error while requesting resource
-There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap
+%s%s https://react.dev/link/hydration-mismatch 
 
-Import trace:
-  Server Component:
-    [next]/internal/font/google/poppins_b4a151d4.module.css
-    [next]/internal/font/google/poppins_b4a151d4.js
-    ./src/app/layout.jsx
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.jsx">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <RootLayout>
+                        <html lang="en" suppressHydrationWarning={true}>
+                          <head>
+                          <body
+                            className="inter_ab3b8213-module__Yo9Eva__variable poppins_b4a151d4-module__3g_tmG__variable"
+-                           data-new-gr-c-s-check-loaded="14.1267.0"
+-                           data-gr-ext-installed=""
+                          >
+                  ...
 
-
-[00:01:47.359] Server  WARN     ⚠ [next]/internal/font/google/inter_ab3b8213.module.css
-next/font: warning:
-Failed to download `Inter` from Google Fonts. Using fallback font instead.
-
-Import trace:
-  Server Component:
-    [next]/internal/font/google/inter_ab3b8213.module.css
-    [next]/internal/font/google/inter_ab3b8213.js
-    ./src/app/layout.jsx
-
-
-[00:01:47.360] Server  WARN     ⚠ [next]/internal/font/google/poppins_b4a151d4.module.css
-next/font: warning:
-Failed to download `Poppins` from Google Fonts. Using fallback font instead.
-
-Import trace:
-  Server Component:
-    [next]/internal/font/google/poppins_b4a151d4.module.css
-    [next]/internal/font/google/poppins_b4a151d4.js
-    ./src/app/layout.jsx
-
-
-[00:01:50.794] Server  WARN     ⚠ [next]/internal/font/google/inter_ab3b8213.module.css
-Error while requesting resource
-There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap
-
-Import trace:
-  Server Component:
-    [next]/internal/font/google/inter_ab3b8213.module.css
-    [next]/internal/font/google/inter_ab3b8213.js
-    ./src/app/layout.jsx
-
-
-[00:01:50.795] Server  WARN     ⚠ [next]/internal/font/google/poppins_b4a151d4.module.css
-Error while requesting resource
-There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap
-
-Import trace:
-  Server Component:
-    [next]/internal/font/google/poppins_b4a151d4.module.css
-    [next]/internal/font/google/poppins_b4a151d4.js
-    ./src/app/layout.jsx
-
-
-[00:01:50.796] Server  WARN     ⚠ [next]/internal/font/google/inter_ab3b8213.module.css
-next/font: warning:
-Failed to download `Inter` from Google Fonts. Using fallback font instead.
-
-Import trace:
-  Server Component:
-    [next]/internal/font/google/inter_ab3b8213.module.css
-    [next]/internal/font/google/inter_ab3b8213.js
-    ./src/app/layout.jsx
-
-
-[00:01:50.797] Server  WARN     ⚠ [next]/internal/font/google/poppins_b4a151d4.module.css
-next/font: warning:
-Failed to download `Poppins` from Google Fonts. Using fallback font instead.
-
-Import trace:
-  Server Component:
-    [next]/internal/font/google/poppins_b4a151d4.module.css
-    [next]/internal/font/google/poppins_b4a151d4.js
-    ./src/app/layout.jsx
-
-
-[00:05:55.439] Server  LOG      ✓ Compiled in 184ms
-[00:06:07.388] Server  LOG      ✓ Compiled in 209ms
-[00:07:26.146] Server  LOG      ✓ Compiled in 664ms
-[00:07:49.628] Server  WARN     ⚠ [next]/internal/font/google/inter_ab3b8213.module.css
-Error while requesting resource
-There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap
-
-Import trace:
-  Server Component:
-    [next]/internal/font/google/inter_ab3b8213.module.css
-    [next]/internal/font/google/inter_ab3b8213.js
-    ./src/app/layout.jsx
-
-
-[00:07:49.632] Server  WARN     ⚠ [next]/internal/font/google/poppins_b4a151d4.module.css
-Error while requesting resource
-There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap
-
-Import trace:
-  Server Component:
-    [next]/internal/font/google/poppins_b4a151d4.module.css
-    [next]/internal/font/google/poppins_b4a151d4.js
-    ./src/app/layout.jsx
-
-
-[00:07:49.648] Server  WARN     ⚠ [next]/internal/font/google/inter_ab3b8213.module.css
-next/font: warning:
-Failed to download `Inter` from Google Fonts. Using fallback font instead.
-
-Import trace:
-  Server Component:
-    [next]/internal/font/google/inter_ab3b8213.module.css
-    [next]/internal/font/google/inter_ab3b8213.js
-    ./src/app/layout.jsx
-
-
-[00:07:49.657] Server  WARN     ⚠ [next]/internal/font/google/poppins_b4a151d4.module.css
-next/font: warning:
-Failed to download `Poppins` from Google Fonts. Using fallback font instead.
-
-Import trace:
-  Server Component:
-    [next]/internal/font/google/poppins_b4a151d4.module.css
-    [next]/internal/font/google/poppins_b4a151d4.js
-    ./src/app/layout.jsx
-
-
-[00:07:53.289] Server  LOG      ✓ Compiled in 751ms
-[00:31:06.489] Server  LOG      ✓ Compiled in 258ms
-[00:31:19.952] Server  LOG      ✓ Compiled in 228ms
+[00:55:59.140] Server  LOG      ✓ Compiled in 2.6s
+[00:56:21.312] Server  LOG      ✓ Compiled in 691ms
+[00:57:00.364] Server  LOG      ✓ Compiled in 9.1s
+[00:57:06.955] Server  LOG      ✓ Compiled in 343ms
+[00:57:35.804] Server  LOG      ✓ Compiled in 907ms
+[01:00:24.505] Server  LOG      ✓ Compiled in 5.4s
+[01:00:44.271] Server  LOG      ✓ Compiled in 696ms
