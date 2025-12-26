@@ -39,3 +39,13 @@ It can also happen if the client has a browser extension installed which messes 
                           >
                   ...
 
+[00:04:14.954] Server  LOG      ✓ Compiled in 2s
+[00:04:25.990] Server  LOG      ✓ Compiled in 1444ms
+[00:04:35.652] Server  LOG      ✓ Compiled in 708ms
+[00:04:45.061] Server  LOG      ✓ Compiled in 695ms
+[00:04:55.441] Server  LOG      ✓ Compiled in 948ms
+[00:05:06.009] Server  LOG      ✓ Compiled in 1249ms
+[00:05:16.337] Server  LOG      ✓ Compiled in 452ms
+[00:05:25.333] Server  LOG      ✓ Compiled in 442ms
+[00:06:11.669] Server  LOG      ✓ Compiled in 680ms
+[00:11:54.017] Server  LOG      ✓ Compiled in 1655ms
