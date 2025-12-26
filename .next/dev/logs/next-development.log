@@ -1,54 +1,10 @@
-[00:00:22.829] Server  LOG      ✓ Ready in 14.6s
-[00:00:32.896] Server  LOG      ○ Compiling / ...
-[00:00:46.136] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
-
-- A server/client branch `if (typeof window !== 'undefined')`.
-- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
-- Date formatting in a user's locale which doesn't match the server.
-- External changing data without sending a snapshot of it along with the HTML.
-- Invalid HTML tag nesting.
-
-It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
-
-%s%s https://react.dev/link/hydration-mismatch 
-
-  ...
-    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
-      <AppDevOverlayErrorBoundary globalError={[...]}>
-        <ReplaySsrOnlyErrors>
-        <DevRootHTTPAccessFallbackBoundary>
-          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
-            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<NotAllowedRootHTTPFallbackError>} ...>
-              <RedirectBoundary>
-                <RedirectErrorBoundary router={{...}}>
-                  <Head>
-                  <__next_root_layout_boundary__>
-                    <SegmentViewNode type="layout" pagePath="layout.jsx">
-                      <SegmentTrieNode>
-                      <link>
-                      <script>
-                      <RootLayout>
-                        <html lang="en" suppressHydrationWarning={true}>
-                          <head>
-                          <body
-                            className="inter_ab3b8213-module__Yo9Eva__variable poppins_b4a151d4-module__3g_tmG__variable"
--                           data-new-gr-c-s-check-loaded="14.1267.0"
--                           data-gr-ext-installed=""
--                           cz-shortcut-listen="true"
-                          >
-                  ...
-
-[00:07:31.736] Server  LOG      ✓ Compiled in 479ms
-[00:29:20.505] Server  LOG      ✓ Compiled in 1031ms
-[00:47:03.153] Server  LOG      ✓ Compiled in 670ms
-[00:47:10.800] Server  LOG      ✓ Compiled in 663ms
-[00:47:34.753] Server  LOG      ✓ Compiled in 273ms
-[00:48:08.901] Server  LOG      ✓ Compiled in 250ms
-[00:48:21.616] Server  LOG      ✓ Compiled in 514ms
-[00:49:24.675] Server  LOG      ✓ Compiled in 266ms
-[00:49:37.720] Server  LOG      ✓ Compiled in 125ms
-[00:49:54.784] Server  LOG      ✓ Compiled in 560ms
-[00:52:40.964] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+[00:00:41.513] Server  LOG      ✓ Ready in 28.1s
+[00:09:06.781] Server  LOG      ○ Compiling / ...
+[00:19:40.183] Server  LOG      ✓ Compiled in 607ms
+[00:19:54.751] Server  LOG      ✓ Compiled in 447ms
+[00:20:19.266] Server  LOG      ✓ Compiled in 578ms
+[00:20:28.917] Server  LOG      ✓ Compiled in 164ms
+[00:21:04.204] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
 
 - A server/client branch `if (typeof window !== 'undefined')`.
 - Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
@@ -85,10 +41,9 @@ It can also happen if the client has a browser extension installed which messes 
                           >
                   ...
 
-[00:55:59.140] Server  LOG      ✓ Compiled in 2.6s
-[00:56:21.312] Server  LOG      ✓ Compiled in 691ms
-[00:57:00.364] Server  LOG      ✓ Compiled in 9.1s
-[00:57:06.955] Server  LOG      ✓ Compiled in 343ms
-[00:57:35.804] Server  LOG      ✓ Compiled in 907ms
-[01:00:24.505] Server  LOG      ✓ Compiled in 5.4s
-[01:00:44.271] Server  LOG      ✓ Compiled in 696ms
+[00:23:16.570] Server  LOG      ✓ Compiled in 313ms
+[00:23:32.783] Server  LOG      ✓ Compiled in 286ms
+[00:37:37.285] Server  LOG      ✓ Compiled in 623ms
+[00:42:05.826] Server  LOG      ✓ Compiled in 476ms
+[00:42:14.060] Server  LOG      ✓ Compiled in 836ms
+[00:42:21.903] Server  LOG      ✓ Compiled in 692ms
