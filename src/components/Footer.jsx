@@ -7,7 +7,7 @@ import Image from 'next/image';
 export default function Footer() {
   return (
     <>
-      <footer className="bg-brand-dark border-t border-brand-primary mt-16">
+      <footer className="bg-gradient-to-br from-gray-900 via-gray-800 to-black border-t border-gray-700 mt-16">
         <div className="max-w-[1200px] mx-auto py-12 px-4">
           <div className="grid grid-cols-1 gap-8 md:grid-cols-4">
             <div>
@@ -48,11 +48,11 @@ export default function Footer() {
               <h4 className="text-white text-lg font-bold mb-4">Connect</h4>
               <div className="flex items-center gap-2 mb-2">
                 <i className="ri-mail-line text-brand-primary bg-white w-8 h-8 rounded-full flex items-center justify-center"></i>
-                <span className="text-neutral-muted text-sm"><a className="hover:text-brand-soft" href="mailto:info@unicorndigital.pk">info@unicorndigital.pk</a></span>
+                <span className="text-white text-sm"><a className="hover:text-brand-soft transition-colors" href="mailto:info@unicorndigital.pk">info@unicorndigital.pk</a></span>
               </div>
               <div className="flex items-center gap-2 mb-2">  
                 <i className="ri-phone-line text-brand-primary bg-white w-8 h-8 rounded-full flex items-center justify-center"></i>
-                <span className="text-neutral-muted text-sm"><a className="hover:text-brand-soft" href="tel:+92 3008268275">+92 300 8268275</a></span>
+                <span className="text-white text-sm"><a className="hover:text-brand-soft transition-colors" href="tel:+92 3008268275">+92 300 8268275</a></span>
               </div>
               <div className="flex gap-4 mt-4">
                 <i className="ri-facebook-fill w-10 h-10 rounded-full bg-white text-brand-primary text-xl flex items-center justify-center cursor-pointer hover:bg-brand-soft hover:text-brand-dark transition-colors"></i>

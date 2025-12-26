@@ -22,7 +22,7 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$imag
 function Footer() {
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Fragment"], {
         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("footer", {
-            className: "bg-brand-dark border-t border-brand-primary mt-16",
+            className: "bg-gradient-to-br from-gray-900 via-gray-800 to-black border-t border-gray-700 mt-16",
             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                 className: "max-w-[1200px] mx-auto py-12 px-4",
                 children: [
@@ -334,15 +334,15 @@ function Footer() {
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                className: "text-neutral-muted text-sm",
+                                                className: "text-white text-sm",
                                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
-                                                    className: "hover:text-brand-soft",
+                                                    className: "hover:text-brand-soft transition-colors",
                                                     href: "mailto:info@unicorndigital.pk",
                                                     children: "info@unicorndigital.pk"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/Footer.jsx",
                                                     lineNumber: 51,
-                                                    columnNumber: 62
+                                                    columnNumber: 54
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/Footer.jsx",
@@ -366,15 +366,15 @@ function Footer() {
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                className: "text-neutral-muted text-sm",
+                                                className: "text-white text-sm",
                                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
-                                                    className: "hover:text-brand-soft",
+                                                    className: "hover:text-brand-soft transition-colors",
                                                     href: "tel:+92 3008268275",
                                                     children: "+92 300 8268275"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/Footer.jsx",
                                                     lineNumber: 55,
-                                                    columnNumber: 62
+                                                    columnNumber: 54
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/Footer.jsx",
@@ -2918,23 +2918,54 @@ const getStepGraphic = (stepIndex)=>{
 function ProductDevelopmentProcess() {
     const [activeProcess, setActiveProcess] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"])(0);
     const stepRefs = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useRef"])([]);
-    // Scroll-based active step detection
+    // Scroll-based active step detection - Optimized for performance
     (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useEffect"])(()=>{
-        const observers = stepRefs.current.map((ref, idx)=>{
-            if (!ref) return null;
-            const observer = new IntersectionObserver(([entry])=>{
-                if (entry.isIntersecting) {
-                    setActiveProcess(idx);
-                }
-            }, {
-                threshold: 0.3,
-                rootMargin: '-10% 0px -10% 0px'
-            });
-            observer.observe(ref);
-            return observer;
+        let ticking = false;
+        let lastActiveIndex = 0;
+        const handleScroll = ()=>{
+            if (!ticking) {
+                window.requestAnimationFrame(()=>{
+                    const viewportCenter = window.innerHeight / 2;
+                    let closestIndex = lastActiveIndex;
+                    let minDistance = Infinity;
+                    stepRefs.current.forEach((ref, idx)=>{
+                        if (!ref) return;
+                        const rect = ref.getBoundingClientRect();
+                        // Only check if element is in viewport
+                        if (rect.bottom > 0 && rect.top < window.innerHeight) {
+                            const elementCenter = rect.top + rect.height / 2;
+                            const distance = Math.abs(viewportCenter - elementCenter);
+                            if (distance < minDistance) {
+                                minDistance = distance;
+                                closestIndex = idx;
+                            }
+                        }
+                    });
+                    // Only update state if index changed
+                    if (closestIndex !== lastActiveIndex) {
+                        lastActiveIndex = closestIndex;
+                        setActiveProcess(closestIndex);
+                    }
+                    ticking = false;
+                });
+                ticking = true;
+            }
+        };
+        // Initial check with a small delay to ensure refs are ready
+        const timeoutId = setTimeout(()=>{
+            handleScroll();
+        }, 100);
+        // Listen to scroll events with passive for better performance
+        window.addEventListener('scroll', handleScroll, {
+            passive: true
+        });
+        window.addEventListener('resize', handleScroll, {
+            passive: true
         });
         return ()=>{
-            observers.forEach((observer)=>observer?.disconnect());
+            clearTimeout(timeoutId);
+            window.removeEventListener('scroll', handleScroll);
+            window.removeEventListener('resize', handleScroll);
         };
     }, []);
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -2964,12 +2995,12 @@ function ProductDevelopmentProcess() {
                                     children: "our product"
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/home/ProductDevelopmentProcess.jsx",
-                                    lineNumber: 176,
+                                    lineNumber: 210,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                                     fileName: "[project]/src/components/home/ProductDevelopmentProcess.jsx",
-                                    lineNumber: 177,
+                                    lineNumber: 211,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -2977,13 +3008,13 @@ function ProductDevelopmentProcess() {
                                     children: "development process"
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/home/ProductDevelopmentProcess.jsx",
-                                    lineNumber: 178,
+                                    lineNumber: 212,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/components/home/ProductDevelopmentProcess.jsx",
-                            lineNumber: 175,
+                            lineNumber: 209,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
@@ -2995,19 +3026,19 @@ function ProductDevelopmentProcess() {
                                     className: "ri-arrow-right-line"
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/home/ProductDevelopmentProcess.jsx",
-                                    lineNumber: 182,
+                                    lineNumber: 216,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/components/home/ProductDevelopmentProcess.jsx",
-                            lineNumber: 180,
+                            lineNumber: 214,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/components/home/ProductDevelopmentProcess.jsx",
-                    lineNumber: 169,
+                    lineNumber: 203,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3020,7 +3051,7 @@ function ProductDevelopmentProcess() {
                                     className: "absolute left-6 top-0 bottom-0 w-0.5 bg-gray-700"
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/home/ProductDevelopmentProcess.jsx",
-                                    lineNumber: 190,
+                                    lineNumber: 224,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3037,78 +3068,76 @@ function ProductDevelopmentProcess() {
                                             },
                                             viewport: {
                                                 once: true,
-                                                threshold: 0.3
+                                                threshold: 0.4
                                             },
                                             transition: {
                                                 duration: 0.5,
                                                 delay: idx * 0.1
                                             },
-                                            onMouseEnter: ()=>setActiveProcess(idx),
-                                            onClick: ()=>setActiveProcess(idx),
-                                            className: "relative pl-16 cursor-pointer group",
+                                            className: "relative pl-16 group",
                                             children: [
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                    className: `absolute left-0 top-2 w-12 h-12 rounded-full flex items-center justify-center transition-all duration-300 ${activeProcess === idx ? 'bg-green-500 scale-110 shadow-lg shadow-green-500/50' : 'bg-gray-700 group-hover:bg-gray-600'}`,
+                                                    className: `absolute left-0 top-2 w-12 h-12 rounded-full flex items-center justify-center transition-all duration-700 ease-in-out ${activeProcess === idx ? 'bg-green-500 scale-110 shadow-lg shadow-green-500/50' : 'bg-gray-700'}`,
                                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                        className: `w-3 h-3 rounded-full transition-all duration-300 ${activeProcess === idx ? 'bg-white' : 'bg-gray-400'}`
+                                                        className: `w-3 h-3 rounded-full transition-all duration-700 ease-in-out ${activeProcess === idx ? 'bg-white' : 'bg-gray-400'}`
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/home/ProductDevelopmentProcess.jsx",
-                                                        lineNumber: 211,
+                                                        lineNumber: 243,
                                                         columnNumber: 21
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/home/ProductDevelopmentProcess.jsx",
-                                                    lineNumber: 206,
+                                                    lineNumber: 238,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                    className: `transition-all duration-300 ${activeProcess === idx ? 'transform translate-x-2' : ''}`,
+                                                    className: `transition-all duration-700 ease-in-out ${activeProcess === idx ? 'transform translate-x-2' : ''}`,
                                                     children: [
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                            className: `text-sm font-medium mb-2 transition-colors duration-300 ${activeProcess === idx ? 'text-green-400' : 'text-gray-400'}`,
+                                                            className: `text-sm font-medium mb-2 transition-colors duration-700 ease-in-out ${activeProcess === idx ? 'text-green-400' : 'text-gray-400'}`,
                                                             children: step.number
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/components/home/ProductDevelopmentProcess.jsx",
-                                                            lineNumber: 220,
+                                                            lineNumber: 252,
                                                             columnNumber: 21
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                                                            className: `text-3xl md:text-4xl font-bold mb-3 transition-colors duration-300 ${activeProcess === idx ? 'text-green-500' : 'text-white'}`,
+                                                            className: `text-3xl md:text-4xl font-bold mb-3 transition-colors duration-700 ease-in-out ${activeProcess === idx ? 'text-green-500' : 'text-white'}`,
                                                             children: step.title
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/components/home/ProductDevelopmentProcess.jsx",
-                                                            lineNumber: 225,
+                                                            lineNumber: 257,
                                                             columnNumber: 21
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                            className: `text-base leading-relaxed transition-colors duration-300 ${activeProcess === idx ? 'text-white' : 'text-gray-400'}`,
+                                                            className: `text-base leading-relaxed transition-colors duration-700 ease-in-out ${activeProcess === idx ? 'text-white' : 'text-gray-400'}`,
                                                             children: step.description
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/components/home/ProductDevelopmentProcess.jsx",
-                                                            lineNumber: 230,
+                                                            lineNumber: 262,
                                                             columnNumber: 21
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/src/components/home/ProductDevelopmentProcess.jsx",
-                                                    lineNumber: 217,
+                                                    lineNumber: 249,
                                                     columnNumber: 19
                                                 }, this)
                                             ]
                                         }, idx, true, {
                                             fileName: "[project]/src/components/home/ProductDevelopmentProcess.jsx",
-                                            lineNumber: 194,
+                                            lineNumber: 228,
                                             columnNumber: 17
                                         }, this))
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/home/ProductDevelopmentProcess.jsx",
-                                    lineNumber: 192,
+                                    lineNumber: 226,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/components/home/ProductDevelopmentProcess.jsx",
-                            lineNumber: 188,
+                            lineNumber: 222,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3116,16 +3145,19 @@ function ProductDevelopmentProcess() {
                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].div, {
                                 initial: {
                                     opacity: 0,
-                                    scale: 0.9,
-                                    rotate: -5
+                                    scale: 0.95
                                 },
                                 animate: {
                                     opacity: 1,
                                     scale: 1,
-                                    rotate: 0,
                                     transition: {
-                                        duration: 0.6,
-                                        ease: "easeOut"
+                                        duration: 1,
+                                        ease: [
+                                            0.25,
+                                            0.1,
+                                            0.25,
+                                            1
+                                        ]
                                     }
                                 },
                                 className: "relative",
@@ -3136,15 +3168,39 @@ function ProductDevelopmentProcess() {
                                             className: "absolute inset-4 rounded-xl border border-gray-600/30"
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/home/ProductDevelopmentProcess.jsx",
-                                            lineNumber: 257,
+                                            lineNumber: 288,
                                             columnNumber: 17
                                         }, this),
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].div, {
+                                            initial: {
+                                                opacity: 0,
+                                                y: 30,
+                                                scale: 0.95
+                                            },
+                                            animate: {
+                                                opacity: 1,
+                                                y: 0,
+                                                scale: 1
+                                            },
+                                            exit: {
+                                                opacity: 0,
+                                                y: -30,
+                                                scale: 0.95
+                                            },
+                                            transition: {
+                                                duration: 1,
+                                                ease: [
+                                                    0.25,
+                                                    0.1,
+                                                    0.25,
+                                                    1
+                                                ]
+                                            },
                                             className: "relative z-10 w-full h-full flex items-center justify-center",
                                             children: getStepGraphic(activeProcess)
-                                        }, void 0, false, {
+                                        }, activeProcess, false, {
                                             fileName: "[project]/src/components/home/ProductDevelopmentProcess.jsx",
-                                            lineNumber: 260,
+                                            lineNumber: 291,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].div, {
@@ -3157,46 +3213,52 @@ function ProductDevelopmentProcess() {
                                                 scale: 1
                                             },
                                             transition: {
-                                                duration: 0.5
+                                                duration: 1,
+                                                ease: [
+                                                    0.25,
+                                                    0.1,
+                                                    0.25,
+                                                    1
+                                                ]
                                             },
                                             className: "absolute top-12 left-1/2 -translate-x-1/2 text-7xl font-bold text-green-500 z-0",
                                             children: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$data$2f$homePageData$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["processSteps"][activeProcess].number
                                         }, activeProcess, false, {
                                             fileName: "[project]/src/components/home/ProductDevelopmentProcess.jsx",
-                                            lineNumber: 265,
+                                            lineNumber: 303,
                                             columnNumber: 17
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/components/home/ProductDevelopmentProcess.jsx",
-                                    lineNumber: 255,
+                                    lineNumber: 286,
                                     columnNumber: 15
                                 }, this)
                             }, activeProcess, false, {
                                 fileName: "[project]/src/components/home/ProductDevelopmentProcess.jsx",
-                                lineNumber: 243,
+                                lineNumber: 275,
                                 columnNumber: 13
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/src/components/home/ProductDevelopmentProcess.jsx",
-                            lineNumber: 242,
+                            lineNumber: 274,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/components/home/ProductDevelopmentProcess.jsx",
-                    lineNumber: 186,
+                    lineNumber: 220,
                     columnNumber: 9
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/src/components/home/ProductDevelopmentProcess.jsx",
-            lineNumber: 168,
+            lineNumber: 202,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/src/components/home/ProductDevelopmentProcess.jsx",
-        lineNumber: 167,
+        lineNumber: 201,
         columnNumber: 5
     }, this);
 }

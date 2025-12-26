@@ -140,26 +140,60 @@ export default function ProductDevelopmentProcess() {
   const [activeProcess, setActiveProcess] = useState(0);
   const stepRefs = useRef([]);
 
-  // Scroll-based active step detection
+  // Scroll-based active step detection - Optimized for performance
   useEffect(() => {
-    const observers = stepRefs.current.map((ref, idx) => {
-      if (!ref) return null;
-      
-      const observer = new IntersectionObserver(
-        ([entry]) => {
-          if (entry.isIntersecting) {
-            setActiveProcess(idx);
+    let ticking = false;
+    let lastActiveIndex = 0;
+
+    const handleScroll = () => {
+      if (!ticking) {
+        window.requestAnimationFrame(() => {
+          const viewportCenter = window.innerHeight / 2;
+          let closestIndex = lastActiveIndex;
+          let minDistance = Infinity;
+
+          stepRefs.current.forEach((ref, idx) => {
+            if (!ref) return;
+
+            const rect = ref.getBoundingClientRect();
+            
+            // Only check if element is in viewport
+            if (rect.bottom > 0 && rect.top < window.innerHeight) {
+              const elementCenter = rect.top + rect.height / 2;
+              const distance = Math.abs(viewportCenter - elementCenter);
+
+              if (distance < minDistance) {
+                minDistance = distance;
+                closestIndex = idx;
+              }
+            }
+          });
+
+          // Only update state if index changed
+          if (closestIndex !== lastActiveIndex) {
+            lastActiveIndex = closestIndex;
+            setActiveProcess(closestIndex);
           }
-        },
-        { threshold: 0.3, rootMargin: '-10% 0px -10% 0px' }
-      );
-      
-      observer.observe(ref);
-      return observer;
-    });
+          
+          ticking = false;
+        });
+        ticking = true;
+      }
+    };
+
+    // Initial check with a small delay to ensure refs are ready
+    const timeoutId = setTimeout(() => {
+      handleScroll();
+    }, 100);
+
+    // Listen to scroll events with passive for better performance
+    window.addEventListener('scroll', handleScroll, { passive: true });
+    window.addEventListener('resize', handleScroll, { passive: true });
 
     return () => {
-      observers.forEach(observer => observer?.disconnect());
+      clearTimeout(timeoutId);
+      window.removeEventListener('scroll', handleScroll);
+      window.removeEventListener('resize', handleScroll);
     };
   }, []);
 
@@ -196,38 +230,36 @@ export default function ProductDevelopmentProcess() {
                   ref={(el) => (stepRefs.current[idx] = el)}
                   initial={{ opacity: 0, x: -30 }}
                   whileInView={{ opacity: 1, x: 0 }}
-                  viewport={{ once: true, threshold: 0.3 }}
+                  viewport={{ once: true, threshold: 0.4 }}
                   transition={{ duration: 0.5, delay: idx * 0.1 }}
-                  onMouseEnter={() => setActiveProcess(idx)}
-                  onClick={() => setActiveProcess(idx)}
-                  className="relative pl-16 cursor-pointer group"
+                  className="relative pl-16 group"
                 >
                   {/* Timeline Dot */}
-                  <div className={`absolute left-0 top-2 w-12 h-12 rounded-full flex items-center justify-center transition-all duration-300 ${
+                  <div className={`absolute left-0 top-2 w-12 h-12 rounded-full flex items-center justify-center transition-all duration-700 ease-in-out ${
                     activeProcess === idx
                       ? 'bg-green-500 scale-110 shadow-lg shadow-green-500/50'
-                      : 'bg-gray-700 group-hover:bg-gray-600'
+                      : 'bg-gray-700'
                   }`}>
-                    <div className={`w-3 h-3 rounded-full transition-all duration-300 ${
+                    <div className={`w-3 h-3 rounded-full transition-all duration-700 ease-in-out ${
                       activeProcess === idx ? 'bg-white' : 'bg-gray-400'
                     }`}></div>
                   </div>
 
                   {/* Step Content */}
-                  <div className={`transition-all duration-300 ${
+                  <div className={`transition-all duration-700 ease-in-out ${
                     activeProcess === idx ? 'transform translate-x-2' : ''
                   }`}>
-                    <div className={`text-sm font-medium mb-2 transition-colors duration-300 ${
+                    <div className={`text-sm font-medium mb-2 transition-colors duration-700 ease-in-out ${
                       activeProcess === idx ? 'text-green-400' : 'text-gray-400'
                     }`}>
                       {step.number}
                     </div>
-                    <h3 className={`text-3xl md:text-4xl font-bold mb-3 transition-colors duration-300 ${
+                    <h3 className={`text-3xl md:text-4xl font-bold mb-3 transition-colors duration-700 ease-in-out ${
                       activeProcess === idx ? 'text-green-500' : 'text-white'
                     }`}>
                       {step.title}
                     </h3>
-                    <p className={`text-base leading-relaxed transition-colors duration-300 ${
+                    <p className={`text-base leading-relaxed transition-colors duration-700 ease-in-out ${
                       activeProcess === idx ? 'text-white' : 'text-gray-400'
                     }`}>
                       {step.description}
@@ -242,12 +274,11 @@ export default function ProductDevelopmentProcess() {
           <div className="hidden lg:block sticky top-20">
             <motion.div
               key={activeProcess}
-              initial={{ opacity: 0, scale: 0.9, rotate: -5 }}
+              initial={{ opacity: 0, scale: 0.95 }}
               animate={{ 
                 opacity: 1, 
-                scale: 1, 
-                rotate: 0,
-                transition: { duration: 0.6, ease: "easeOut" }
+                scale: 1,
+                transition: { duration: 1, ease: [0.25, 0.1, 0.25, 1] }
               }}
               className="relative"
             >
@@ -256,17 +287,24 @@ export default function ProductDevelopmentProcess() {
                 {/* Inner Frame Glow */}
                 <div className="absolute inset-4 rounded-xl border border-gray-600/30"></div>
                 
-                {/* Dynamic Graphics */}
-                <div className="relative z-10 w-full h-full flex items-center justify-center">
+                {/* Dynamic Graphics with smooth transition */}
+                <motion.div
+                  key={activeProcess}
+                  initial={{ opacity: 0, y: 30, scale: 0.95 }}
+                  animate={{ opacity: 1, y: 0, scale: 1 }}
+                  exit={{ opacity: 0, y: -30, scale: 0.95 }}
+                  transition={{ duration: 1, ease: [0.25, 0.1, 0.25, 1] }}
+                  className="relative z-10 w-full h-full flex items-center justify-center"
+                >
                   {getStepGraphic(activeProcess)}
-                </div>
+                </motion.div>
                 
                 {/* Step Number Overlay */}
                 <motion.div
                   key={activeProcess}
                   initial={{ opacity: 0, scale: 0.8 }}
                   animate={{ opacity: 0.15, scale: 1 }}
-                  transition={{ duration: 0.5 }}
+                  transition={{ duration: 1, ease: [0.25, 0.1, 0.25, 1] }}
                   className="absolute top-12 left-1/2 -translate-x-1/2 text-7xl font-bold text-green-500 z-0"
                 >
                   {processSteps[activeProcess].number}
