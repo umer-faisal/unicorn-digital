@@ -20,7 +20,7 @@ export default function HeroSection() {
             transition={{ duration: 0.8 }}
           >
             <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold text-white mb-6 leading-tight">
-              We are a Software<br />
+              We are as Software<br />
               Development<br />
               <span className="text-blue-400">Company</span>
             </h1>
