@@ -3,10 +3,20 @@
 import Link from 'next/link';
 import { motion } from 'framer-motion';
 import Header from '../Header';
+import Image from 'next/image';
 
 export default function HeroSection() {
   return (
-    <section className="relative min-h-screen flex items-center justify-center bg-gradient-to-br from-slate-900 via-blue-900 to-slate-900 overflow-hidden">
+    <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
+      <div className="absolute inset-0 z-0">
+        <Image
+          src="/Images/new-header.jpeg"
+          alt="Hero Background"
+          fill
+          className="object-cover"
+          priority
+        />
+      </div>
       <div className="absolute inset-0 bg-black/40 z-0"></div>
       <div className="absolute inset-0 bg-[radial-gradient(circle_at_50%_50%,rgba(59,130,246,0.1),transparent)] z-0"></div>
       
